@@ -21,7 +21,7 @@ label_fg="#018574"
 
 
 def labelbutton(frame_name,text_name):
-	l=Button(frame_name,font=('calibri',"12"),text=text_name,border=label_border,bg=label_bg,fg=label_fg)
+	l=Button(frame_name,font=('calibri',"11"),text=text_name,border=label_border,bg=label_bg,fg=label_fg)
 	def enter(e):
 	    #print("hovered")
 	    l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
