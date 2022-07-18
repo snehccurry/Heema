@@ -1,8 +1,7 @@
-from tkinter import *
 import tkinter as tk
 from tkinter import *
 from tkinter import ttk
-
+from titlebar import *
 
 
 bg="#202020"
@@ -22,8 +21,8 @@ label_fg="#018574"
 
 
 
-def labelbutton(frame_name,text_name):
-	l=Button(frame_name,font=('calibri',"11"),text=text_name,border=label_bd,bg=label_bg,fg=label_fg)
+def label_button(frame_name,text):
+	l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg)
 	def enter(e):
 	    #print("hovered")
 	    l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
@@ -37,9 +36,9 @@ def labelbutton(frame_name,text_name):
 	l.bind("<Enter>",enter)
 	return l
 
-def button(frame_name, text_name,command):
+def button(frame_name, text,command):
 
-	a=Button(frame_name,text=text_name, command=command,border=2,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
+	a=Button(frame_name,text=text, command=command,border=2,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
 	def enter(e):
 	    #print("hovered")
 	    a.config(activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
@@ -64,3 +63,23 @@ button_bd=0
 
 
 
+def left_frame(frame_name):
+	a=LabelFrame(frame_name,bg="#000000",bd=0,padx=1,pady=1)
+	return a
+
+
+def left_frame_button(frame_name, text,command):
+
+	a=Button(frame_name,text=text, command=command,border=2,activebackground="#444444",bg="#000000",fg="#999999", font=('calibri',"20"),bd=0,pady=1,padx=1)
+	def enter(e):
+	    #print("hovered")
+	    a.config(activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
+	    #7BD5F5
+	    #205565
+	    
+	def leave(e):
+	    #print("left")
+	    a.config(activebackground="#444444",bg="#000000",fg="#999999")
+	a.bind("<Leave>",leave)
+	a.bind("<Enter>",enter)
+	return a
