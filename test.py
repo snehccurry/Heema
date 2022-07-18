@@ -6,7 +6,7 @@ from Heema import tk
 #from ctypes import windll
 
 root=tk.Tk()
-root.geometry("600x400")
+root.geometry("800x500")
 title_bar=title_bar(root,title="Abhay")
 
 
@@ -21,52 +21,52 @@ left_frame=left_frame(frame_name=root)
 left_frame.pack(side=LEFT,fill=Y,ipadx=60)
 
 b=left_frame_button(left_frame,text="Classic",command=lambda: apply_theme(root,classic))
-b.configure(font=('calibri','11'))
+b.configure(font=('calibri','12'))
 b.pack(fill=X,)
 
 
 c=left_frame_button(left_frame,text="Dark",command=lambda: apply_theme(root,dark_mode))
-c.configure(font=('calibri','11'))
+c.configure(font=('calibri','12'))
 c.pack(fill=X,)
 
 d=left_frame_button(left_frame,text="Super Dark",command=lambda: apply_theme(root,super_dark_mode))
-d.configure(font=('calibri','11'))
+d.configure(font=('calibri','12'))
 d.pack(fill=X,)
 
 e=left_frame_button(left_frame,text="Light",command=lambda: apply_theme(root,light_mode))
-e.configure(font=('calibri','11'))
+e.configure(font=('calibri','12'))
 e.pack(fill=X,)
 
 f=left_frame_button(left_frame,text="Light Blue",command=lambda: apply_theme(root,light_bluish_mode))
-f.configure(font=('calibri','11'))
+f.configure(font=('calibri','12'))
 f.pack(fill=X,)
 
 g=left_frame_button(left_frame,text="Blue Cyan",command=lambda: apply_theme(root,light_blue_cyan_mode))
-g.configure(font=('calibri','11'))
+g.configure(font=('calibri','12'))
 g.pack(fill=X,)
 
 h=left_frame_button(left_frame,text="Purple Mode",command=lambda: apply_theme(root,purple_mode))
-h.configure(font=('calibri','11'))
+h.configure(font=('calibri','12'))
 h.pack(fill=X,)
 
 i=left_frame_button(left_frame,text="ReddishPurple",command=lambda: apply_theme(root,reddish_purple))
-i.configure(font=('calibri','11'))
+i.configure(font=('calibri','12'))
 i.pack(fill=X,)
 
 j=left_frame_button(left_frame,text="ReddishPurple+",command=lambda: apply_theme(root,more_reddish_purple))
-j.configure(font=('calibri','11'))
+j.configure(font=('calibri','12'))
 j.pack(fill=X,)
 
 k=left_frame_button(left_frame,text="Purple",command=lambda: apply_theme(root,purple))
-k.configure(font=('calibri','11'))
+k.configure(font=('calibri','12'))
 k.pack(fill=X,)
 
 l=left_frame_button(left_frame,text="Reddish",command=lambda: apply_theme(root,reddish))
-l.configure(font=('calibri','11'))
+l.configure(font=('calibri','12'))
 l.pack(fill=X,)
 
 m=left_frame_button(left_frame,text="Reddish+",command=lambda: apply_theme(root,full_reddish))
-m.configure(font=('calibri','11'))
+m.configure(font=('calibri','12'))
 m.pack(fill=X,)
 
 #root.title("Hello")
