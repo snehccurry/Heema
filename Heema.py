@@ -4,17 +4,33 @@ from tkinter import ttk
 from titlebar import *
 
 
+#############################			Theme Names (themenames)
+
+
+classic='classic'
+super_dark_mode='#111111FF' #for super dark mode
+dark_mode='#11111199' #for dark mode
+light_mode='#30121244' #for light mode
+light_blue_cyan_theme='#66999999' #for light blue-cyan theme
+light_bluish_theme='#44999999' #for light bluish theme
+purple_theme='#44009999' #for purple theme
+reddish_purple='#30121244' #for reddish purple
+more_reddish_purple='#30121277' #for more redish purple
+purple='#99004444' #for purple
+reddish='#99000044' #for reddish
+full_reddish='#99000099' #for full reddish
+
+
+
+#############################
+
 bg="#202020"
 root_bg="#202020"
 
 
 
-def apply_theme():
-	style=ttk.Style()
-	style.theme_use(themename="xpnative")
 
-def apply_transparency(root):
-	root.attributes('-alpha',0.96)
+
 label_bd=0
 label_bg="#202020"
 label_fg="#018574"
@@ -83,3 +99,28 @@ def left_frame_button(frame_name, text,command):
 	a.bind("<Leave>",leave)
 	a.bind("<Enter>",enter)
 	return a
+
+
+
+
+
+
+
+
+
+##############################Themes
+
+#111111FF #for super dark mode
+#11111199 #for dark mode
+#30121244 #for light mode
+#66999999 #for light blue-cyan theme
+#44999999 #for light bluish theme
+#44009999 #for purple theme
+#30121244 #for reddish purple
+#30121277 #for more redish purple
+#99004444 #for purple
+#99000044 #for reddish
+#99000044 #for dark redish
+#99000099 #for full redish
+
+
