@@ -66,7 +66,7 @@ def title_bar(root,title):
             
         else: # if the window was maximized
             expand_button.config(text=" 🗖 ")
-            root.geometry(root.normal_size)
+            root.geometry("800x600")
             root.maximized = not root.maximized
             # now it is not maximized
 
