@@ -2,7 +2,7 @@
 A windows 10 themed skin for tkinter. Easy to use, Get rid of the old looking tkinter windows. Currently it supports only the windows platform, will add features for mac and linux soon.
 
 
-
+The Gif quality is low, apologies on that. I'll reupload them once I get time, lol, it's 1:56 am, I gotta sleep, lolz
 
 
 
