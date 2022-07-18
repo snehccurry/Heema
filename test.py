@@ -2,18 +2,13 @@ import Heema as h
 from Heema import *
 from Heema import tk 
 from Heema import ttk
-from titlebar import *
+
 #from ctypes import windll
 from blurwindowtest import *
 root=tk.Tk()
 root.geometry("600x400")
+title_bar=title_bar(root,title="Abhay")
 
-
-
-
-
-Main_Frame=LabelFrame(root,bd=label_bd,bg=label_bg,fg=label_fg)
-a=title_bar(root,title="Abhay")
 
 def printer():
 	print(f"Button 1 printed succesfully")
@@ -22,39 +17,50 @@ def printer2():
 	print(f"Button 2 printed succesfully")
 
 
+left_frame=left_frame(frame_name=root)
+left_frame.pack(side=LEFT,fill=Y,ipadx=60)
+
+b=left_frame_button(left_frame,text="Settings",command=printer)
+b.configure(font=('calibri','11'))
+b.pack(fill=X,)
+
+
+c=left_frame_button(left_frame,text="Hello world",command=printer)
+c.configure(font=('calibri','11'))
+c.pack(fill=X,)
+
+d=left_frame_button(left_frame,text="Hello world",command=printer)
+d.configure(font=('calibri','11'))
+d.pack(fill=X,)
+
+e=left_frame_button(left_frame,text="Hello world",command=printer)
+e.configure(font=('calibri','11'))
+e.pack(fill=X,)
+
+f=left_frame_button(left_frame,text="Hello world",command=printer)
+f.configure(font=('calibri','11'))
+f.pack(fill=X,)
+
+
+
 
 
 
 #root.title("Hello")
 h.apply_theme() #applies the windowsxp theme, it's what windows 10 actually uses.
 #root.geometry("400x400")
-#root.configure(bg=root_bg)
-#root.config(bg='green')
-#root.wm_attributes("-transparent", 'green')
 
 
-
-
-#root.wm_attributes('-transparentcolor','black')
-
-
-#print(root.wm_attributes())
-
-
-#apply_transparency(root)
-
-#root.wm_attributes('-transparentcolor','black')
-
-a=button(frame_name=root,text_name="Hello world",command=printer)
+a=button(frame_name=root,text="Hello world",command=printer)
 a.pack(side=TOP)
 
 
 
-a2=button(frame_name=root,text_name="Works",command=printer2)
+a2=button(frame_name=root,text="Works",command=printer2)
 a2.pack(side=TOP)
 
 
-l1=labelbutton(frame_name=root,text_name="My Microsoft account")
+l1=label_button(frame_name=root,text="My Microsoft account")
 l1.pack(side=TOP)
 
 
@@ -64,11 +70,23 @@ l1.pack(side=TOP)
 #button1=Heema.tk.Button(root,text="Abhay Gaur",="#44444").pack()
 
 
+labelframe1=LabelFrame(root,bg=bg ,text="Buttons for next",bd=label_bd)
+labelframe1.pack()
+#button1=Button(labelframe1,text="button").pack()
+#blurrer(root)
 
-blurrer(root)
+#root.wm_attributes("-transparentcolor", '#F0F0F0')
 
 
 
+print(root.attributes())
+print(root.wm_attributes())
+
+
+
+
+
+blurrer(root)			#alwasyy blurr at the end
 root.mainloop()
 
 
