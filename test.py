@@ -1,7 +1,7 @@
 import Heema as h
 from Heema import *
 from Heema import tk 
-from Heema import ttk
+
 
 #from ctypes import windll
 from blurwindowtest import *
@@ -20,24 +20,24 @@ def printer2():
 left_frame=left_frame(frame_name=root)
 left_frame.pack(side=LEFT,fill=Y,ipadx=60)
 
-b=left_frame_button(left_frame,text="Settings",command=printer)
+b=left_frame_button(left_frame,text="Classic",command=lambda: apply_theme(root,classic))
 b.configure(font=('calibri','11'))
 b.pack(fill=X,)
 
 
-c=left_frame_button(left_frame,text="Hello world",command=printer)
+c=left_frame_button(left_frame,text="Dark",command=lambda: apply_theme(root,dark_mode))
 c.configure(font=('calibri','11'))
 c.pack(fill=X,)
 
-d=left_frame_button(left_frame,text="Hello world",command=printer)
+d=left_frame_button(left_frame,text="Super Dark",command=lambda: apply_theme(root,super_dark_mode))
 d.configure(font=('calibri','11'))
 d.pack(fill=X,)
 
-e=left_frame_button(left_frame,text="Hello world",command=printer)
+e=left_frame_button(left_frame,text="Light",command=lambda: apply_theme(root,light_mode))
 e.configure(font=('calibri','11'))
 e.pack(fill=X,)
 
-f=left_frame_button(left_frame,text="Hello world",command=printer)
+f=left_frame_button(left_frame,text="Light Blue",command=lambda: apply_theme(root,light_bluish))
 f.configure(font=('calibri','11'))
 f.pack(fill=X,)
 
@@ -47,7 +47,7 @@ f.pack(fill=X,)
 
 
 #root.title("Hello")
-h.apply_theme() #applies the windowsxp theme, it's what windows 10 actually uses.
+
 #root.geometry("400x400")
 
 
@@ -85,8 +85,23 @@ print(root.wm_attributes())
 
 
 
+#apply_theme(root,super_dark_mode) #applies the windowsxp theme, it's what windows 10 actually uses.
+#apply_theme(root,classic)
+"""
+super_dark_mode='#111111FF' #for super dark mode
+dark_mode='#11111199' #for dark mode
+light_mode='#30121244' #for light mode
+light_blue_cyan_theme='#66999999' #for light blue-cyan theme
+light_bluish theme='#44999999' #for light bluish theme
+purple_theme='#44009999' #for purple theme
+reddish_purple='#30121244' #for reddish purple
+more_reddish_purple='#30121277' #for more redish purple
+purple='#99004444' #for purple
+reddish='#99000044' #for reddish
+full_reddish'#99000099' #for full reddish
+"""
 
-blurrer(root)			#alwasyy blurr at the end
+
 root.mainloop()
 
 
