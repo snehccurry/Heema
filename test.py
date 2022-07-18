@@ -4,7 +4,7 @@ from Heema import tk
 
 
 #from ctypes import windll
-from blurwindowtest import *
+
 root=tk.Tk()
 root.geometry("600x400")
 title_bar=title_bar(root,title="Abhay")
@@ -37,14 +37,37 @@ e=left_frame_button(left_frame,text="Light",command=lambda: apply_theme(root,lig
 e.configure(font=('calibri','11'))
 e.pack(fill=X,)
 
-f=left_frame_button(left_frame,text="Light Blue",command=lambda: apply_theme(root,light_bluish))
+f=left_frame_button(left_frame,text="Light Blue",command=lambda: apply_theme(root,light_bluish_mode))
 f.configure(font=('calibri','11'))
 f.pack(fill=X,)
 
+g=left_frame_button(left_frame,text="Blue Cyan",command=lambda: apply_theme(root,light_blue_cyan_mode))
+g.configure(font=('calibri','11'))
+g.pack(fill=X,)
 
+h=left_frame_button(left_frame,text="Purple Mode",command=lambda: apply_theme(root,purple_mode))
+h.configure(font=('calibri','11'))
+h.pack(fill=X,)
 
+i=left_frame_button(left_frame,text="ReddishPurple",command=lambda: apply_theme(root,reddish_purple))
+i.configure(font=('calibri','11'))
+i.pack(fill=X,)
 
+j=left_frame_button(left_frame,text="ReddishPurple+",command=lambda: apply_theme(root,more_reddish_purple))
+j.configure(font=('calibri','11'))
+j.pack(fill=X,)
 
+k=left_frame_button(left_frame,text="Purple",command=lambda: apply_theme(root,purple))
+k.configure(font=('calibri','11'))
+k.pack(fill=X,)
+
+l=left_frame_button(left_frame,text="Reddish",command=lambda: apply_theme(root,reddish))
+l.configure(font=('calibri','11'))
+l.pack(fill=X,)
+
+m=left_frame_button(left_frame,text="Reddish+",command=lambda: apply_theme(root,full_reddish))
+m.configure(font=('calibri','11'))
+m.pack(fill=X,)
 
 #root.title("Hello")
 
@@ -79,8 +102,8 @@ labelframe1.pack()
 
 
 
-print(root.attributes())
-print(root.wm_attributes())
+#print(root.attributes())
+#print(root.wm_attributes())
 
 
 
