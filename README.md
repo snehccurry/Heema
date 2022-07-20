@@ -15,6 +15,10 @@ NEW FEATURES:
 2) Menu Bar:          menu_bar=menu_bar(root)                                 #you don't have to pack it too, even this is automatic. :D
 3) Menu Button:       menu_button1=menu_button(menu_bar, text="Edit")         #you don't have to pack it too, as these are menubar's buttons. :D
 4) Left frame:        left_frame=left_frame(frame_name=root)                  #you don't have to pack it too, it's the left frame that gets packed to the left. :D
+
+
+
+
 5) Leftframe Button:  b=left_frame_button(left_frame,text="Classic",command=lambda: apply_theme(root,classic)) 
 		      b.configure(font=('calibri','12'))
 		      #you don't have to pack it too, also you can configure all the buttons.
@@ -39,17 +43,23 @@ NEW FEATURES:
 											
 
 											
-#Coming Soon					
+##############			COMING SOON ♥
 
-9)Tiles Buttons:	 			#Coming soon.
-10) Routes: 					#Coming soon.
-
+Tiles Buttons:	 			#Coming soon.
+Routes: 				#Coming soon.
+Splash Screens:				#Coming soon.
+Dashboard: 				#Coming soon.
+User Dashboard:				#Coming soon.
+Feed Window:				#Coming soon.
+Select Options:				#Coming soon.
+New CheckBoxes: 			#Coming soon.
+New Sliders: 				#Coming soon.
 
 
 
 #=================================================================		  	Help Needed					
 
-11) Scrollview Bar: 	#Looking for someone to create one, IDK how that works, lolz. Please feel free to create a pull request. Open to ideas and suggestions.
+Scrollview Bar: 	#Looking for someone to create one, IDK how that works, lolz. Please feel free to create a pull request. Open to ideas and suggestions.
 
 
 
