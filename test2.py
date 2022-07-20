@@ -11,15 +11,24 @@ title_bar=title_bar(root,text="Abhay")
 
 
 
+
 menu_bar=menu_bar(root)
-menu_bar.pack(fill=X,side=TOP)
+#menu_bar.pack(fill=X,side=TOP)
 menu_button1=menu_button(menu_bar, text="Files")
-menu_button1=menu_button(menu_bar, text="Edit")
-menu_button1=menu_button(menu_bar, text="Format")
-menu_button1=menu_button(menu_bar, text="Views")
-menu_button1=menu_button(menu_bar, text="Settings")
-menu_button1=menu_button(menu_bar, text="Run")
-menu_button1=menu_button(menu_bar, text="Help")
+menu_button2=menu_button(menu_bar, text="Edit")
+menu_button3=menu_button(menu_bar, text="Format")
+menu_button4=menu_button(menu_bar, text="Views")
+menu_button5=menu_button(menu_bar, text="Settings")
+menu_button6=menu_button(menu_bar, text="Run")
+menu_button7=menu_button(menu_bar, text="Help")
+
+
+
+def open_search_box():
+    print(f"Opened search box \U0001F50D ")
+
+
+search_button=search_button(menu_bar, text="Search \t \U0001F50D", command=open_search_box)
 
 
 
