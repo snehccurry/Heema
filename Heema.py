@@ -320,22 +320,24 @@ def title_bar(root,text):
         window.minimized = True    
         window.bind("<FocusIn>",deminimize) 
 
-
     def fake_func(event):
         return None
     def deminimize(event):
 
-        window.focus() 
+        #window.focus() 
         window.attributes("-alpha",1) # so you can see the window when is not minimized
         if window.minimized == True:
             window.minimized = False    
 
         window.bind("<FocusIn>",fake_func)
+         
+
+                
 
     def maximize_me():
 
         if root.maximized == False: # if the window was not maximized
-            root.normal_size = "500x80"
+            root.normal_size = root.geometry()
             expand_button.config(text=" 🗗 ")
             root.geometry(f"{root.winfo_screenwidth()}x{root.winfo_screenheight()}+0+0")
             root.maximized = not root.maximized 
@@ -491,7 +493,6 @@ def title_bar(root,text):
     root.bind("<FocusIn>",deminimize) # to view the window by clicking on the window icon on the taskbar
     root.bind("<FocusOut>",deminimize)
     root.after(1, lambda: set_appwindow(root)) # to see the icon on the task bar
-
 
 
     #YOUR CODE GOES between the lines :)
