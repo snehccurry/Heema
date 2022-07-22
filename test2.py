@@ -1,31 +1,30 @@
 import Heema as h
 from Heema import *
 from Heema import tk 
-
-
+from pages import *
 
 root=tk.Tk()
-root.geometry("800x500")
 title_bar=title_bar(root,text="Abhay")
-
-
+root.geometry("1200x900")
 
 
 
 menu_bar=menu_bar(root)
 #menu_bar.pack(fill=X,side=TOP)
-menu_button1=menu_button(menu_bar, text="Files")
-menu_button2=menu_button(menu_bar, text="Edit")
-menu_button3=menu_button(menu_bar, text="Format")
-menu_button4=menu_button(menu_bar, text="Views")
-menu_button5=menu_button(menu_bar, text="Settings")
-menu_button6=menu_button(menu_bar, text="Run")
-menu_button7=menu_button(menu_bar, text="Help")
+menu_button1=menu_button(menu_bar, text="Files",command=files_page)
+menu_button2=menu_button(menu_bar, text="Edit",command=edit_page)
+menu_button3=menu_button(menu_bar, text="Format",command=format_page)
+menu_button4=menu_button(menu_bar, text="Views",command=views_page)
+menu_button5=menu_button(menu_bar, text="Settings",command=settings_page)
+menu_button6=menu_button(menu_bar, text="Run",command=run_page)
+menu_button7=menu_button(menu_bar, text="Help",command=help_page)
 
 
 
 def open_search_box():
-    print(f"Opened search box \U0001F50D ")
+    #print(global_theme)
+    search_box()
+    #print(f"Opened search box \U0001F50D ")
 
 
 search_button=search_button(menu_bar, text="Search \t \U0001F50D", command=open_search_box)
