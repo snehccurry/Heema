@@ -5,7 +5,62 @@ import ctypes
 from ctypes import windll
 from BlurWindow.blurWindow import blur,GlobalBlur
 
+
+
+#############################
+
+bg="#202020"
+root_bg="#202020"
+label_bd=0
+label_bg="#202020"
+label_fg="#018574"
+
 #############################           Theme Names (themenames)
+
+"""def page():
+    root=Tk()
+    
+    root.overrideredirect(True)
+    #title_bar(root,text="Page 1")
+    return root
+    #root.mainloop()"""
+
+
+
+
+
+def Zen_mode(root):
+    screen_width = int(abs((root.winfo_screenwidth()) *0.85))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.07))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.85))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.07))
+
+
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+def page_geometry(root):
+    root.wm_attributes("-topmost",1)
+    screen_width = int(abs((root.winfo_screenwidth()) *0.7))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.15))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.7))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.15))
+
+
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+
 
 
 classic='classic'
@@ -23,18 +78,10 @@ full_reddish='#99000099' #for full reddish
 
 
 
-#############################
 
-bg="#202020"
-root_bg="#202020"
-
-
-
-
-
-label_bd=0
-label_bg="#202020"
-label_fg="#018574"
+def label(frame_name,text):
+    a=Label(frame_name,bd=label_bd,text=text,bg="#202020",fg="#ffffff")
+    return a
 
 
 
@@ -52,6 +99,21 @@ def label_button(frame_name,text):
     l.bind("<Leave>",leave)
     l.bind("<Enter>",enter)
     return l
+def white_label_button(frame_name,text):
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg="#999999")
+    def enter(e):
+        #print("hovered")
+        l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        l.config(bg="#202020",fg="#999999")
+    l.bind("<Leave>",leave)
+    l.bind("<Enter>",enter)
+    return l
+
 
 def button(frame_name, text,command):
 
@@ -152,6 +214,7 @@ global_theme="classic"
 ###############################################Function for themes
 
 def apply_theme(window,theme):
+
     global global_theme
     style=ttk.Style()
     style.theme_use(themename="xpnative")
@@ -239,10 +302,10 @@ def menu_bar(root):
     menu_bar.pack(fill=X,side=TOP)
     return menu_bar
 
-def menu_button(frame_name,text):
+def menu_button(frame_name,text,command):
     menu_bar=frame_name
     #print(menu_bar)
-    l=Button(menu_bar,font=('calibri',"11"),text=text,border=label_bd,bg="#000000",fg="#999999",)
+    l=Button(menu_bar,font=('calibri',"11"),text=text,border=label_bd,bg="#000000",fg="#999999",command=command)
     def enter(e):
         #print("hovered")
         l.config(activebackground="#000000",bg="#202020",fg="#ffffff",)#018574
@@ -514,3 +577,161 @@ def title_bar(root,text):
     #root.mainloop()
 
 
+def search_box():
+    root=Tk()
+    root.overrideredirect(True)
+    root.attributes("-topmost",1)
+    root.eval('tk::PlaceWindow . center')
+    root.geometry("300x400")
+    #title_bar=title_bar(root,text="Search")
+    root.config(bg=label_bg)
+    apply_theme(root,dark_mode)    
+
+
+
+
+
+
+    search_and_label_frame=LabelFrame(root,bg=label_bg,bd=label_bd)
+    search_and_label_frame.pack(side=TOP,fill=X)
+
+
+
+
+    search_label=Label(search_and_label_frame, text="Search 🔎" ,bg=label_bg,bd=label_bd,fg="#999999",font=('Calibri',12))
+    search_label.pack(fill=X)
+
+
+    def update(data):
+        #clear the listbox
+        my_list.delete(0,END)
+        #add everything to list box
+
+        for item in data:
+            my_list.insert(END,item)
+
+    #update entry box with listbox clicked
+
+    def fillout(e):
+        #delet whatever is there in the list box
+        search_box.delete(0,END)
+        print(my_list.get(ANCHOR))
+        search_box.insert(0,my_list.get(ANCHOR))
+        a=my_list.get(ANCHOR)
+        return a
+
+
+    #create a function ot check entry vs listbox
+    def check(e):
+        #grab what's typed:
+        typed= search_box.get()
+
+        if typed=='':
+            data= everything
+        else:
+            data=[]
+            for item in everything:
+                if typed.lower() in item.lower():
+                    data.append(item)
+        update(data)
+
+    """def Searchit():
+        print(search_box.get())
+
+        pass
+
+    search_label_button=button(root,text="Search 🔎",command=Searchit)
+    search_label_button.config(font=('Calibri',12),)
+    search_label_button.pack(side=TOP,pady=4,ipady=5,fill=X)
+
+    """
+
+    #entry box: 
+
+
+    search_box=Entry(search_and_label_frame,bd=0,font=('Calibri',12),relief="sunken")
+    search_box.pack(fill=X,pady=30)
+
+
+
+
+    my_list=Listbox(root,width=50,bd=0,height=7, bg="#202020",fg="#ffffff",font=('Calibri',12),highlightthickness=0,)
+    my_list.pack(fill=BOTH, padx=5,pady=30)
+
+    everything=["Music","Videos","Internet","Account","Settings","Valut","Logout"]
+
+
+
+
+    #add the everything to our list
+    update(everything)
+
+
+    #create a binding on the listbox onclick
+
+    my_list.bind("<<ListboxSelect>>",fillout)   #for list boxes we use doube arrows
+    search_box.bind("<KeyRelease>",check)
+
+
+
+
+
+
+
+    def printer(e):
+        print("Hello")
+
+    search_box.focus()
+    #search_box.bind("<FocusOut>",printer)
+
+    search_label_button=button(root,text="Cancel",command=root.destroy)
+    search_label_button.config(font=('Calibri',12),)
+    search_label_button.pack(side=TOP,pady=4,ipady=5,fill=X)
+
+    def close_window(e):
+        root.destroy()
+
+
+    #root.focus()
+
+    def check_and_close(e):
+        s=my_list.get(ANCHOR)
+        if(s==''):
+            root.destroy()
+    root.bind('<Escape>',close_window)
+    root.bind('<FocusOut>',check_and_close)
+    root.bind('<FocusOut>',check_and_close)
+    search_box.after(1,lambda: search_box.focus_force())
+
+    #root.bind('<FocusOut>',close_window)
+
+    """
+
+    search_box.bind("<FocusIn>",highlight_box_on)
+    search_box.bind("<FocusOut>",highlight_box_on)
+
+    """
+
+    root.mainloop()
+
+
+
+def page(text):
+    root=Tk()
+    root.overrideredirect(True)
+    root.attributes("-topmost",1)
+    page_title_frame=LabelFrame(root,highlightthickness=0,bg=label_bg,bd=0)
+    page_title_frame.pack(fill=X,)
+    title=label(page_title_frame,text=text)
+    title.config(font=('Calibri',11))
+    title.pack(side=LEFT)
+    page_geometry(root)
+    root.config(bg=label_bg)
+    apply_theme(root,dark_mode)
+    def close_window(e):
+        root.destroy()
+    root.bind('<Escape>',close_window)
+    root.bind('<FocusOut>',close_window)
+    root.focus_force()
+    #root.mainloop()
+    return root
