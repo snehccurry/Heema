@@ -54,6 +54,9 @@ Feed Window:				#Coming soon.
 Select Options:				#Coming soon.
 New CheckBoxes: 			#Coming soon.
 New Sliders: 				#Coming soon.
+Description buttons: 			#Coming soon.
+Tiles:					#Coming soon.
+Splash Screens: 			#Coming soon.
 
 
 
