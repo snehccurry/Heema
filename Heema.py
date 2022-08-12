@@ -5,7 +5,7 @@ import ctypes
 from ctypes import windll
 from BlurWindow.blurWindow import blur,GlobalBlur
 
-
+ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 #############################
 
@@ -43,6 +43,26 @@ def Zen_mode(root):
 
 
     root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+
+def zen_mode(root):
+    root.wm_attributes("-topmost",1)
+    screen_width = int(abs((root.winfo_screenwidth()) *0.7))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.15))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.7))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.15))
+
+
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+
+
 
 def page_geometry(root):
     root.wm_attributes("-topmost",1)
@@ -86,7 +106,7 @@ def label(frame_name,text):
 
 
 def label_button(frame_name,text):
-    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg)
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg,bd=0)
     def enter(e):
         #print("hovered")
         l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
@@ -117,16 +137,16 @@ def white_label_button(frame_name,text):
 
 def button(frame_name, text,command):
 
-    a=Button(frame_name,text=text, command=command,border=2,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
     def enter(e):
         #print("hovered")
-        a.config(activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
+        a.config(bd=0,activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        a.config(activebackground="#444444",bg="#202020",fg="#999999")
+        a.config(bd=0,activebackground="#444444",bg="#202020",fg="#999999")
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
@@ -408,7 +428,7 @@ def title_bar(root,text):
             
         else: # if the window was maximized
             expand_button.config(text=" 🗖 ")
-            root.geometry("800x600")
+            Zen_mode(root)
             root.maximized = not root.maximized
             # now it is not maximized
 
@@ -724,7 +744,7 @@ def page(text):
     page_title_frame.pack(fill=X,)
     title=label(page_title_frame,text=text)
     title.config(font=('Calibri',11))
-    title.pack(side=LEFT)
+    title.pack(side=LEFT,ipadx=5,ipady=3)
     page_geometry(root)
     root.config(bg=label_bg)
     apply_theme(root,dark_mode)
