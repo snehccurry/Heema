@@ -1,0 +1,1148 @@
+PATIENT_NAME,Blood Group,AGE,Health (1 to 3),Contact,Address,RELIGION,GENDER,OCCUPATION
+D N Mishra,A+,64,2,9743215856,Assam,Christianity,Male,BAKER
+Gayatri Mishra,A-,55,3,9307269291,Rajasthan,Islam,Female,BUTCHER
+Lalita Kandulwar,O-,68,3,9207507575,Gujrat,Unaffiliated,Female,CARPENTER
+Krishna Sadashiv Parab,O+,69,1,9333433492,Maharashtra,Hinduism,Male,COOK
+Bhushan Kudav,AB+,34,1,9992504996,Goa,Buddhism,Male,FARMER
+Kalyani Kushalwardhan,AB+,37,1,9635015624,Rajasthan,Folk religions,Female,FIREMAN
+Sunita Medhekar,AB+,50,3,9641993436,Madhya Pradesh,Christianity,Female,FISHERMAN
+Gulavo Devi,B-,75,2,9791715548,Kerela,Islam,Female,GARDENER
+Kunal Vivek Savaji,B+,30,1,9799198236,Tamil Nadu,Unaffiliated,Male,HAIRDRESSER
+Rashmi Bajpai,A+,43,2,9412534213,Agartala,Hinduism,Female,JOURNALIST
+Mamta Kumari,A-,19,1,9603153534,West Bengal,Buddhism,Female,JUDGE
+Hitesh Dudhal,O-,29,3,9883814072,Assam,Folk religions,Male,LAWYER
+Dinesh Chavan,O+,33,3,9364703641,Rajasthan,Christianity,Male,MASON
+Yogesh Bhoir,A+,34,3,9060753628,Gujrat,Islam,Male,MECHANIC
+Manish Zargar,A-,44,2,9059803241,Maharashtra,Unaffiliated,Male,PAINTER
+Ajay Sharma,O-,45,2,9071579953,Goa,Hinduism,Male,PLUMBER
+Anant Todekar,O+,72,1,9904299647,Rajasthan,Buddhism,Male,POLICEMAN
+Aijaz Hawaldar,AB+,47,3,9687613220,Madhya Pradesh,Folk religions,Male,POSTMAN
+Jayshree Pakhare,AB+,67,3,9016193577,Kerela,Christianity,Female,SECRETARY
+Rupa Sarkar,AB+,36,3,9091840751,Tamil Nadu,Islam,Female,SINGER
+Nilesh Kapote,B-,46,3,9010829535,Agartala,Unaffiliated,Male,SOLDIER
+Bibha Sahay,B+,60,2,9862759057,West Bengal,Hinduism,Female,TAXI DRIVER
+Surendra Kaur,A+,40,3,9416555698,Assam,Buddhism,Female,TEACHER
+Kamla Kadam,A+,65,2,9263608537,Assam,Folk religions,Female,WAITER
+Pushpita Ghosh,A-,53,2,9086482285,Rajasthan,Christianity,Female,PILOT
+Smita Prabhu,O-,59,1,9332604632,Gujrat,Islam,Female,ENGINEER
+Praful Prabhu,O+,60,3,9718722422,Maharashtra,Unaffiliated,Male,DOCTOR
+Sajjad Lambe,AB+,39,2,9208563990,Goa,Hinduism,Male,NURSE
+Aadhya Yadav,AB+,10,1,9366990174,Rajasthan,Buddhism,Female,GOLDSMITH
+Anjali Saxena,AB+,50,1,9520684804,Madhya Pradesh,Folk religions,Female,ACTOR
+Bharat Shirsat,B-,28,1,9723709049,Kerela,Christianity,Male,TAILOR
+Bhawin Desai,B+,40,1,9990348924,Tamil Nadu,Islam,Male,BAKER
+Sangita Huligerimath,A+,49,1,9360861080,Agartala,Unaffiliated,Female,BUTCHER
+Lalitha R K,A-,44,2,9466164565,West Bengal,Hinduism,Female,CARPENTER
+Raju Yadav,O-,35,1,9348799872,Assam,Buddhism,Male,COOK
+Ujwala.R.Dange,O+,38,3,9079704899,Rajasthan,Folk religions,Female,FARMER
+Prem Singh Shah,A+,73,2,9119282890,Gujrat,Christianity,Male,FIREMAN
+Shubhada Araokar,A-,58,3,9026336325,Maharashtra,Islam,Female,FISHERMAN
+Yogesh Bhoir,O-,34,2,9100658593,Goa,Unaffiliated,Male,GARDENER
+Latif Khan,O+,53,3,9057799700,Rajasthan,Hinduism,Male,HAIRDRESSER
+Vijaya Laxman Karbhari,AB+,49,1,9401880011,Madhya Pradesh,Buddhism,Female,JOURNALIST
+Kesarinath Gharat,AB+,79,1,9936877292,Kerela,Folk religions,Male,JUDGE
+Gudiya Singh,AB+,40,2,9518638214,Tamil Nadu,Christianity,Female,LAWYER
+Taramati Wagh,B-,56,1,9044373545,Agartala,Islam,Female,MASON
+Sunanda Thakre,B+,47,3,9174085432,West Bengal,Unaffiliated,Female,MECHANIC
+Dalveer Kaur,A+,60,2,9131811404,Assam,Hinduism,Female,PAINTER
+Shobhana Arun,A+,41,1,9152052580,Assam,Buddhism,Female,PLUMBER
+Salma Khan,A-,60,2,9509399484,Rajasthan,Folk religions,Female,POLICEMAN
+Kshama Singh,O-,39,1,9923597990,Gujrat,Christianity,Female,POSTMAN
+Savitri Shamrao Mane,O+,68,1,9411463020,Maharashtra,Islam,Female,SECRETARY
+Nanda Belwate,AB+,58,2,9031854594,Goa,Unaffiliated,Female,SINGER
+Ashlesha Gedam,AB+,43,2,9729944187,Rajasthan,Hinduism,Female,SOLDIER
+Nilofar Patel,AB+,40,3,9939462375,Madhya Pradesh,Buddhism,Female,TAXI DRIVER
+Shobha Yadav,B-,65,3,9386165249,Kerela,Folk religions,Female,TEACHER
+Birender Kumar,B+,40,2,9738714083,Tamil Nadu,Christianity,Male,WAITER
+Sadanand Kadam,A+,57,1,9604656427,Agartala,Islam,Male,PILOT
+Kunal Vivek Savaji,A-,30,1,9979279200,West Bengal,Unaffiliated,Male,ENGINEER
+Suresh Gagre,O-,55,1,9870178494,Assam,Hinduism,Male,DOCTOR
+Manoj Kumar,O+,40,1,9369090852,Rajasthan,Buddhism,Male,NURSE
+Kalyani Joshi,A+,26,3,9353157626,Gujrat,Folk religions,Female,GOLDSMITH
+Vijaya Salunkhe,A-,50,3,9863288630,Maharashtra,Christianity,Female,ACTOR
+Jamnaben Patel,O-,52,1,9135301765,Goa,Islam,Female,TAILOR
+Priya Shiv Kumar,O+,37,3,9092175701,Rajasthan,Unaffiliated,Female,BAKER
+Pranab Kumar Misra,AB+,59,2,9575575866,Madhya Pradesh,Hinduism,Male,BUTCHER
+Rupali Ranka,AB+,25,2,9630340349,Kerela,Buddhism,Female,CARPENTER
+Pratiksha Thopte,AB+,24,3,9689125477,Tamil Nadu,Folk religions,Female,COOK
+G K S Rao,B-,68,3,9588769246,Agartala,Christianity,Male,FARMER
+Shridhar Gowda,B+,48,1,9790545265,West Bengal,Islam,Male,FIREMAN
+Balasaheb Salunkhe,A+,61,3,9097684793,Assam,Unaffiliated,Male,FISHERMAN
+Rishika Patel,A+,18,3,9470130561,Assam,Hinduism,Female,GARDENER
+Mukundan A.P,A-,76,1,9953952235,Rajasthan,Buddhism,Male,HAIRDRESSER
+Shanti Devi,O-,61,1,9483254474,Gujrat,Folk religions,Female,JOURNALIST
+Farooque  Khan,O+,36,3,9594859883,Maharashtra,Christianity,Male,JUDGE
+Harsha Boricha,AB+,51,1,9072394781,Goa,Islam,Female,LAWYER
+Padmaja Nambiar,AB+,58,3,9107211763,Rajasthan,Christianity,Female,MASON
+Neena Wadhawa,AB+,60,1,9294453456,Madhya Pradesh,Islam,Female,MECHANIC
+Manoj Gogoi,B-,52,1,9085492348,Kerela,Unaffiliated,Male,PAINTER
+Ganpat Bhandari,B+,68,2,9240070558,Tamil Nadu,Hinduism,Male,PLUMBER
+Suman Falke,A+,58,1,9015692337,Agartala,Buddhism,Female,POLICEMAN
+Kamal Patil,A-,56,3,9790317282,West Bengal,Folk religions,Female,POSTMAN
+Vidya  Sandeep  Jadhav,O-,36,1,9098768623,Assam,Christianity,Female,SECRETARY
+Deepa Karvi,O+,50,1,9720686850,Rajasthan,Islam,Female,SINGER
+Rohini Divate,A+,47,3,9692985556,Gujrat,Unaffiliated,Female,SOLDIER
+Santosh Prabalakar,A-,40,3,9542884373,Maharashtra,Hinduism,Male,TAXI DRIVER
+K Choudhary,O-,42,2,9864989067,Goa,Buddhism,Female,TEACHER
+Ananda Tadakhe,O+,66,3,9536433328,Rajasthan,Folk religions,Male,WAITER
+Dhupinder Kaur,AB+,59,3,9282465169,Madhya Pradesh,Christianity,Female,PILOT
+Suvarna Thorat,AB+,45,1,9964544171,Kerela,Islam,Female,ENGINEER
+Koshiki Bhugra,AB+,28,2,9002613894,Tamil Nadu,Unaffiliated,Female,DOCTOR
+Nikita Shrikant Patankar,B-,28,1,9700573932,Agartala,Hinduism,Female,NURSE
+Veena Kulkarni,B+,45,3,9498869451,West Bengal,Buddhism,Female,GOLDSMITH
+Purnanand Prasad,A+,62,3,9335087782,Assam,Folk religions,Male,ACTOR
+Jagjeet Singh,A+,41,3,9673301860,Assam,Christianity,Male,TAILOR
+Laxmi Murugesh,A-,37,3,9199652960,Rajasthan,Islam,Female,BAKER
+Sharvari Awadhoot Rajurikar,O-,35,2,9661591727,Gujrat,Unaffiliated,Female,BUTCHER
+Raj Sahu,O+,30,3,9324753560,Maharashtra,Hinduism,Male,CARPENTER
+Sanjeev Kumar,AB+,28,1,9965890549,Goa,Buddhism,Male,COOK
+Veenaya Yadav,AB+,44,1,9762896240,Rajasthan,Folk religions,Female,FARMER
+Anant Todekar,AB+,72,3,9835042286,Madhya Pradesh,Christianity,Male,FIREMAN
+Deepak Patsupe,B-,57,3,9566346876,Kerela,Islam,Male,FISHERMAN
+Narayan Shirkar,B+,63,1,9401837805,Tamil Nadu,Unaffiliated,Male,GARDENER
+Prayagbai Waghmare,A+,52,3,9492750892,Agartala,Hinduism,Female,HAIRDRESSER
+Niroj Padhy,A-,44,1,9865951999,West Bengal,Buddhism,Male,JOURNALIST
+Shruti Barot,O-,26,1,9293344549,Assam,Folk religions,Female,JUDGE
+Ramesh Upadhyay,O+,61,2,9060461431,Rajasthan,Christianity,Male,LAWYER
+Raksha Joshi,A+,40,1,9793340752,Gujrat,Islam,Female,MASON
+Shubhangi Sarkar,A-,11,2,9152232000,Maharashtra,Unaffiliated,Female,MECHANIC
+Dushyant Patel,O-,36,1,9588383402,Goa,Hinduism,Male,PAINTER
+Anita Dushyant Patel,O+,36,1,9312635723,Rajasthan,Buddhism,Female,PLUMBER
+Archana Kashmiry,AB+,43,2,9983055060,Madhya Pradesh,Folk religions,Female,POLICEMAN
+Pradeep Kumar,AB+,38,2,9089179382,Kerela,Christianity,Male,POSTMAN
+Jyoti Mohan Dhotre,AB+,43,3,9321365779,Tamil Nadu,Islam,Female,SECRETARY
+Manju Tomar,B-,39,2,9187507590,Agartala,Unaffiliated,Male,SINGER
+Pravin Mhatre,B+,33,2,9842614367,West Bengal,Hinduism,Male,SOLDIER
+Nandkumar Rotkar,A+,76,3,9913921966,Assam,Buddhism,Male,TAXI DRIVER
+Lajja Jain,A+,58,1,9436541085,Assam,Folk religions,Female,TEACHER
+Ravindranathan,A-,64,3,9903024717,Rajasthan,Unaffiliated,Male,WAITER
+Smita Kumar,O-,39,1,9277286713,Gujrat,Hinduism,Female,PILOT
+Ramesh K Gumaste,O+,64,3,9019875710,Maharashtra,Buddhism,Male,ENGINEER
+Manorama Tekale,AB+,58,3,9583485974,Goa,Folk religions,Female,DOCTOR
+Veena Patil,AB+,68,3,9616882895,Rajasthan,Islam,Female,NURSE
+Madan Kumar Singh,AB+,61,3,9821132609,Madhya Pradesh,Unaffiliated,Male,GOLDSMITH
+Savitri Shamrao Mane,B-,68,3,9499872286,Kerela,Hinduism,Female,ACTOR
+Yogesh Bhole,B+,42,1,9186066370,Tamil Nadu,Buddhism,Male,TAILOR
+Sukhdev Singh,A+,60,2,9407034813,Agartala,Folk religions,Male,BAKER
+Salim Husain Parkar,A-,64,1,9149843215,West Bengal,Christianity,Male,BUTCHER
+Vaishali Vokuda,O-,35,1,9731367522,Assam,Islam,Female,CARPENTER
+Suvarna Kundela,O+,27,3,9494251265,Rajasthan,Unaffiliated,Female,COOK
+R K Chaturvedi,A+,63,1,9174675859,Gujrat,Hinduism,Male,FARMER
+Abhijeet Sen,A-,38,1,9420647107,Maharashtra,Buddhism,Male,FIREMAN
+Venktesh Prasad,O-,53,2,9406638488,Goa,Folk religions,Male,FISHERMAN
+Bilkis Khamkar,O+,66,3,9284253293,Rajasthan,Christianity,Female,GARDENER
+Khatija Chougale,AB+,64,3,9199078112,Madhya Pradesh,Islam,Female,HAIRDRESSER
+Medha Chakke,AB+,60,1,9691145834,Kerela,Unaffiliated,Female,JOURNALIST
+Rameshwar Nirmal,AB+,64,1,9575307715,Tamil Nadu,Hinduism,Male,JUDGE
+Mayur  Shankar,B-,36,1,9334155936,Agartala,Buddhism,Male,LAWYER
+Ridhima Mawar,B+,40,1,9154173816,West Bengal,Folk religions,Female,MASON
+Rajendra Yadav,A+,50,3,9057155853,Assam,Christianity,Male,MECHANIC
+Pankaj Vijay,A+,52,1,9433385096,Assam,Islam,Male,PAINTER
+Nasima Parkar,A-,65,3,9852073375,Rajasthan,Unaffiliated,Female,PLUMBER
+Chetana Tolia,O-,60,1,9500220921,Gujrat,Hinduism,Female,POLICEMAN
+Raziya Namre,O+,48,3,9956064945,Maharashtra,Buddhism,Female,POSTMAN
+Inderjeet Kaur Moyal,AB+,35,3,9918234901,Goa,Folk religions,Female,SECRETARY
+B. S Narsimhan,AB+,55,1,9861114472,Rajasthan,Unaffiliated,Male,SINGER
+D N Mishra,AB+,64,3,9834381220,Madhya Pradesh,Hinduism,Male,SOLDIER
+Gayatri Mishra,B-,55,3,9856904651,Kerela,Buddhism,Female,TAXI DRIVER
+Bhupinder Kumar,B+,58,2,9992996366,Tamil Nadu,Folk religions,Male,TEACHER
+Manisha Pawar,A+,56,2,9219661148,Agartala,Buddhism,Female,WAITER
+Mukhtar Bukhari,A-,69,1,9128950798,West Bengal,Folk religions,Male,PILOT
+Sanjay Kumar,O-,25,2,9006164974,Assam,Christianity,Male,ENGINEER
+Swapna Kouli,O+,44,1,9646048204,Rajasthan,Islam,Female,DOCTOR
+Manisha Pawar,A+,56,1,9295271373,Gujrat,Unaffiliated,Female,NURSE
+Pradhnya Khandekar,A-,37,1,9873889977,Maharashtra,Hinduism,Female,GOLDSMITH
+Asha Manjarekar,O-,70,1,9367009502,Goa,Buddhism,Female,ACTOR
+Shahin N Khan,O+,38,2,9254203448,Rajasthan,Folk religions,Female,TAILOR
+Kuldip Kappadan,AB+,33,2,9227258995,Madhya Pradesh,Christianity,Female,BAKER
+Anil Mittal,AB+,52,1,9596058532,Kerela,Islam,Male,BUTCHER
+Usha Devi,AB+,55,1,9527965611,Tamil Nadu,Unaffiliated,Female,CARPENTER
+Amit Mittal,B-,42,1,9316684164,Agartala,Hinduism,Male,COOK
+Utkarsh Dhanani,B+,17,1,9872509332,West Bengal,Buddhism,Male,FARMER
+Ujjwala Moon,A+,49,1,9655999459,Assam,Folk religions,Female,FIREMAN
+Manish Khanna,A+,41,1,9942863243,Assam,Christianity,Male,FISHERMAN
+Tejaswini Hari,A-,24,3,9323527670,Rajasthan,Islam,Female,GARDENER
+Waheeda Lokare,O-,44,1,9250601540,Gujrat,Unaffiliated,Female,HAIRDRESSER
+Sabira Lokare,O+,75,2,9194455258,Maharashtra,Hinduism,Female,JOURNALIST
+Adarsh Shetty,AB+,35,3,9527291490,Goa,Buddhism,Male,JUDGE
+Hardiyal Singh,AB+,60,1,9707569177,Rajasthan,Folk religions,Male,LAWYER
+Setu Singh Chauhan,AB+,67,3,9905120228,Madhya Pradesh,Christianity,Male,MASON
+Vijay Tiwari,B-,44,3,9061364821,Kerela,Islam,Male,MECHANIC
+Manju Varma,B+,60,2,9935187502,Tamil Nadu,Unaffiliated,Female,PAINTER
+Usha Mapari,A+,48,3,9490858311,Agartala,Hinduism,Female,PLUMBER
+Sudesh Sonni,A-,66,1,9897563757,West Bengal,Buddhism,Female,POLICEMAN
+Keshar Borade,O-,64,1,9394373886,Assam,Folk religions,Female,POSTMAN
+Yusuf Bharmal,O+,76,3,9097509201,Rajasthan,Christianity,Male,SECRETARY
+Varsha Parekh,A+,70,2,9767681335,Gujrat,Islam,Female,SINGER
+Naeema  Shafiq,A-,40,3,9616478455,Maharashtra,Unaffiliated,Female,SOLDIER
+Mili Majundar,O-,56,3,9939543562,Goa,Hinduism,Female,TAXI DRIVER
+Jaya Sinha,O+,69,2,9538000007,Rajasthan,Buddhism,Female,TEACHER
+Sandeep Sharma,AB+,40,3,9365763848,Madhya Pradesh,Folk religions,Male,WAITER
+Shama Kanwar,AB+,44,1,9929543879,Kerela,Christianity,Female,PILOT
+Kunal Vivek Savaji,AB+,30,3,9882510937,Tamil Nadu,Islam,Male,ENGINEER
+Poonam Mhatre,B-,26,1,9153792767,Agartala,Unaffiliated,Female,DOCTOR
+Meena P S,B+,43,1,9578554675,West Bengal,Hinduism,Female,NURSE
+Chamani Rawat,A+,75,1,9002805115,Assam,Buddhism,Female,GOLDSMITH
+Sudipta Bose,A+,55,3,9045664558,Assam,Folk religions,Female,ACTOR
+Jayanthi Balasubramanian,A-,62,2,9050355243,Rajasthan,Christianity,Female,TAILOR
+Manju Kaushik,O-,60,3,9903776062,Gujrat,Islam,Female,BAKER
+Uma Prasad,O+,55,2,9271761617,Maharashtra,Unaffiliated,Female,BUTCHER
+Pranita Shete,AB+,40,2,9953444608,Goa,Hinduism,Female,CARPENTER
+Nachiket Dusane,AB+,29,1,9771773191,Rajasthan,Buddhism,Male,COOK
+Mayank Raghuwanshi,AB+,18,2,9053909056,Madhya Pradesh,Folk religions,Male,FARMER
+Jagabai More,B-,62,1,9674391710,Kerela,Christianity,Female,FIREMAN
+Veda Sangeetha Pattabhi,B+,37,3,9852551236,Tamil Nadu,Islam,Female,FISHERMAN
+Vikas Wadhwa,A+,44,2,9411145519,Agartala,Unaffiliated,Male,GARDENER
+Rajni Kaushal,A-,47,2,9118923050,West Bengal,Hinduism,Female,HAIRDRESSER
+Pinky Mishra,O-,52,2,9313837254,Assam,Buddhism,Female,JOURNALIST
+Rajesh Kumar,O+,31,2,9605349677,Rajasthan,Folk religions,Male,JUDGE
+Riddhi Newaskar,A+,16,3,9830324087,Gujrat,Christianity,Female,LAWYER
+Manoj Nair,A-,43,3,9613010016,Maharashtra,Islam,Male,MASON
+Bhupinder Kumar,O-,58,3,9277751289,Goa,Unaffiliated,Male,MECHANIC
+Rajneesh Kanwar,O+,45,2,9538654353,Rajasthan,Hinduism,Male,PAINTER
+Veda Sangeetha Pattabhi,AB+,37,2,9587508550,Madhya Pradesh,Buddhism,Female,PLUMBER
+Rachana Rani Sharma,AB+,38,3,9365047668,Kerela,Folk religions,Female,POLICEMAN
+Nirmala Kalekar,AB+,46,2,9220912617,Tamil Nadu,Christianity,Female,POSTMAN
+Jamku Mehata,B-,48,3,9572491941,Agartala,Islam,Female,SECRETARY
+Sabita Mukherjee,B+,47,3,9442770960,West Bengal,Unaffiliated,Female,SINGER
+Uttam Nanabhau Ovhal,A+,58,3,9308030189,Assam,Hinduism,Male,SOLDIER
+Sudipta Bosak,A+,24,2,9558155719,Assam,Buddhism,Male,TAXI DRIVER
+Ravi Choudhary,A-,68,3,9496023824,Rajasthan,Folk religions,Female,TEACHER
+Pranav Mehta,O-,23,1,9558114509,Gujrat,Christianity,Male,WAITER
+Yogita Jadhav,O+,57,1,9333473244,Maharashtra,Islam,Female,PILOT
+Jumur Bhattachrya,AB+,37,2,9420758962,Goa,Unaffiliated,Female,ENGINEER
+Mohit Mathur,AB+,38,1,9540301332,Rajasthan,Hinduism,Male,DOCTOR
+Sanjeev Kumar,AB+,22,2,9297030476,Madhya Pradesh,Buddhism,Male,NURSE
+Asma Patel,B-,43,1,9912916217,Kerela,Folk religions,Female,GOLDSMITH
+Namit Dahal,B+,35,3,9451922574,Tamil Nadu,Christianity,Male,ACTOR
+Vipul Dave,A+,43,3,9742345924,Agartala,Islam,Male,TAILOR
+Sudesh Sonni,A-,66,1,9661235584,West Bengal,Unaffiliated,Female,BAKER
+Girwar Bhattad,O-,29,3,9754058464,Assam,Hinduism,Male,BUTCHER
+Kamreen Shah,O+,30,1,9294204464,Rajasthan,Buddhism,Female,CARPENTER
+Surendra Singh,A+,50,3,9771777138,Gujrat,Folk religions,Male,COOK
+Geeta Choudhary,A-,29,2,9300195901,Maharashtra,Christianity,Female,FARMER
+Pramod Shinde,O-,45,2,9136059096,Goa,Islam,Male,FIREMAN
+Jawahar Fernando,O+,65,3,9010265173,Rajasthan,Unaffiliated,Male,FISHERMAN
+Vasundhara Disawal,AB+,33,2,9251276914,Madhya Pradesh,Hinduism,Female,GARDENER
+Kanu L Bakarekar,AB+,65,3,9866819269,Kerela,Buddhism,Male,HAIRDRESSER
+Mandar Thakur,AB+,38,1,9651966168,Tamil Nadu,Folk religions,Male,JOURNALIST
+Aarohi Singh,B-,32,2,9015666266,Agartala,Christianity,Female,JUDGE
+Sandeep Kumar,B+,32,1,9043448225,West Bengal,Islam,Male,LAWYER
+Beena Nair,A+,49,3,9136481122,Assam,Unaffiliated,Female,MASON
+Utakarsha Chandkhade,A+,31,1,9508241350,Assam,Hinduism,Female,MECHANIC
+Varsha Pande,A-,50,1,9870914004,Rajasthan,Buddhism,Female,PAINTER
+Melina Meyers,O-,40,3,9814949127,Gujrat,Folk religions,Female,PLUMBER
+Shrika  Walekar,O+,1.6,1,9017352121,Maharashtra,Christianity,Female,POLICEMAN
+Madhukar Pawar,AB+,64,1,9403242252,Goa,Islam,Male,POSTMAN
+Omkar Dattu Marathe,AB+,63,3,9016730336,Rajasthan,Unaffiliated,Male,SECRETARY
+Brajbhushan Sharma,AB+,66,1,9064188173,Madhya Pradesh,Hinduism,Male,SINGER
+Baljinder Singh,B-,40,1,9505287029,Kerela,Buddhism,Male,SOLDIER
+S Gurumurthy,B+,56,2,9316458911,Tamil Nadu,Folk religions,Male,TAXI DRIVER
+Shashidevi Mishra,A+,45,1,9356938001,Agartala,Christianity,Female,TEACHER
+Sudesh Sonni,A-,66,1,9485573507,West Bengal,Islam,Female,WAITER
+Rekha Singh,O-,54,2,9504045930,Assam,Unaffiliated,Female,PILOT
+Sangeeta Zinjad,O+,40,1,9546826657,Rajasthan,Hinduism,Female,ENGINEER
+Shaukat Ali Khan,A+,54,1,9125429818,Gujrat,Buddhism,Male,DOCTOR
+Joginder Singh,A-,77,1,9451571625,Maharashtra,Folk religions,Male,NURSE
+Arjun Lal Sharma,O-,38,3,9910577946,Goa,Christianity,Male,GOLDSMITH
+Sharafat Chougale,O+,60,2,9951772348,Rajasthan,Islam,Female,ACTOR
+Pushpa Sarkar,AB+,65,2,9362147010,Madhya Pradesh,Christianity,Female,TAILOR
+Sameer Phadtare,AB+,41,1,9808695053,Kerela,Islam,Male,BAKER
+Meena Chaudhari,AB+,61,3,9819584100,Tamil Nadu,Unaffiliated,Female,BUTCHER
+Sameer Phadtare,B-,41,3,9060486909,Agartala,Hinduism,Male,CARPENTER
+Chandrashekhar Moolya,B+,67,1,9267910823,West Bengal,Buddhism,Male,COOK
+Abdul Razak Abdulla Chikte,A+,64,2,9433241778,Assam,Folk religions,Male,FARMER
+Rakesh Mane,A+,35,2,9142053570,Assam,Christianity,Male,FIREMAN
+Kush Pandit,A-,34,1,9051174332,Rajasthan,Islam,Male,FISHERMAN
+Urmila Sharma,O-,54,2,9387227774,Gujrat,Unaffiliated,Female,GARDENER
+Ashok Haribhau Kanade,O+,58,2,9618389713,Maharashtra,Hinduism,Male,HAIRDRESSER
+Kartik Tonde,AB+,9,3,9860441668,Goa,Buddhism,Male,JOURNALIST
+Sarswati Masaye,AB+,70,3,9048328707,Rajasthan,Folk religions,Female,JUDGE
+Kanta Balkrishan,AB+,65,1,9382455496,Madhya Pradesh,Christianity,Female,LAWYER
+Ravi Nayak,B-,45,1,9948235895,Kerela,Islam,Male,MASON
+Manoj Puthran,B+,45,2,9060661130,Tamil Nadu,Unaffiliated,Male,MECHANIC
+Gopal Lal,A+,58,3,9566889453,Agartala,Hinduism,Male,PAINTER
+Bashir Datey,A-,57,2,9853695323,West Bengal,Buddhism,Male,PLUMBER
+R D Mahale,O-,66,1,9783626148,Assam,Folk religions,Male,POLICEMAN
+Prashant Varpe,O+,30,2,9703700080,Rajasthan,Christianity,Male,POSTMAN
+Subhadra Arya,A+,20,2,9414127050,Gujrat,Islam,Female,SECRETARY
+Sunita Agarwal,A-,62,3,9771220596,Maharashtra,Unaffiliated,Female,SINGER
+Vijeta Singh,O-,34,2,9445496926,Goa,Hinduism,Female,SOLDIER
+Savitri Kore,O+,55,3,9575260691,Rajasthan,Buddhism,Female,TAXI DRIVER
+Liyakat Abdurehaman  Firfire,AB+,45,3,9675842149,Madhya Pradesh,Folk religions,Male,TEACHER
+Chandrakala Tavare,AB+,51,1,9010147692,Kerela,Christianity,Female,WAITER
+Alka Karale,AB+,49,3,9903141078,Tamil Nadu,Islam,Female,PILOT
+Atul Chordia,B-,34,3,9620872547,Agartala,Unaffiliated,Male,ENGINEER
+T M Bhor,B+,68,3,9761633437,West Bengal,Hinduism,Male,DOCTOR
+Sandesh Pawar,A+,24,3,9824056183,Assam,Buddhism,Male,NURSE
+Nazima Haddadi,A+,38,2,9087000065,Assam,Folk religions,Female,GOLDSMITH
+Nivedita Tekale,A-,31,2,9409458034,Rajasthan,Christianity,Female,ACTOR
+Savitri Shamrao Mane,O-,68,2,9634735497,Gujrat,Islam,Female,TAILOR
+K S Latha,O+,46,2,9888018074,Maharashtra,Unaffiliated,Female,BAKER
+Tarkeshwar Dubey,AB+,47,2,9266121669,Goa,Hinduism,Male,BUTCHER
+Ruma Ganguli,AB+,42,3,9508640383,Rajasthan,Buddhism,Female,CARPENTER
+Anil Zodpe,AB+,43,1,9295259560,Madhya Pradesh,Folk religions,Male,COOK
+Vishram Jatkar,B-,72,2,9014040935,Kerela,Christianity,Male,FARMER
+Sasmita Raut,B+,50,3,9353523037,Tamil Nadu,Islam,Female,FIREMAN
+Upasana Sing,A+,31,2,9478464309,Agartala,Unaffiliated,Female,FISHERMAN
+Chhavi Ranjan,A-,26,2,9869342926,West Bengal,Hinduism,Female,GARDENER
+Hemkant Singh,O-,36,3,9561589113,Assam,Buddhism,Male,HAIRDRESSER
+Saurabh Upadhaya,O+,37,2,9359446398,Rajasthan,Folk religions,Male,JOURNALIST
+Daksha Savaliya,A+,43,3,9925228721,Gujrat,Unaffiliated,Female,JUDGE
+Keith  Soares,A-,44,1,9657385035,Maharashtra,Hinduism,Male,LAWYER
+Dhananjay Yevele,O-,47,1,9545304113,Goa,Buddhism,Male,MASON
+Shobha Patankar,O+,54,3,9646577819,Rajasthan,Folk religions,Female,MECHANIC
+Mary Paul,AB+,53,1,9815254227,Madhya Pradesh,Islam,Female,PAINTER
+Neetu Sonni,AB+,39,3,9035034506,Kerela,Unaffiliated,Female,PLUMBER
+Kirti Jeswani,AB+,37,2,9575481098,Tamil Nadu,Hinduism,Female,POLICEMAN
+Chandrabhaga Shirole,B-,72,3,9880282003,Agartala,Buddhism,Female,POSTMAN
+Jaiveer Yadav,B+,37,1,9830581836,West Bengal,Folk religions,Male,SECRETARY
+Rajkumar Yevlekar,A+,45,1,9455129624,Assam,Christianity,Male,SINGER
+Hitesh Lassi,A+,23,1,9406731600,Assam,Islam,Male,SOLDIER
+Ganga Pai,A-,70,1,9617614736,Rajasthan,Unaffiliated,Female,TAXI DRIVER
+Pranita Shete,O-,40,3,9907526251,Gujrat,Hinduism,Female,TEACHER
+Priyanka Raychaudhary,O+,34,2,9929775932,Maharashtra,Buddhism,Female,WAITER
+Khurshad Chikate,AB+,53,2,9477817136,Goa,Folk religions,Female,PILOT
+Gracy Joseph,AB+,53,3,9305709452,Rajasthan,Christianity,Female,ENGINEER
+Mahesh Balkrishna Dandwate,AB+,45,3,9721523730,Madhya Pradesh,Islam,Male,DOCTOR
+Akbar Khan,B-,60,2,9481776383,Kerela,Unaffiliated,Male,NURSE
+Prasanna Nair,B+,51,2,9432300126,Tamil Nadu,Hinduism,Female,GOLDSMITH
+Arunkumar Chaudhari,A+,58,1,9500460482,Agartala,Buddhism,Male,ACTOR
+Anil Solanki,A-,49,1,9504516676,West Bengal,Folk religions,Male,TAILOR
+Santosh Shinde,O-,46,2,9481450952,Assam,Christianity,Male,BAKER
+Kamal Gupta,O+,48,3,9552969280,Rajasthan,Islam,Male,BUTCHER
+Pravina  Surendra Agrawal,A+,37,3,9241139273,Gujrat,Unaffiliated,Female,CARPENTER
+Arun Bharat,A-,38,3,9532079843,Maharashtra,Hinduism,Male,COOK
+Ravinarayan Gupta,O-,36,3,9033128749,Goa,Buddhism,Male,FARMER
+Bhavna Sety,O+,64,3,9449346725,Rajasthan,Folk religions,Female,FIREMAN
+Sunanda Narvekar,AB+,50,2,9815537510,Madhya Pradesh,Unaffiliated,Female,FISHERMAN
+Melbyn Soans,AB+,55,3,9193265837,Kerela,Hinduism,Male,GARDENER
+Veena Ranjini,AB+,54,1,9293154118,Tamil Nadu,Buddhism,Female,HAIRDRESSER
+Yogita Jadhav,B-,57,3,9857443840,Agartala,Folk religions,Female,JOURNALIST
+Shubhangi Ghosalkar,B+,69,1,9279899219,West Bengal,Buddhism,Female,JUDGE
+Savitri Shamrao Mane,A+,68,1,9332236996,Assam,Folk religions,Female,LAWYER
+Ankita Khare,A+,40,3,9436170969,Assam,Christianity,Female,MASON
+Asha Danane,A-,49,1,9123778819,Rajasthan,Islam,Female,MECHANIC
+Astha Soans,O-,48,3,9588417116,Gujrat,Unaffiliated,Female,PAINTER
+Reshma Yadav,O+,52,1,9031351345,Maharashtra,Hinduism,Female,PLUMBER
+R K Shaikh,AB+,57,1,9147829945,Goa,Buddhism,Female,POLICEMAN
+Rupa Singh,AB+,31,1,9103913231,Rajasthan,Folk religions,Female,POSTMAN
+Chandrabhan Hivale,AB+,44,3,9463824714,Madhya Pradesh,Christianity,Male,SECRETARY
+Sandhya Adhatrao,B-,47,2,9066244898,Kerela,Islam,Female,SINGER
+Sachin Jadhav,B+,40,1,9328131339,Tamil Nadu,Unaffiliated,Male,SOLDIER
+Rita Narula,A+,50,3,9982462352,Agartala,Hinduism,Female,TAXI DRIVER
+Faizan Shekason,A-,35,2,9409890144,West Bengal,Buddhism,Male,TEACHER
+Poonam Ram,O-,40,3,9483907584,Assam,Folk religions,Female,WAITER
+Mahesh Bajpai,O+,64,3,9612251237,Rajasthan,Christianity,Male,PILOT
+Manoj Kumar Shinde,A+,43,1,9000170953,Gujrat,Islam,Male,ENGINEER
+Liton Roy,A-,38,2,9912516487,Maharashtra,Unaffiliated,Male,DOCTOR
+Lakshmi Anandkumar,O-,47,3,9955583227,Goa,Hinduism,Female,NURSE
+Gayatri Pednekar,O+,34,2,9717471154,Rajasthan,Buddhism,Female,GOLDSMITH
+Sushila Jambhale,AB+,48,1,9316932124,Madhya Pradesh,Folk religions,Female,ACTOR
+Dipika Fernandes,AB+,56,2,9301102222,Kerela,Christianity,Female,TAILOR
+Jyoti Azad,AB+,30,1,9116916983,Tamil Nadu,Islam,Female,BAKER
+Princess Williams,B-,67,2,9708525991,Agartala,Unaffiliated,Female,BUTCHER
+Ramkishan Shahu,B+,46,3,9316889336,West Bengal,Hinduism,Male,CARPENTER
+Tushar Bansode,A+,35,1,9329725003,Assam,Buddhism,Male,COOK
+Keerti Pawar,A+,34,2,9818361391,Assam,Folk religions,Male,FARMER
+Vaishali D. Salunkhe,A-,42,2,9540204494,Rajasthan,Christianity,Female,FIREMAN
+Ejaz Ahmed,O-,29,2,9045199664,Gujrat,Islam,Male,FISHERMAN
+Santosh Prabhalkar,O+,40,3,9848476564,Maharashtra,Unaffiliated,Male,GARDENER
+Nanda Chavan,AB+,55,2,9962245544,Goa,Hinduism,Female,HAIRDRESSER
+Geeta Shinde,AB+,35,3,9377153028,Rajasthan,Buddhism,Female,JOURNALIST
+Manoj Gogoi,AB+,52,3,9442913408,Madhya Pradesh,Folk religions,Male,JUDGE
+Shobha Navale,B-,46,1,9737472904,Kerela,Christianity,Female,LAWYER
+Martha Suresh Panhalkar,B+,69,2,9210294071,Tamil Nadu,Islam,Female,MASON
+Jayprakash Yadav,A+,40,2,9433352434,Agartala,Unaffiliated,Male,MECHANIC
+Mangal Amale,A-,39,3,9443572439,West Bengal,Hinduism,Female,PAINTER
+Shashank Bodkhe,O-,52,2,9204571362,Assam,Buddhism,Male,PLUMBER
+Rajkishor Sahoo,O+,30,1,9081319766,Rajasthan,Folk religions,Male,POLICEMAN
+Latika Jhawar,A+,59,2,9512727122,Gujrat,Christianity,Female,POSTMAN
+Supriya Padyal,A-,53,2,9897634227,Maharashtra,Islam,Female,SECRETARY
+Shrinivas Gujjeti,O-,41,2,9443527954,Goa,Unaffiliated,Male,SINGER
+Nabil Hasware,O+,34,3,9657874551,Rajasthan,Hinduism,Male,SOLDIER
+Sneha Yadav,AB+,30,3,9710134098,Madhya Pradesh,Buddhism,Female,TAXI DRIVER
+Arun Nair,AB+,36,1,9327610945,Kerela,Folk religions,Male,TEACHER
+Manu Gumansingh,AB+,48,3,9278746267,Tamil Nadu,Christianity,Male,WAITER
+Aashish Suresh Chavan,B-,39,1,9938903499,Agartala,Islam,Male,PILOT
+Manjari Kabra,B+,25,1,9798597368,West Bengal,Unaffiliated,Female,ENGINEER
+Vaanee Vardhan,A+,27,3,9397434507,Assam,Hinduism,Female,DOCTOR
+Kunji Patel,A+,46,2,9960501287,Assam,Buddhism,Female,NURSE
+Sudhakar Patokar,A-,57,2,9680838770,Rajasthan,Folk religions,Male,GOLDSMITH
+Subhash Deswal,O-,48,2,9273462626,Gujrat,Christianity,Male,ACTOR
+P Shrinivasan,O+,48,2,9396433958,Maharashtra,Islam,Male,TAILOR
+Riyaz Mujawar,AB+,42,2,9204689882,Goa,Unaffiliated,Male,BAKER
+Rajaram Devta,AB+,60,1,9790979024,Rajasthan,Hinduism,Male,BUTCHER
+Saroja K,AB+,64,3,9881753931,Madhya Pradesh,Buddhism,Female,CARPENTER
+Michelle Singh,B-,36,3,9192213918,Kerela,Folk religions,Female,COOK
+Suvarna V.Thorat,B+,45,2,9505011847,Tamil Nadu,Christianity,Female,FARMER
+Deepak B Vishwakarma,A+,27,2,9646878370,Agartala,Islam,Male,FIREMAN
+Adarsh Shetty,A-,35,3,9477589672,West Bengal,Unaffiliated,Male,FISHERMAN
+Shrineela Kala,O-,45,2,9723804243,Assam,Hinduism,Female,GARDENER
+Pratidnya Santosh Pawar,O+,28,1,9903307150,Rajasthan,Buddhism,Female,HAIRDRESSER
+Devendra Prasad,A+,38,3,9102139847,Gujrat,Folk religions,Male,JOURNALIST
+Archana Sharma,A-,51,3,9960211537,Maharashtra,Christianity,Female,JUDGE
+Bhaskar Poojary,O-,51,3,9944983733,Goa,Islam,Male,LAWYER
+Nikhil Gavali,O+,32,3,9670678583,Rajasthan,Unaffiliated,Male,MASON
+Mehak Jain,AB+,30,1,9547894361,Madhya Pradesh,Hinduism,Female,MECHANIC
+Chanchal Katariya,AB+,47,1,9571603030,Kerela,Buddhism,Female,PAINTER
+Siddhant Varma,AB+,23,1,9158085901,Tamil Nadu,Folk religions,Male,PLUMBER
+Riyaz Mujawar,B-,42,2,9730795735,Agartala,Christianity,Male,POLICEMAN
+Aditya Kimothi,B+,16,2,9262860732,West Bengal,Islam,Male,POSTMAN
+Priya Arte,A+,40,3,9691676264,Assam,Unaffiliated,Female,SECRETARY
+Harishankar Gupta,A+,69,3,9298589346,Assam,Hinduism,Male,SINGER
+Suman Kumar Thakur,A-,26,3,9917521071,Rajasthan,Buddhism,Male,SOLDIER
+Komal Rathore,O-,33,3,9453971466,Gujrat,Folk religions,Female,TAXI DRIVER
+Waseem Chaudhary,O+,30,3,9487333382,Maharashtra,Christianity,Male,TEACHER
+Geeta Devi,AB+,32,2,9164129617,Goa,Islam,Female,WAITER
+Anuj Kumar Singh,AB+,54,1,9818010097,Rajasthan,Unaffiliated,Male,PILOT
+Sangeeta Bund,AB+,54,3,9504055600,Madhya Pradesh,Hinduism,Female,ENGINEER
+Savy Lee,B-,48,1,9187782472,Kerela,Buddhism,Female,DOCTOR
+Swati Supekar,B+,39,1,9435191855,Tamil Nadu,Folk religions,Female,NURSE
+Amruta Hathiyani,A+,45,2,9626331885,Agartala,Christianity,Female,GOLDSMITH
+Laxman Karbhari,A-,60,3,9143448594,West Bengal,Islam,Male,ACTOR
+John Kujur,O-,65,1,9394277845,Assam,Unaffiliated,Male,TAILOR
+Mahananda Lengare,O+,52,1,9222436110,Rajasthan,Hinduism,Female,BAKER
+Pradeep Bohra,A+,30,3,9948409377,Gujrat,Buddhism,Male,BUTCHER
+Shibu Varghese,A-,43,1,9131451545,Maharashtra,Folk religions,Male,CARPENTER
+Dayanand Soni,O-,60,1,9373111902,Goa,Christianity,Male,COOK
+Anandapriya M,O+,39,3,9746416462,Rajasthan,Islam,Female,FARMER
+Mohan G,AB+,54,3,9390794452,Madhya Pradesh,Unaffiliated,Male,FIREMAN
+Ravindranathan,AB+,64,1,9720528348,Kerela,Hinduism,Male,FISHERMAN
+Abdul Majeed Adam,AB+,43,1,9190879674,Tamil Nadu,Buddhism,Male,GARDENER
+Rajesh Kumar,B-,31,3,9956648384,Agartala,Folk religions,Male,HAIRDRESSER
+Bilal Chougle,B+,33,1,9480066063,West Bengal,Christianity,Male,JOURNALIST
+Sarbans Kaur,A+,32,3,9557709833,Assam,Islam,Female,JUDGE
+Divakar Patel,A+,43,1,9394437681,Assam,Unaffiliated,Male,LAWYER
+Diwakar Indane,A-,82,3,9190076958,Rajasthan,Hinduism,Male,MASON
+Deepa Dagaonkar,O-,46,2,9395086382,Gujrat,Buddhism,Female,MECHANIC
+Asha Alexander,O+,48,2,9483200407,Maharashtra,Folk religions,Female,PAINTER
+Rajesh Mishra,AB+,46,3,9348944230,Goa,Christianity,Male,PLUMBER
+Ankit Tanwar,AB+,38,1,9712503980,Rajasthan,Islam,Male,POLICEMAN
+Gayatri Nampalliwar,AB+,65,3,9356939819,Madhya Pradesh,Christianity,Female,POSTMAN
+Ujwala Santosh Sherekar,B-,43,3,9990829004,Kerela,Islam,Female,SECRETARY
+Sandhya Bakshi,B+,81,2,9226340879,Tamil Nadu,Unaffiliated,Female,SINGER
+Shweta Shrivastav,A+,34,1,9680852162,Agartala,Hinduism,Female,SOLDIER
+Anoop Kumar Srivastav,A-,34,2,9905584202,West Bengal,Buddhism,Male,TAXI DRIVER
+Kusum Bhil,O-,63,2,9326174518,Assam,Folk religions,Female,TEACHER
+Sunderdevi Choudhari,O+,41,2,9924031106,Rajasthan,Christianity,Female,WAITER
+Sagar Koli,A+,31,3,9904456816,Gujrat,Islam,Male,PILOT
+Gobindra Kundu,A-,27,2,9278877802,Maharashtra,Unaffiliated,Male,ENGINEER
+Santosh Nikam,O-,41,3,9681702148,Goa,Hinduism,Male,DOCTOR
+Sulochana Devi,O+,64,3,9529062329,Rajasthan,Buddhism,Female,NURSE
+Smita Dhone,AB+,54,2,9249236340,Madhya Pradesh,Folk religions,Female,GOLDSMITH
+Soumik Bandyopadhyay,AB+,39,1,9216634146,Kerela,Christianity,Male,ACTOR
+Madhuri Kulkarni,AB+,68,1,9716085066,Tamil Nadu,Islam,Female,TAILOR
+Sushil Joshi,B-,44,1,9855337642,Agartala,Unaffiliated,Male,BAKER
+Chitra Patil,B+,49,1,9745733689,West Bengal,Hinduism,Female,BUTCHER
+Pratik Surrvase,A+,21,1,9699641417,Assam,Buddhism,Male,CARPENTER
+Afnan Kazi,A+,25,2,9374806066,Assam,Folk religions,Female,COOK
+Archana Shinde,A-,35,1,9265438173,Rajasthan,Christianity,Female,FARMER
+Sharad Aldar,O-,35,1,9222413017,Gujrat,Islam,Male,FIREMAN
+Amrita Singh,O+,35,2,9903865337,Maharashtra,Unaffiliated,Female,FISHERMAN
+M Vani  Reddy,AB+,34,1,9874891392,Goa,Hinduism,Female,GARDENER
+Prerana Ganesh Chavan,AB+,34,1,9502685681,Rajasthan,Buddhism,Female,HAIRDRESSER
+Ganesh Chavan,AB+,40,2,9089088280,Madhya Pradesh,Folk religions,Male,JOURNALIST
+Seema Bhide,B-,54,3,9386308483,Kerela,Christianity,Female,JUDGE
+Nupur Jadhav,B+,35,3,9765238988,Tamil Nadu,Islam,Female,LAWYER
+Anju Mehrotra,A+,38,1,9164603128,Agartala,Unaffiliated,Female,MASON
+Shantanu Mukherjee,A-,48,1,9285568936,West Bengal,Hinduism,Male,MECHANIC
+Utpala Chatterjee,O-,56,2,9474376219,Assam,Buddhism,Female,PAINTER
+Shaurabh Kumar Mittal,O+,25,1,9824730975,Rajasthan,Folk religions,Male,PLUMBER
+Shanta  Pandurang Sabre,A+,60,3,9281752737,Gujrat,Christianity,Female,POLICEMAN
+Mangesh Jadhav,A-,72,2,9992432807,Maharashtra,Islam,Male,POSTMAN
+Usharani Sushil Kumar,O-,34,2,9328354997,Goa,Unaffiliated,Female,SECRETARY
+Savitri Shamrao Mane,O+,68,3,9555902209,Rajasthan,Hinduism,Female,SINGER
+Shalini Andotra,AB+,40,3,9227886037,Madhya Pradesh,Buddhism,Female,SOLDIER
+Havish Punjabi,AB+,41,3,9191376752,Kerela,Folk religions,Female,TAXI DRIVER
+Varsha Dhole,AB+,41,2,9395407677,Tamil Nadu,Christianity,Female,TEACHER
+Sachin Jain,B-,42,3,9287943477,Agartala,Islam,Male,WAITER
+Jailata Patmase,B+,54,1,9189112994,West Bengal,Unaffiliated,Female,PILOT
+Shrika  Walekar,A+,1.6,2,9674732161,Assam,Hinduism,Female,ENGINEER
+Manorama  Rao,A+,45,3,9795974841,Assam,Buddhism,Female,DOCTOR
+Mukhtar Bukhari,A-,69,2,9753834364,Rajasthan,Folk religions,Male,NURSE
+Gangubai Shinde,O-,70,2,9781743831,Gujrat,Unaffiliated,Female,GOLDSMITH
+Priyanka Thakur,O+,50,2,9797498376,Maharashtra,Hinduism,Female,ACTOR
+Divyanshi Goel,AB+,38,1,9218296537,Goa,Buddhism,Female,TAILOR
+Neha Dixit,AB+,35,2,9491970200,Rajasthan,Folk religions,Female,BAKER
+Haresh Patel,AB+,57,2,9320327036,Madhya Pradesh,Islam,Male,BUTCHER
+Ismail Shaikh,B-,46,1,9554031792,Kerela,Unaffiliated,Male,CARPENTER
+Karishma Roychaudhary,B+,25,1,9490807095,Tamil Nadu,Hinduism,Female,COOK
+Shyamala Nair,A+,54,1,9333348671,Agartala,Buddhism,Female,FARMER
+Bina Mishra,A-,55,2,9323248887,West Bengal,Folk religions,Female,FIREMAN
+Manju Kapoor,O-,61,2,9206296508,Assam,Christianity,Female,FISHERMAN
+Arvinder Kotwal,O+,49,3,9395488594,Rajasthan,Islam,Female,GARDENER
+Mukhtar Bukhari,A+,69,3,9195176997,Gujrat,Unaffiliated,Male,HAIRDRESSER
+Deepali Maske,A-,33,1,9191914921,Maharashtra,Hinduism,Female,JOURNALIST
+Ashwani Bamzai,O-,63,1,9807973272,Goa,Buddhism,Male,JUDGE
+Sachin Mehta,O+,43,1,9352128907,Rajasthan,Folk religions,Male,LAWYER
+B. S Narsimhan,AB+,55,3,9888216895,Madhya Pradesh,Christianity,Male,MASON
+Mukhtar Bukhari,AB+,69,1,9591376451,Kerela,Islam,Male,MECHANIC
+Vidya Saini,AB+,58,1,9355424507,Tamil Nadu,Unaffiliated,Female,PAINTER
+Jyoti Dalvi,B-,60,3,9953868701,Agartala,Hinduism,Female,PLUMBER
+Nishant Kumar,B+,36,3,9073777719,West Bengal,Buddhism,Male,POLICEMAN
+Rajkishor Sahoo,A+,30,3,9638831618,Assam,Folk religions,Male,POSTMAN
+Vijaya Dhumaskar,A+,55,3,9060097034,Assam,Christianity,Female,SECRETARY
+Guruprasad Bhat,A-,44,3,9490613769,Rajasthan,Islam,Male,SINGER
+Reema Gumaste,O-,57,1,9059984790,Gujrat,Unaffiliated,Female,SOLDIER
+Archana Rao,O+,42,2,9387199413,Maharashtra,Hinduism,Female,TAXI DRIVER
+Shafiullah Siddiqui,AB+,58,2,9517624084,Goa,Buddhism,Male,TEACHER
+Ramesh K Gumaste,AB+,64,2,9265176499,Rajasthan,Folk religions,Male,WAITER
+Shubha Koranne,AB+,47,3,9844679385,Madhya Pradesh,Unaffiliated,Female,PILOT
+Neelam Bhattacharya,B-,50,2,9235564303,Kerela,Hinduism,Female,ENGINEER
+Vivek Vohra,B+,50,2,9697248254,Tamil Nadu,Buddhism,Male,DOCTOR
+Nitin Doshi,A+,64,2,9184536261,Agartala,Folk religions,Male,NURSE
+Pradnya Halwalkar,A-,40,2,9088495571,West Bengal,Buddhism,Female,GOLDSMITH
+Sushil Nautiyal,O-,30,1,9388853223,Assam,Folk religions,Male,ACTOR
+Pradnya Chavan,O+,27,2,9147074718,Rajasthan,Christianity,Female,TAILOR
+Sunita Mishra,A+,39,2,9764915950,Gujrat,Islam,Female,BAKER
+Sapna Thakkar,A-,49,3,9665514074,Maharashtra,Unaffiliated,Female,BUTCHER
+Shreya Nishant Vedant,O-,36,3,9134603234,Goa,Hinduism,Female,CARPENTER
+Anita Sarwade,O+,48,1,9583336944,Rajasthan,Buddhism,Female,COOK
+Piyush Madan,AB+,34,3,9267008148,Madhya Pradesh,Folk religions,Male,FARMER
+Rajesh Bote,AB+,48,2,9293233680,Kerela,Christianity,Male,FIREMAN
+Manju Kapoor,AB+,61,3,9008683046,Tamil Nadu,Islam,Female,FISHERMAN
+A K Bhattacharya,B-,65,3,9855378246,Agartala,Unaffiliated,Male,GARDENER
+Alpesh Saparia,B+,37,2,9283798459,West Bengal,Hinduism,Male,HAIRDRESSER
+Archana Jagdale,A+,29,3,9905035287,Assam,Buddhism,Female,JOURNALIST
+Rajkumar Chaphekar,A+,60,1,9215971902,Assam,Folk religions,Male,JUDGE
+Hanspal Singh Gangwar,A-,31,2,9917887937,Rajasthan,Christianity,Male,LAWYER
+A N Dwivedi,O-,53,2,9040207488,Gujrat,Islam,Male,MASON
+Penner Poulose,O+,38,3,9222821059,Maharashtra,Unaffiliated,Male,MECHANIC
+Munir Hawaldar,AB+,77,2,9984403054,Goa,Hinduism,Male,PAINTER
+Abhilasha Singh,AB+,45,2,9477334659,Rajasthan,Buddhism,Female,PLUMBER
+Aishwarya Gaurav,AB+,7,3,9069218590,Madhya Pradesh,Folk religions,Male,POLICEMAN
+Quasir Siddiqui,B-,54,2,9176535787,Kerela,Christianity,Female,POSTMAN
+P K Singh,B+,54,1,9867869950,Tamil Nadu,Islam,Male,SECRETARY
+Babli Jangra,A+,46,3,9207487604,Agartala,Unaffiliated,Female,SINGER
+Col. S. D. Mehta,A-,55,1,9448815381,West Bengal,Hinduism,Male,SOLDIER
+Annie Lopes,O-,45,1,9092913752,Assam,Buddhism,Female,TAXI DRIVER
+Suvarna Patil,O+,35,1,9513734612,Rajasthan,Folk religions,Female,TEACHER
+Suresh Choudhary,A+,40,3,9158694748,Gujrat,Christianity,Male,WAITER
+Poonam Pagare,A-,27,1,9386827733,Maharashtra,Islam,Female,PILOT
+Sandeep Kumar,O-,32,2,9048255422,Goa,Unaffiliated,Male,ENGINEER
+Kishori Janrode,O+,47,2,9248928306,Rajasthan,Hinduism,Female,DOCTOR
+Greeshma Nair,AB+,34,3,9150522829,Madhya Pradesh,Buddhism,Female,NURSE
+Anoop Kumar Srivastav,AB+,34,2,9820178815,Kerela,Folk religions,Male,GOLDSMITH
+Shweta Shrivastav,AB+,34,3,9908246625,Tamil Nadu,Christianity,Female,ACTOR
+Ajit Singh,B-,34,1,9128316773,Agartala,Islam,Male,TAILOR
+Anibal Juan Tarres Alvarez,B+,30,1,9232406677,West Bengal,Unaffiliated,Male,BAKER
+Shashi Ranjan,A+,27,1,9086068338,Assam,Hinduism,Male,BUTCHER
+P S Sharma,A+,66,2,9220330953,Assam,Buddhism,Male,CARPENTER
+Sonali Kamble,A-,21,3,9051672773,Rajasthan,Folk religions,Female,COOK
+Vimal Gole,O-,60,3,9709531206,Gujrat,Christianity,Female,FARMER
+Rekha Nair,O+,56,1,9141066888,Maharashtra,Islam,Female,FIREMAN
+Tandra Ghosh,AB+,64,2,9582090928,Goa,Unaffiliated,Female,FISHERMAN
+T M Bhor,AB+,68,3,9731625414,Rajasthan,Hinduism,Male,GARDENER
+Vijay Kulkarni,AB+,63,3,9093281122,Madhya Pradesh,Buddhism,Male,HAIRDRESSER
+Madhuri Punekar,B-,61,1,9239473496,Kerela,Folk religions,Female,JOURNALIST
+Premaram Jat,B+,68,3,9827191669,Tamil Nadu,Christianity,Male,JUDGE
+Rambilas Bhagat,A+,69,2,9734354522,Agartala,Islam,Male,LAWYER
+Sarika Kumari,A-,41,3,9353791472,West Bengal,Unaffiliated,Female,MASON
+Madhubala Verma,O-,70,3,9366603610,Assam,Hinduism,Female,MECHANIC
+Swati Labba,O+,28,1,9815894030,Rajasthan,Buddhism,Female,PAINTER
+Amit Mittal,A+,42,3,9197020235,Gujrat,Folk religions,Male,PLUMBER
+Ramshankar Pathak,A-,70,1,9614842132,Maharashtra,Christianity,Male,POLICEMAN
+Prabhakar P. C,O-,40,2,9211099141,Goa,Islam,Male,POSTMAN
+Vasant Jadhav,O+,58,1,9871287248,Rajasthan,Unaffiliated,Male,SECRETARY
+Jagoomal Makhija,AB+,56,3,9744241605,Madhya Pradesh,Hinduism,Male,SINGER
+Farah Shaikh,AB+,31,1,9427638391,Kerela,Buddhism,Female,SOLDIER
+Anita Sharma,AB+,50,3,9452443603,Tamil Nadu,Folk religions,Female,TAXI DRIVER
+Mohit Mathur,B-,38,3,9644513658,Agartala,Christianity,Male,TEACHER
+Lajja Jain,B+,58,1,9474011496,West Bengal,Islam,Female,WAITER
+Shama Kitke,A+,36,3,9289417552,Assam,Unaffiliated,Female,PILOT
+Pushpa Wekhande,A+,53,3,9677794990,Assam,Hinduism,Female,ENGINEER
+Mamta Mehra,A-,46,1,9603442217,Rajasthan,Buddhism,Male,DOCTOR
+Shyama Singh,O-,50,3,9522308660,Gujrat,Folk religions,Female,NURSE
+Prakash Zodpe,O+,41,2,9371114271,Maharashtra,Christianity,Male,GOLDSMITH
+Chandan Kumar,AB+,44,3,9811829466,Goa,Islam,Male,ACTOR
+Shyama Singh,AB+,61,2,9732332000,Rajasthan,Unaffiliated,Female,TAILOR
+Lata Dalvi,AB+,46,2,9525165390,Madhya Pradesh,Hinduism,Female,BAKER
+Sudha Trivedi,B-,70,1,9886022053,Kerela,Buddhism,Female,BUTCHER
+Raheel Nesha,B+,32,3,9647412633,Tamil Nadu,Folk religions,Female,CARPENTER
+Akhil Salvi,A+,51,2,9272790549,Agartala,Christianity,Male,COOK
+Manoj Kumar Singh,A-,45,2,9480322356,West Bengal,Islam,Male,FARMER
+Hamida Chikte,O-,32,1,9300882886,Assam,Unaffiliated,Female,FIREMAN
+Rani Mane,O+,31,3,9416490882,Rajasthan,Hinduism,Female,FISHERMAN
+Nitin Doshi,A+,64,1,9124936704,Gujrat,Buddhism,Male,GARDENER
+Shamlal Jeswani,A-,79,2,9355152406,Maharashtra,Folk religions,Male,HAIRDRESSER
+Parag Narsale,O-,18,2,9674900360,Goa,Christianity,Male,JOURNALIST
+Vikas Kumar,O+,33,3,9135881622,Rajasthan,Islam,Male,JUDGE
+Jitendra Daji Saitavadekar,AB+,42,2,9503585427,Madhya Pradesh,Unaffiliated,Male,LAWYER
+Rajomprakash Dung,AB+,63,2,9145528700,Kerela,Hinduism,Female,MASON
+Chetna Popatkar,AB+,33,2,9030722602,Tamil Nadu,Buddhism,Female,MECHANIC
+Sarbans Kaur,B-,32,1,9934328423,Agartala,Folk religions,Female,PAINTER
+Ramesh Bandaru,B+,33,3,9084678613,West Bengal,Christianity,Male,PLUMBER
+Vishal Yadav,A+,32,3,9818089663,Assam,Islam,Male,POLICEMAN
+Prathamesh V. Rane,A+,19,2,9006170824,Assam,Unaffiliated,Male,POSTMAN
+Gurjeet Kaur,A-,32,3,9200698198,Rajasthan,Hinduism,Female,SECRETARY
+Satvinder Singh,O-,44,3,9042282328,Gujrat,Buddhism,Male,SINGER
+Anjana Ghate,O+,47,2,9804841189,Maharashtra,Folk religions,Female,SOLDIER
+Vivek Saxena,AB+,42,3,9451312580,Goa,Christianity,Male,TAXI DRIVER
+Anu Saxena,AB+,38,1,9316183642,Rajasthan,Islam,Female,TEACHER
+Mangala Vijay Gupte,AB+,80,3,9738344401,Madhya Pradesh,Unaffiliated,Female,WAITER
+Pushpa V,B-,71,1,9027127453,Kerela,Hinduism,Female,PILOT
+Ashwin Sathe,B+,50,3,9599029372,Tamil Nadu,Buddhism,Male,ENGINEER
+Vishwanathan E S,A+,57,2,9078082753,Agartala,Folk religions,Male,DOCTOR
+Vivek Vohra,A-,50,1,9624437014,West Bengal,Christianity,Male,NURSE
+Chhandamita Dutta,O-,31,1,9565253089,Assam,Islam,Female,GOLDSMITH
+Sudha Singh,O+,68,2,9495240475,Rajasthan,Unaffiliated,Female,ACTOR
+Rashida Khan,A+,47,2,9319797121,Gujrat,Hinduism,Female,TAILOR
+Veena Gupta,A-,60,1,9426530265,Maharashtra,Buddhism,Female,BAKER
+Savitri Shamrao Mane,O-,68,1,9281079663,Goa,Folk religions,Female,BUTCHER
+Mrunali Surve,O+,37,3,9611689423,Rajasthan,Christianity,Female,CARPENTER
+Kalinda Sherkar,AB+,56,3,9944741274,Madhya Pradesh,Islam,Female,COOK
+Sudesh Sonni,AB+,66,2,9767387693,Kerela,Christianity,Female,FARMER
+Vaishali Londhe,AB+,43,1,9311399841,Tamil Nadu,Islam,Female,FIREMAN
+Raza Abbas,B-,26,1,9504613310,Agartala,Unaffiliated,Female,FISHERMAN
+Rajaram Sherkar,B+,59,2,9846896144,West Bengal,Hinduism,Male,GARDENER
+Nilam Kumbhar,A+,30,1,9342211718,Assam,Buddhism,Female,HAIRDRESSER
+Khushboo Baid,A+,35,2,9094034634,Assam,Folk religions,Female,JOURNALIST
+Shivpati Tiwari,A-,100,1,9662621090,Rajasthan,Christianity,Female,JUDGE
+Anibal Juan Tarres Alvarez,O-,30,3,9036338497,Gujrat,Islam,Male,LAWYER
+Vimal Kamble,O+,48,1,9526200552,Maharashtra,Unaffiliated,Female,MASON
+Rambilas Bhagat,AB+,69,1,9264894294,Goa,Hinduism,Male,MECHANIC
+Devdas Marpaka,AB+,61,2,9037298423,Rajasthan,Buddhism,Male,PAINTER
+Ahilya Maskar,AB+,82,3,9875854888,Madhya Pradesh,Folk religions,Female,PLUMBER
+Meena Chaudhari,B-,61,3,9298270044,Kerela,Christianity,Female,POLICEMAN
+Deepak Parab,B+,54,3,9013667786,Tamil Nadu,Islam,Male,POSTMAN
+Niraj Upadhyay,A+,30,1,9456572179,Agartala,Unaffiliated,Male,SECRETARY
+Rekha Nair,A-,51,3,9883268436,West Bengal,Hinduism,Female,SINGER
+K T H Reddy,O-,51,2,9785355589,Assam,Buddhism,Male,SOLDIER
+Prakash Lambhate,O+,55,3,9881501722,Rajasthan,Folk religions,Male,TAXI DRIVER
+Vaishali Patil,A+,28,2,9281661591,Gujrat,Christianity,Female,TEACHER
+Vandana Verma,A-,53,1,9360080741,Maharashtra,Islam,Female,WAITER
+Suraiya Khan,O-,59,3,9173222964,Goa,Unaffiliated,Female,PILOT
+Jamuna Mandal,O+,75,1,9055125760,Rajasthan,Hinduism,Female,ENGINEER
+Alisha Limbu,AB+,26,2,9873313617,Madhya Pradesh,Buddhism,Female,DOCTOR
+Geeta Saha,AB+,67,3,9128914896,Kerela,Folk religions,Female,NURSE
+Vikas Misra,AB+,32,1,9594919536,Tamil Nadu,Christianity,Male,GOLDSMITH
+Vinit Kasare,B-,22,1,9717586141,Agartala,Islam,Male,ACTOR
+Fareed Raja,B+,54,1,9128577446,West Bengal,Unaffiliated,Male,TAILOR
+Prasad Gaikwad,A+,40,2,9738997522,Assam,Hinduism,Male,BAKER
+Anil Solanki,A+,47,1,9225490387,Assam,Buddhism,Male,BUTCHER
+Arpana Sriram,A-,34,2,9618053119,Rajasthan,Folk religions,Female,CARPENTER
+Manjula Mhatre,O-,55,3,9259073190,Gujrat,Christianity,Female,COOK
+Sudesh Sonni,O+,66,2,9374735019,Maharashtra,Islam,Female,FARMER
+Sandeep Khurana,AB+,46,3,9656870524,Goa,Unaffiliated,Male,FIREMAN
+Reshma Shaikh,AB+,38,3,9178507937,Rajasthan,Hinduism,Female,FISHERMAN
+Shipra Mallik,AB+,56,1,9907450188,Madhya Pradesh,Buddhism,Female,GARDENER
+Suvarna Thote,B-,60,2,9253533109,Kerela,Folk religions,Female,HAIRDRESSER
+Swati Kale,B+,38,1,9455700901,Tamil Nadu,Christianity,Female,JOURNALIST
+Shyama Singh,A+,50,3,9000489414,Agartala,Islam,Female,JUDGE
+Niti Gupta,A-,38,3,9393478609,West Bengal,Unaffiliated,Female,LAWYER
+Javed Alam,O-,30,3,9981493135,Assam,Hinduism,Male,MASON
+Pravesh Barapatre,O+,43,3,9123525467,Rajasthan,Buddhism,Male,MECHANIC
+Sanjay Mittal,A+,39,2,9723480375,Gujrat,Folk religions,Male,PAINTER
+Hemant Sant,A-,41,3,9537677581,Maharashtra,Unaffiliated,Male,PLUMBER
+Suresh Dubey,O-,55,2,9636247369,Goa,Hinduism,Male,POLICEMAN
+Vijay Mohite,O+,42,3,9274974233,Rajasthan,Buddhism,Male,POSTMAN
+Vikas Kumar,AB+,33,1,9195254542,Madhya Pradesh,Folk religions,Male,SECRETARY
+Deepak Pujari,AB+,31,2,9709339754,Kerela,Islam,Male,SINGER
+Saransh Prajapati,AB+,10,3,9688282569,Tamil Nadu,Unaffiliated,Male,SOLDIER
+Pratik Sangani,B-,35,3,9053692334,Agartala,Hinduism,Male,TAXI DRIVER
+Anjana Ghate,B+,47,2,9894789747,West Bengal,Buddhism,Female,TEACHER
+Balkrishna Korgaonkar,A+,35,1,9779483889,Assam,Folk religions,Male,WAITER
+Sonali Dange,A+,33,1,9372460951,Assam,Christianity,Female,PILOT
+Sangita Phalke,A-,40,2,9744870365,Rajasthan,Islam,Female,ENGINEER
+Shivpati Tiwari,O-,100,2,9040990103,Gujrat,Unaffiliated,Female,DOCTOR
+Chhaya Suryawanshi,O+,58,1,9310774974,Maharashtra,Hinduism,Female,NURSE
+Balasubramaniam,AB+,55,1,9150086928,Goa,Buddhism,Male,GOLDSMITH
+Asha Gupta,AB+,75,3,9428185898,Rajasthan,Folk religions,Female,ACTOR
+Sandhya Tandon,AB+,59,2,9186735022,Madhya Pradesh,Christianity,Female,TAILOR
+Shivkanya Tripathi,B-,65,2,9880496646,Kerela,Islam,Female,BAKER
+Ravindranathan,B+,64,1,9734116991,Tamil Nadu,Unaffiliated,Male,BUTCHER
+Madhuwanti Ghosh,A+,24,2,9198103556,Agartala,Hinduism,Female,CARPENTER
+Hemlata Patil,A-,45,2,9078416791,West Bengal,Buddhism,Female,COOK
+Shweta Kulkarni,O-,32,3,9175364076,Assam,Folk religions,Female,FARMER
+Poonam Chauhan,O+,42,1,9677599346,Rajasthan,Christianity,Female,FIREMAN
+Namdev Agravkar,A+,73,2,9768521297,Gujrat,Islam,Male,FISHERMAN
+Vijayamma Nair,A-,77,2,9509100680,Maharashtra,Unaffiliated,Female,GARDENER
+Bablu Kanojiya,O-,28,1,9518007965,Goa,Hinduism,Male,HAIRDRESSER
+Sindhu Bhaumik,O+,50,2,9374079169,Rajasthan,Buddhism,Female,JOURNALIST
+Sharan Bhale,AB+,53,3,9469314282,Madhya Pradesh,Folk religions,Male,JUDGE
+Atul Kala,AB+,59,3,9463178180,Kerela,Unaffiliated,Male,LAWYER
+Shweta Anoop Kumar Srivastava,AB+,35,3,9219384501,Tamil Nadu,Hinduism,Female,MASON
+Shubham Bharti,B-,25,3,9047310023,Agartala,Buddhism,Male,MECHANIC
+Manish Kumar,B+,35,2,9234711167,West Bengal,Folk religions,Male,PAINTER
+Mangal Kombade,A+,37,3,9887319770,Assam,Buddhism,Female,PLUMBER
+Jyoti Saikia,A+,41,2,9549746183,Assam,Folk religions,Female,POLICEMAN
+Manibai Satyaurayan Shriram,A-,52,3,9636843516,Rajasthan,Christianity,Female,POSTMAN
+Mohit Mathur,O-,38,1,9880090926,Gujrat,Islam,Male,SECRETARY
+Meena Srivastava,O+,68,1,9189701085,Maharashtra,Unaffiliated,Female,SINGER
+Sangita Surwade,AB+,47,3,9782019651,Goa,Hinduism,Female,SOLDIER
+Tara Vaskar,AB+,48,3,9998477760,Rajasthan,Buddhism,Female,TAXI DRIVER
+Sushma Devi,AB+,52,1,9842537494,Madhya Pradesh,Folk religions,Female,TEACHER
+Jyoti Saikia,B-,41,1,9680208329,Kerela,Christianity,Female,WAITER
+Vasant Bhangale,B+,75,2,9649183102,Tamil Nadu,Islam,Male,PILOT
+Tribhuvan Thakur,A+,53,1,9018717230,Agartala,Unaffiliated,Male,ENGINEER
+Saumya Saxena,A-,49,3,9219128518,West Bengal,Hinduism,Female,DOCTOR
+Kartik Gopal,O-,35,3,9494678525,Assam,Buddhism,Male,NURSE
+Manorama Namdas,O+,50,1,9626238131,Rajasthan,Folk religions,Female,GOLDSMITH
+Arun Bhojane,A+,42,1,9341024918,Gujrat,Christianity,Male,ACTOR
+A K Saxena,A-,66,1,9752583146,Maharashtra,Islam,Male,TAILOR
+Josephline Machado,O-,50,3,9146798481,Goa,Unaffiliated,Male,BAKER
+Lalita Yadav,O+,35,2,9427689090,Rajasthan,Hinduism,Female,BUTCHER
+Jaiprakash Yadav,AB+,40,3,9365179655,Madhya Pradesh,Buddhism,Male,CARPENTER
+Mahalaxmi Sharma,AB+,79,3,9584095480,Kerela,Folk religions,Female,COOK
+Prakash Zodpe,AB+,43,1,9884093831,Tamil Nadu,Christianity,Male,FARMER
+Akila Petkar,B-,41,3,9584236753,Agartala,Islam,Female,FIREMAN
+Rahul Joshi,B+,49,1,9489560018,West Bengal,Unaffiliated,Male,FISHERMAN
+Ayman Tisakar,A+,15,2,9092224940,Assam,Hinduism,Male,GARDENER
+Leela Lal,A+,23,2,9889162953,Assam,Buddhism,Female,HAIRDRESSER
+Ruchita Surve,A-,54,3,9259999148,Rajasthan,Folk religions,Female,JOURNALIST
+Roopsagar Devi,O-,55,2,9346304560,Gujrat,Christianity,Female,JUDGE
+Kamlesh Kumar,O+,36,1,9931186511,Maharashtra,Islam,Male,LAWYER
+Nanda Kulkarni,AB+,55,3,9005544959,Goa,Unaffiliated,Female,MASON
+Chaya Rani Das,AB+,76,2,9663198972,Rajasthan,Hinduism,Female,MECHANIC
+Suhasi Pawar,AB+,44,3,9842667842,Madhya Pradesh,Buddhism,Female,PAINTER
+Shalini Srivastav,B-,42,2,9129964812,Kerela,Folk religions,Female,PLUMBER
+Saumik Bandyopadhya,B+,37,2,9583478042,Tamil Nadu,Christianity,Male,POLICEMAN
+Rekha Britto,A+,38,3,9606051963,Agartala,Islam,Female,POSTMAN
+Pallavi Tamhane,A-,48,2,9643794323,West Bengal,Unaffiliated,Female,SECRETARY
+Geeta Shinde,O-,35,1,9735428466,Assam,Hinduism,Female,SINGER
+Rekha Gandhi,O+,54,2,9897131942,Rajasthan,Buddhism,Female,SOLDIER
+Chanchala Sinha,A+,65,3,9332819861,Gujrat,Folk religions,Female,TAXI DRIVER
+Mukhtar Surve,A-,49,1,9354818724,Maharashtra,Christianity,Male,TEACHER
+Shivaji Kamble,O-,58,1,9013716506,Goa,Islam,Male,WAITER
+Sonali Jaydeep Sardesai,O+,37,1,9719075751,Rajasthan,Unaffiliated,Female,PILOT
+Jitendra Parihar,AB+,42,2,9559530496,Madhya Pradesh,Hinduism,Male,ENGINEER
+Sanju Keshari,AB+,45,2,9737484511,Kerela,Buddhism,Female,DOCTOR
+Sayali Patil,AB+,21,1,9807836403,Tamil Nadu,Folk religions,Female,NURSE
+Dayanath Mishra,B-,62,2,9045236696,Agartala,Christianity,Male,GOLDSMITH
+Jayshree Ramesh Mahale,B+,69,2,9292643890,West Bengal,Islam,Female,ACTOR
+Amit Kumar,A+,46,3,9304496898,Assam,Unaffiliated,Male,TAILOR
+Arun Khedekar,A+,37,3,9326259282,Assam,Hinduism,Male,BAKER
+Reshma Khedekar,A-,36,3,9380008416,Rajasthan,Buddhism,Female,BUTCHER
+Lajja Jain,O-,58,2,9766370487,Gujrat,Folk religions,Female,CARPENTER
+Ramani Arun,O+,39,1,9671956446,Maharashtra,Christianity,Female,COOK
+Shweta Prabalkar,AB+,15,1,9000450339,Goa,Islam,Female,FARMER
+Maya Landage,AB+,23,2,9134770842,Rajasthan,Unaffiliated,Female,FIREMAN
+Sayali Suryakant Patil,AB+,21,2,9765014052,Madhya Pradesh,Hinduism,Female,FISHERMAN
+Sultan Pinjara,B-,48,2,9928782044,Kerela,Buddhism,Male,GARDENER
+Binu Anthappen,B+,34,3,9542561537,Tamil Nadu,Folk religions,Male,HAIRDRESSER
+Amal Remanan,A+,35,3,9657806157,Agartala,Christianity,Male,JOURNALIST
+Sridhar G V,A-,37,1,9066777038,West Bengal,Islam,Male,JUDGE
+Prahlad Rai Sharma,O-,87,2,9981293966,Assam,Unaffiliated,Male,LAWYER
+Padmapani Pachpinde,O+,28,2,9397947817,Rajasthan,Hinduism,Male,MASON
+Bhagyalakshmi Iyer,A+,49,2,9937262306,Gujrat,Buddhism,Female,MECHANIC
+Akash P,A-,22,1,9288424868,Maharashtra,Folk religions,Male,PAINTER
+Deepak Aalukunter,O-,24,3,9064661419,Goa,Christianity,Male,PLUMBER
+Ajay Kumar Kishorchand Sharma,O+,42,2,9663928970,Rajasthan,Islam,Male,POLICEMAN
+Pawan Sharma,AB+,35,2,9847693237,Madhya Pradesh,Unaffiliated,Male,POSTMAN
+Urmila Devi,AB+,70,2,9650479490,Kerela,Hinduism,Female,SECRETARY
+Indu Pillai,AB+,46,3,9991977262,Tamil Nadu,Buddhism,Female,SINGER
+Salim Kadiri,B-,40,3,9504786662,Agartala,Folk religions,Male,SOLDIER
+Shyama Singh,B+,50,3,9454989509,West Bengal,Christianity,Female,TAXI DRIVER
+Harsha Viradiya,A+,38,2,9086147685,Assam,Islam,Female,TEACHER
+Latif Bagwan,A+,51,1,9225674791,Assam,Unaffiliated,Male,WAITER
+Subrata Chakraborty,A-,71,3,9081655377,Rajasthan,Hinduism,Male,PILOT
+Anjana Ghate,O-,47,2,9605817079,Gujrat,Buddhism,Female,ENGINEER
+Bhanu Bidarkund,O+,48,3,9636753830,Maharashtra,Folk religions,Female,DOCTOR
+Karimshah Pinjar,AB+,82,3,9899714913,Goa,Christianity,Male,NURSE
+Noorjahan Pinjar,AB+,69,3,9468415095,Rajasthan,Islam,Female,GOLDSMITH
+Raju Mandal,AB+,31,1,9984743388,Madhya Pradesh,Unaffiliated,Male,ACTOR
+Lipika Mukharjee,B-,63,1,9994201438,Kerela,Hinduism,Female,TAILOR
+A P Shukla,B+,69,2,9897086276,Tamil Nadu,Buddhism,Male,BAKER
+Sambit Adhikari,A+,43,1,9778397180,Agartala,Folk religions,Male,BUTCHER
+Mohit Mathur,A-,38,1,9942026741,West Bengal,Christianity,Male,CARPENTER
+Dakshaben Umesh Chovatia,O-,48,1,9307825715,Assam,Islam,Female,COOK
+Shekhar Bhosale,O+,37,2,9727881207,Rajasthan,Unaffiliated,Male,FARMER
+Balakrishna C,A+,40,2,9822046200,Gujrat,Hinduism,Male,FIREMAN
+Chandan Singh,A-,32,2,9746644443,Maharashtra,Buddhism,Male,FISHERMAN
+Karan Hemnani,O-,28,2,9468998027,Goa,Folk religions,Male,GARDENER
+Archana Dhandekar,O+,48,3,9371785957,Rajasthan,Christianity,Female,HAIRDRESSER
+Madhur Bhatnagar,AB+,40,3,9711574853,Madhya Pradesh,Islam,Male,JOURNALIST
+Ashok Joshi,AB+,63,3,9418991422,Kerela,Unaffiliated,Male,JUDGE
+Sneha Potphode,AB+,56,2,9387292388,Tamil Nadu,Hinduism,Female,LAWYER
+Arun Kumar Singh,B-,49,2,9672571683,Agartala,Buddhism,Male,MASON
+Anita Karankal,B+,45,1,9060761954,West Bengal,Folk religions,Female,MECHANIC
+Mohinder Kaur,A+,58,3,9092124119,Assam,Christianity,Male,PAINTER
+Swapnil Sawant,A+,40,1,9410119327,Assam,Islam,Male,PLUMBER
+Anoop Antony,A-,35,1,9107560099,Rajasthan,Unaffiliated,Male,POLICEMAN
+Seema Rao,O-,40,1,9009533029,Gujrat,Hinduism,Female,POSTMAN
+Dimpal Bhatia,O+,34,1,9156922753,Maharashtra,Buddhism,Female,SECRETARY
+Atharva Kanakdande,AB+,21,3,9301372647,Goa,Folk religions,Male,SINGER
+Lata Poshetty,AB+,60,2,9880769952,Rajasthan,Christianity,Female,SOLDIER
+Vijaylaxmi Muralidhar,AB+,39,3,9646924078,Madhya Pradesh,Islam,Female,TAXI DRIVER
+Jyoti Thakkar,B-,75,3,9369869852,Kerela,Christianity,Female,TEACHER
+Shweta Anoop Kumar Srivastava,B+,35,3,9556538729,Tamil Nadu,Islam,Female,WAITER
+Suraj Suvarna,A+,26,3,9207180231,Agartala,Unaffiliated,Male,PILOT
+Padma Rajan,A-,77,1,9958386304,West Bengal,Hinduism,Female,ENGINEER
+Parvati Palve,O-,51,1,9300623408,Assam,Buddhism,Female,DOCTOR
+Anil Patil,O+,53,2,9042967713,Rajasthan,Folk religions,Male,NURSE
+Zainab Khot,A+,70,2,9851683791,Gujrat,Christianity,Female,GOLDSMITH
+Sayali Suryakant Patil,A-,21,1,9784519297,Maharashtra,Islam,Female,ACTOR
+Narayan Mutuaya Anchan,O-,71,1,9113907295,Goa,Unaffiliated,Male,TAILOR
+Mukesh Kalaria,O+,58,2,9334597567,Rajasthan,Hinduism,Male,BAKER
+Sidamma Jamadar,AB+,40,1,9122692126,Madhya Pradesh,Buddhism,Female,BUTCHER
+Sunita Dudhwadkar,AB+,70,3,9780379252,Kerela,Folk religions,Female,CARPENTER
+Nanda Kulkarni,AB+,55,3,9991091747,Tamil Nadu,Christianity,Female,COOK
+T M Bhor,B-,68,3,9742549832,Agartala,Islam,Male,FARMER
+Priyanka Zalte,B+,32,1,9758954281,West Bengal,Unaffiliated,Female,FIREMAN
+Ramesh K Gumaste,A+,64,2,9148129542,Assam,Hinduism,Male,FISHERMAN
+Reshma Shaikh,A+,38,2,9398014215,Assam,Buddhism,Female,GARDENER
+Sajjan Devi,A-,71,3,9280931737,Rajasthan,Folk religions,Female,HAIRDRESSER
+Kavita Sharma,O-,48,1,9133281021,Gujrat,Christianity,Female,JOURNALIST
+Ashwini Kumar,O+,37,1,9680125008,Maharashtra,Islam,Male,JUDGE
+Bandita Sinha,AB+,34,1,9794175080,Goa,Unaffiliated,Female,LAWYER
+Priya Sunil,AB+,44,3,9583128132,Rajasthan,Hinduism,Female,MASON
+K N Prabhakar,AB+,39,1,9772167655,Madhya Pradesh,Buddhism,Male,MECHANIC
+Pooja Mujumdar,B-,25,3,9634030732,Kerela,Folk religions,Female,PAINTER
+Rakesh Mane,B+,35,2,9242521386,Tamil Nadu,Christianity,Male,PLUMBER
+Manish Zargar,A+,44,3,9022267164,Agartala,Islam,Male,POLICEMAN
+Ankita Khare,A-,43,1,9468377279,West Bengal,Unaffiliated,Female,POSTMAN
+Ratan Kanwar,O-,62,1,9466078176,Assam,Hinduism,Female,SECRETARY
+R.S.Rathore,O+,68,2,9121920212,Rajasthan,Buddhism,Male,SINGER
+Anita Bhamare,A+,60,3,9115622265,Gujrat,Folk religions,Female,SOLDIER
+Balakrishnaraju,A-,40,3,9436628326,Maharashtra,Christianity,Male,TAXI DRIVER
+Smita Kanakdande,O-,47,3,9087468425,Goa,Islam,Female,TEACHER
+Sayali Suryakant Patil,O+,21,1,9435024463,Rajasthan,Unaffiliated,Female,WAITER
+Indu Yadav,AB+,38,1,9194691514,Madhya Pradesh,Hinduism,Female,PILOT
+Vijay  K Tambe,AB+,54,1,9370845834,Kerela,Buddhism,Male,ENGINEER
+Subhash Jaiswal,AB+,36,3,9682244734,Tamil Nadu,Folk religions,Male,DOCTOR
+Sajida Shaikh,B-,64,3,9709853439,Agartala,Christianity,Female,NURSE
+H. K. Patil,B+,63,3,9153146771,West Bengal,Islam,Male,GOLDSMITH
+Nupur Verma,A+,62,1,9216910496,Assam,Unaffiliated,Female,ACTOR
+Bhagwan Kaprani,A+,60,2,9654296204,Assam,Hinduism,Male,TAILOR
+Sridhar G V,A-,37,1,9170413301,Rajasthan,Buddhism,Male,BAKER
+Seema Ghogale,O-,42,2,9617768233,Gujrat,Folk religions,Female,BUTCHER
+Nachiket Dusane,O+,29,1,9061695281,Maharashtra,Unaffiliated,Male,CARPENTER
+Bajirao Mate,AB+,52,2,9080286022,Goa,Hinduism,Male,COOK
+Kadambari Bhusane,AB+,27,3,9086614077,Rajasthan,Buddhism,Female,FARMER
+Mujib Khan,AB+,49,1,9236499860,Madhya Pradesh,Folk religions,Male,FIREMAN
+Anju Pandey,B-,50,1,9927410934,Kerela,Islam,Female,FISHERMAN
+Sumathy Sukumaran,B+,60,3,9421404619,Tamil Nadu,Unaffiliated,Female,GARDENER
+Ruchita Surve,A+,54,2,9824686164,Agartala,Hinduism,Female,HAIRDRESSER
+Zakir Hussain Siddiqui,A-,57,3,9012693923,West Bengal,Buddhism,Male,JOURNALIST
+Diki Chakraborty,O-,37,1,9996971107,Assam,Folk religions,Female,JUDGE
+Dipankar Chakraborty,O+,40,1,9543034150,Rajasthan,Christianity,Male,LAWYER
+Asmita Chunekar,A+,49,3,9645957719,Gujrat,Islam,Female,MASON
+Mahesh Bagwe,A-,57,3,9049312346,Maharashtra,Unaffiliated,Male,MECHANIC
+Surekha Dilip Mundhe,O-,52,3,9771392383,Goa,Hinduism,Female,PAINTER
+Printo Mathew,O+,31,2,9927065702,Rajasthan,Buddhism,Male,PLUMBER
+Manisha Jadhav,AB+,44,1,9234392464,Madhya Pradesh,Folk religions,Female,POLICEMAN
+Neetim Yadav,AB+,29,1,9242182255,Kerela,Christianity,Female,POSTMAN
+Firoz Mohd Hanif Shaikh,AB+,45,2,9060269131,Tamil Nadu,Islam,Male,SECRETARY
+Nikita Anand Dabehekar,B-,41,1,9473237688,Agartala,Unaffiliated,Female,SINGER
+Balakrishnaraju,B+,40,1,9967761470,West Bengal,Hinduism,Male,SOLDIER
+Pappu Saini,A+,40,3,9160579153,Assam,Buddhism,Male,TAXI DRIVER
+Mangesh Khilari,A+,45,1,9475671811,Assam,Folk religions,Male,TEACHER
+Swapan Kuila,A-,30,3,9610569701,Rajasthan,Christianity,Male,WAITER
+Afshan Taj Aatif,O-,36,2,9855067643,Gujrat,Islam,Female,PILOT
+Jakhiben Patel,O+,49,3,9960164740,Maharashtra,Unaffiliated,Female,ENGINEER
+Ruta Purohit,AB+,15,2,9848215239,Goa,Hinduism,Female,DOCTOR
+Rinky Singh,AB+,35,1,9170658811,Rajasthan,Buddhism,Female,NURSE
+M A Sree Kumar,AB+,52,2,9393966400,Madhya Pradesh,Folk religions,Male,GOLDSMITH
+Sangita Lambhate,B-,50,3,9367600976,Kerela,Unaffiliated,Female,ACTOR
+Navneet Tewani,B+,27,2,9469753000,Tamil Nadu,Hinduism,Male,TAILOR
+Muzaffar Khan,A+,65,2,9385903059,Agartala,Buddhism,Male,BAKER
+Anoop Kumar Srivastav,A-,34,2,9991041180,West Bengal,Folk religions,Male,BUTCHER
+Nilam Chavan,O-,35,3,9043359015,Assam,Buddhism,Female,CARPENTER
+Deepak Singh,O+,55,2,9331240758,Rajasthan,Folk religions,Male,COOK
+Shweta Anoop Kumar Srivastava,A+,35,3,9194867703,Gujrat,Christianity,Female,FARMER
+Daniel Thomas,A-,31,1,9807116173,Maharashtra,Islam,Male,FIREMAN
+Dilip Madhukar Gharat,O-,58,3,9526028842,Goa,Unaffiliated,Male,FISHERMAN
+Manju Varma,O+,60,3,9653723362,Rajasthan,Hinduism,Female,GARDENER
+R. Aditya Sai,AB+,39,1,9031852832,Madhya Pradesh,Buddhism,Male,HAIRDRESSER
+Yamini Jain,AB+,37,1,9479593142,Kerela,Folk religions,Female,JOURNALIST
+Anil Kumar Sankhla,AB+,64,3,9562245099,Tamil Nadu,Christianity,Male,JUDGE
+Sayali Patil,B-,21,3,9885330482,Agartala,Islam,Female,LAWYER
+Santosh Prabalakar,B+,40,1,9976497042,West Bengal,Unaffiliated,Male,MASON
+Zainab Khot,A+,70,1,9655132620,Assam,Hinduism,Female,MECHANIC
+Anil D Kulkarni,A+,65,2,9391479633,Assam,Buddhism,Male,PAINTER
+Jhansi Laxmi,A-,58,3,9895155047,Rajasthan,Folk religions,Female,PLUMBER
+Vinita Shukla,O-,36,1,9138469963,Gujrat,Christianity,Female,POLICEMAN
+Gangotri Rawat,O+,60,3,9210325936,Maharashtra,Islam,Female,POSTMAN
+Simran Shaikh,AB+,32,1,9861553954,Goa,Unaffiliated,Male,SECRETARY
+Sunita Gavhane,AB+,34,3,9328145422,Rajasthan,Hinduism,Female,SINGER
+Usha Somaiya,AB+,63,2,9228516447,Madhya Pradesh,Buddhism,Female,SOLDIER
+Muskan Khanna,B-,41,2,9889085497,Kerela,Folk religions,Female,TAXI DRIVER
+Asharani Hoizal,B+,47,3,9467200001,Tamil Nadu,Christianity,Female,TEACHER
+Kalpana Chate,A+,37,2,9210550033,Agartala,Islam,Female,WAITER
+Nishita Joshi,A-,26,1,9002132852,West Bengal,Unaffiliated,Female,PILOT
+Mohit Mathur,O-,38,2,9382534697,Assam,Hinduism,Male,ENGINEER
+Onkar Sawant,O+,26,3,9246791689,Rajasthan,Buddhism,Male,DOCTOR
+Bhunendra Nagi,A+,24,2,9696731947,Gujrat,Folk religions,Male,NURSE
+Ahmed Khan,A-,42,2,9180999036,Maharashtra,Christianity,Male,GOLDSMITH
+Puja Upadhyay,O-,39,1,9682386596,Goa,Islam,Female,ACTOR
+Abida Dingankar,O+,70,2,9278165794,Rajasthan,Unaffiliated,Female,TAILOR
+Ramlakhan Gupta,AB+,47,3,9000352218,Madhya Pradesh,Hinduism,Male,BAKER
+Savita Kasture,AB+,43,3,9501782657,Kerela,Buddhism,Female,BUTCHER
+Rajiya Khatoon,AB+,46,1,9236167220,Tamil Nadu,Folk religions,Female,CARPENTER
+Vikas Daharwal,B-,42,2,9824684969,Agartala,Christianity,Male,COOK
+Richa Daharwal,B+,38,1,9337495937,West Bengal,Islam,Female,FARMER
+Sunil Sabharwal,A+,63,1,9976106890,Assam,Unaffiliated,Male,FIREMAN
+Rakesh Mane,A+,35,1,9021686273,Assam,Hinduism,Male,FISHERMAN
+Charulata Nandankar,A-,57,1,9304304080,Rajasthan,Buddhism,Female,GARDENER
+Subburaj Naidu,O-,54,2,9374449417,Gujrat,Folk religions,Male,HAIRDRESSER
+Sanjay Wagh,O+,51,1,9032439061,Maharashtra,Christianity,Male,JOURNALIST
+Usha Umbarkar,AB+,67,1,9422698929,Goa,Islam,Female,JUDGE
+Inderjeet Kaur,AB+,34,1,9983993789,Rajasthan,Unaffiliated,Female,LAWYER
+Bharat Sapkal,AB+,31,2,9260425433,Madhya Pradesh,Hinduism,Male,MASON
+Shantanu Mukherjee,B-,48,3,9211195577,Kerela,Buddhism,Male,MECHANIC
+Hamida Chikte,B+,30,3,9384379169,Tamil Nadu,Folk religions,Female,PAINTER
+Mridula Borah,A+,43,3,9483608827,Agartala,Christianity,Female,PLUMBER
+Siba Prasad  Borah,A-,46,1,9761766291,West Bengal,Islam,Male,POLICEMAN
+Pratima Mahapatra,O-,30,1,9938525309,Assam,Unaffiliated,Female,POSTMAN
+Navneet Tewani,O+,27,2,9729495513,Rajasthan,Hinduism,Male,SECRETARY
+S M Saha,A+,72,3,9929315293,Gujrat,Buddhism,Male,SINGER
+Padmini Nair,A-,56,2,9958729527,Maharashtra,Folk religions,Female,SOLDIER
+Priya Sunil,O-,44,3,9516599882,Goa,Christianity,Female,TAXI DRIVER
+Avanti Salunkhe,O+,41,2,9740671581,Rajasthan,Islam,Female,TEACHER
+Saniya Rajapkar,AB+,16,1,9791411604,Madhya Pradesh,Unaffiliated,Female,WAITER
+Rakesh Kumar Sharma,AB+,43,2,9338980116,Kerela,Hinduism,Male,PILOT
+Alka Pagare,AB+,54,2,9052112716,Tamil Nadu,Buddhism,Female,ENGINEER
+Vaibhav Mohan Kadoo,B-,26,3,9065030398,Agartala,Folk religions,Male,DOCTOR
+Azmi Shahina,B+,50,2,9681291323,West Bengal,Christianity,Female,NURSE
+Mehboob Shaikh,A+,54,1,9885835949,Assam,Islam,Male,GOLDSMITH
+Seema Saini,A+,28,2,9033499677,Assam,Unaffiliated,Female,ACTOR
+Madhavi Shirpurkar,A-,66,1,9723382847,Rajasthan,Hinduism,Female,TAILOR
+Santosh Prabhalkar,O-,40,2,9290565559,Gujrat,Buddhism,Male,BAKER
+Anshuman Mangalam,O+,42,3,9988991679,Maharashtra,Folk religions,Male,BUTCHER
+Vishal Dhasal,AB+,28,2,9149975518,Goa,Christianity,Male,CARPENTER
+G R Das,AB+,44,2,9484574835,Rajasthan,Islam,Male,COOK
+Rajkumar Chaphekar,AB+,60,3,9998657015,Madhya Pradesh,Unaffiliated,Male,FARMER
+Pushpa V,B-,71,2,9313554329,Kerela,Hinduism,Female,FIREMAN
+Navneet Tewani,B+,27,3,9899907733,Tamil Nadu,Buddhism,Male,FISHERMAN
+Ganesh Abhang,A+,49,2,9154767970,Agartala,Folk religions,Male,GARDENER
+Sujit Verma,A-,43,1,9831822690,West Bengal,Christianity,Male,HAIRDRESSER
+Saswati Mandal,O-,47,2,9874805459,Assam,Islam,Female,JOURNALIST
+Vaishali Modak,O+,56,1,9546922108,Rajasthan,Unaffiliated,Female,JUDGE
+Gangotri Rawat,A+,60,1,9387748033,Gujrat,Hinduism,Female,LAWYER
+Makrand Padalkar,A-,46,2,9278299770,Maharashtra,Buddhism,Male,MASON
+Sujata Karmakar,O-,45,3,9772510989,Goa,Folk religions,Female,MECHANIC
+Satish Vhatkar,O+,52,2,9383727203,Rajasthan,Christianity,Male,PAINTER
+Sharmishtha Roychaudhary,AB+,45,2,9502423881,Madhya Pradesh,Islam,Female,PLUMBER
+Shalu Singh,AB+,28,3,9358807416,Kerela,Unaffiliated,Female,POLICEMAN
+Said Salim Mgala,AB+,55,1,9318438346,Tamil Nadu,Hinduism,Male,POSTMAN
+Namdeo Chonde,B-,34,3,9046201333,Agartala,Buddhism,Male,SECRETARY
+C Sudharani,B+,50,2,9985333452,West Bengal,Folk religions,Female,SINGER
+Shrishail Aulagar,A+,61,2,9444782922,Assam,Christianity,Male,SOLDIER
+C V Reddy,A+,54,3,9640372962,Assam,Islam,Male,TAXI DRIVER
+Sayaji Jadhav,A-,63,3,9460214016,Rajasthan,Unaffiliated,Male,TEACHER
+Renuka R,O-,57,3,9468403607,Gujrat,Hinduism,Female,WAITER
+Hasina Sange,O+,49,2,9792773884,Maharashtra,Buddhism,Female,PILOT
+Poonam Singh,AB+,50,1,9064514365,Goa,Folk religions,Female,ENGINEER
+Veda Sangeetha Pattabhi,AB+,37,2,9903612984,Rajasthan,Christianity,Female,DOCTOR
+Naeema  Shafiq,AB+,40,2,9620973847,Madhya Pradesh,Islam,Female,NURSE
+Sugandhabai Raut,B-,75,3,9521515015,Kerela,Unaffiliated,Female,GOLDSMITH
+Johnson Joseph Vallookaran,B+,60,3,9988871552,Tamil Nadu,Hinduism,Male,ACTOR
+Indu Yadav,A+,38,1,9780527817,Agartala,Buddhism,Female,TAILOR
+Sudha Selvan,A-,42,1,9449030025,West Bengal,Folk religions,Female,BAKER
+Manoj Kumar Singh,O-,45,1,9312822968,Assam,Christianity,Male,BUTCHER
+Harshali Chavhan,O+,50,3,9319926683,Rajasthan,Islam,Female,CARPENTER
+Raj Sahu,A+,30,3,9324684024,Gujrat,Unaffiliated,Male,COOK
+T M Bhor,A-,68,1,9966217290,Maharashtra,Hinduism,Male,FARMER
+Krishna Mahadik,O-,63,2,9995876528,Goa,Buddhism,Male,FIREMAN
+Anil Solanki,O+,47,3,9630713477,Rajasthan,Folk religions,Male,FISHERMAN
+Vishnu Nahire,AB+,68,3,9517604918,Madhya Pradesh,Christianity,Male,GARDENER
+Niraj Upadhyay,AB+,27,3,9613264393,Kerela,Islam,Male,HAIRDRESSER
+Mahendra Kumar Mandal,AB+,37,1,9851861847,Tamil Nadu,Christianity,Male,JOURNALIST
+Sujata Sable,B-,61,2,9534132803,Agartala,Islam,Female,JUDGE
+Vaishali Jadhav,B+,41,1,9766868385,West Bengal,Unaffiliated,Female,LAWYER
+Amina Huda,A+,66,1,9678484846,Assam,Hinduism,Female,MASON
+Ruma Ganguli,A+,42,1,9158726211,Assam,Buddhism,Female,MECHANIC
+Priyanka Chauhan,A-,34,2,9945970468,Rajasthan,Folk religions,Female,PAINTER
+Hirabai Bugade,O-,69,1,9924700365,Gujrat,Christianity,Female,PLUMBER
+Mandar Sontakke,O+,33,1,9444840134,Maharashtra,Islam,Male,POLICEMAN
+Santosh Prabalakar,AB+,40,3,9460285366,Goa,Unaffiliated,Male,POSTMAN
+Kavita Ambati,AB+,41,3,9751968670,Rajasthan,Hinduism,Female,SECRETARY
+Urmila Jha,AB+,52,1,9676918022,Madhya Pradesh,Buddhism,Female,SINGER
+Shri Kant Das,B-,32,1,9016988286,Kerela,Folk religions,Male,SOLDIER
+Shivaji Kamble,B+,58,2,9249147695,Tamil Nadu,Christianity,Male,TAXI DRIVER
+Arvind Dabhade,A+,41,2,9691713676,Agartala,Islam,Male,TEACHER
+M T Gowda,A-,58,1,9243897059,West Bengal,Unaffiliated,Male,WAITER
+Bhauribai Ghohar,O-,55,2,9354246123,Assam,Hinduism,Female,PILOT
+Dimpal Bhatia,O+,34,3,9564446183,Rajasthan,Buddhism,Female,ENGINEER
+Gangotri Rawat,A+,60,2,9967972446,Gujrat,Folk religions,Female,DOCTOR
+Manisha Jagtap,A-,69,1,9799362585,Maharashtra,Christianity,Female,NURSE
+Minakshi Mendhe,O-,42,3,9548133751,Goa,Islam,Female,GOLDSMITH
+Gayatri Bhosale,O+,39,2,9831565298,Rajasthan,Unaffiliated,Female,ACTOR
+Saeeda Qazi,AB+,74,2,9825681913,Madhya Pradesh,Hinduism,Female,TAILOR
+Jannet Fernandes,AB+,50,3,9247019973,Kerela,Buddhism,Female,BAKER
+Naazneen Parkar,AB+,36,2,9620192424,Tamil Nadu,Folk religions,Female,BUTCHER
+Anusaya  Dhanawade,B-,44,1,9121317655,Agartala,Christianity,Female,CARPENTER
+Prabha Marathe,B+,40,3,9699505863,West Bengal,Islam,Female,COOK
+Pankaj Ghodeshwar,A+,39,1,9674033685,Assam,Unaffiliated,Male,FARMER
+Riddhi Naik,A+,47,1,9796447610,Assam,Hinduism,Female,FIREMAN
+Umesh Dhakate,A-,53,1,9148170185,Rajasthan,Buddhism,Male,FISHERMAN
+Namadev Patil,O-,72,1,9119414647,Gujrat,Folk religions,Male,GARDENER
+Bandana Thakur,O+,34,1,9467445942,Maharashtra,Christianity,Female,HAIRDRESSER
+Chitranjan  Sharma,AB+,56,1,9000510850,Goa,Islam,Male,JOURNALIST
+Madhur Bhatnagar,AB+,40,1,9977822113,Rajasthan,Unaffiliated,Male,JUDGE
+Neetal Rajoria,AB+,33,3,9493207515,Madhya Pradesh,Hinduism,Female,LAWYER
+Sagar Gujar,B-,42,1,9612742270,Kerela,Buddhism,Male,MASON
+Shivaji Patil,B+,65,3,9905148384,Tamil Nadu,Folk religions,Male,MECHANIC
+Vijaya Dabas,A+,51,3,9042694380,Agartala,Christianity,Female,PAINTER
+Shilpi Rastogi,A-,47,2,9945249995,West Bengal,Islam,Female,PLUMBER
+Upasana Verma,O-,42,1,9558285176,Assam,Unaffiliated,Female,POLICEMAN
+Sayed Shadab,O+,40,1,9177447004,Rajasthan,Hinduism,Male,POSTMAN
+Dolly Verma,A+,48,3,9797864080,Gujrat,Buddhism,Female,SECRETARY
+Suraj Dudey,A-,26,2,9871797398,Maharashtra,Folk religions,Male,SINGER
+Subodh Bansal,O-,55,1,9616268341,Goa,Unaffiliated,Male,SOLDIER
+Gangadhar Deoman Patil,O+,57,2,9872746284,Rajasthan,Hinduism,Male,TAXI DRIVER
+Peeyush Chaturvedi,AB+,39,1,9684712862,Madhya Pradesh,Buddhism,Male,TEACHER
+Sunanda Bhor,AB+,50,2,9853532496,Kerela,Folk religions,Female,WAITER
+M Rushikesh,AB+,35,3,9033564778,Tamil Nadu,Islam,Male,PILOT
+Suman Bhange,B-,48,1,9467877575,Agartala,Unaffiliated,Female,ENGINEER
+Aishwarya  B Nair,B+,25,2,9088223602,West Bengal,Hinduism,Female,DOCTOR
+Tanmay Das,A+,34,3,9124366449,Assam,Buddhism,Male,NURSE
+Anis Khan,A+,45,3,9774009089,Assam,Folk religions,Male,GOLDSMITH
+Balkrishna Thakur,A-,32,2,9301506664,Rajasthan,Christianity,Male,ACTOR
+Harjeet Kaur,O-,43,2,9517422646,Gujrat,Islam,Female,TAILOR
+Nagaraj Neti,O+,45,2,9299236479,Maharashtra,Unaffiliated,Male,BAKER
+Sudesh Sonni,AB+,66,3,9094720509,Goa,Hinduism,Female,BUTCHER
+Ratnamala Chavan,AB+,52,3,9593975201,Rajasthan,Buddhism,Female,CARPENTER
+Madan Sonni,AB+,74,1,9787222516,Madhya Pradesh,Folk religions,Male,COOK
+Sandeep Kumar,B-,32,1,9096531270,Kerela,Christianity,Male,FARMER
+Suyog Jagatap,B+,28,2,9903070672,Tamil Nadu,Islam,Male,FIREMAN
+Yashvanti Janardan Thakur,A+,54,3,9715902407,Agartala,Unaffiliated,Female,FISHERMAN
+Sangita Sharma,A-,56,3,9623802478,West Bengal,Hinduism,Female,GARDENER
+Harsha Zodpe,O-,42,1,9368174659,Assam,Buddhism,Female,HAIRDRESSER
+Rajvee Shah,O+,42,2,9781747428,Rajasthan,Folk religions,Female,JOURNALIST
+Ritesh Shah,A+,43,2,9066973783,Gujrat,Christianity,Male,JUDGE
+Sunil Sabharwal,A-,63,3,9852434905,Maharashtra,Islam,Male,LAWYER
+Vidhyadhar Patil,O-,52,1,9615839586,Goa,Unaffiliated,Male,MASON
+Sathi Sen,O+,56,3,9999613464,Rajasthan,Hinduism,Female,MECHANIC
+Kunal Vivek Savaji,AB+,30,3,9369935607,Madhya Pradesh,Buddhism,Male,PAINTER
+Riddhi Naik,AB+,47,1,9154548965,Kerela,Folk religions,Female,PLUMBER
+Ravindranathan,AB+,64,2,9710481436,Tamil Nadu,Unaffiliated,Male,POLICEMAN
+Naseem Shaikh,B-,26,3,9969629075,Agartala,Hinduism,Male,POSTMAN
+Anand Chavan,B+,52,2,9046788076,West Bengal,Buddhism,Male,SECRETARY
+Karmi Devi,A+,78,1,9631134375,Assam,Folk religions,Female,SINGER
+Shefali Rastogi,A+,49,3,9179809653,Assam,Buddhism,Female,SOLDIER
+Santosh Shinde,A-,46,2,9765939097,Rajasthan,Folk religions,Male,TAXI DRIVER
+Sugra Parkar,O-,57,3,9480611381,Gujrat,Christianity,Female,TEACHER
+Krishna Kumar,O+,55,3,9001939464,Maharashtra,Islam,Male,WAITER
+Vijay Janrode,AB+,51,3,9915361337,Goa,Unaffiliated,Male,PILOT
+Kavita Kumar,AB+,55,3,9687665127,Rajasthan,Hinduism,Female,ENGINEER
+Namita Bashyal,AB+,30,2,9231943370,Madhya Pradesh,Buddhism,Female,DOCTOR
+Sangita Walugade,B-,44,2,9026077347,Kerela,Folk religions,Female,NURSE
+Supriya Padyal,B+,51,1,9271232042,Tamil Nadu,Christianity,Female,GOLDSMITH
+Lotan Bhila Sonar,A+,71,2,9392835775,Agartala,Islam,Male,ACTOR
+Zainab Khot,A-,70,2,9021746586,West Bengal,Unaffiliated,Female,TAILOR
+Kalpana Bansod,O-,55,2,9891121430,Assam,Hinduism,Female,BAKER
+Bhupinder Kumar,O+,58,1,9738140380,Rajasthan,Buddhism,Male,BUTCHER
+Madhu Gupta,A+,75,2,9379470126,Gujrat,Folk religions,Female,CARPENTER
+Vidya  Sandeep  Jadhav,A-,36,1,9850630073,Maharashtra,Christianity,Female,COOK
+Manju Raut,O-,34,3,9157653880,Goa,Islam,Female,FARMER
+Sheetal Sharma,O+,38,3,9803334255,Rajasthan,Unaffiliated,Female,FIREMAN
+Shreedhar Gowda,AB+,48,2,9537035228,Madhya Pradesh,Hinduism,Male,FISHERMAN
+Sanjeevani Mane,AB+,30,3,9797581943,Kerela,Buddhism,Female,GARDENER
+Kalpana Singh,AB+,38,1,9785344952,Tamil Nadu,Folk religions,Female,HAIRDRESSER
+Kiranjeet Kaur,B-,58,2,9187300317,Agartala,Christianity,Female,JOURNALIST
+Sadanand Kakade,B+,58,2,9932238864,West Bengal,Islam,Male,JUDGE
+Veda Sangeetha Pattabhi,A+,37,2,9814632758,Assam,Unaffiliated,Female,LAWYER
+Princess Williams,A+,67,2,9038201168,Assam,Hinduism,Female,MASON
+Amina Shaikh,A-,75,1,9216017392,Rajasthan,Buddhism,Female,MECHANIC
+Pooja Rajbhar,O-,27,3,9921213078,Gujrat,Folk religions,Female,PAINTER
+Mohit Mathur,O+,38,2,9703368994,Maharashtra,Hinduism,Male,PLUMBER
+Deepak Sharma,AB+,43,3,9970095317,Goa,Buddhism,Male,POLICEMAN
+A P Mukundan,AB+,80,2,9274355356,Rajasthan,Folk religions,Male,POSTMAN
+Jyoti Moktali,AB+,39,1,9211354224,Madhya Pradesh,Unaffiliated,Female,SECRETARY
+Radhabai Gavhar,B-,67,2,9169292271,Kerela,Hinduism,Female,SINGER
+Nitin Mitkar,B+,31,2,9120615824,Tamil Nadu,Buddhism,Male,SOLDIER
+Deepak Vijayvergiya,A+,49,2,9557619628,Agartala,Folk religions,Male,TAXI DRIVER
+Shweta Yadav,A-,21,3,9359543376,West Bengal,Islam,Female,TEACHER
+Sushma,O-,45,1,9320487772,Assam,Unaffiliated,Female,WAITER
+Rajib Sarkar,O+,52,3,9943068380,Rajasthan,Hinduism,Male,PILOT
+Munira Mullaji,A+,37,3,9603748169,Gujrat,Buddhism,Female,ENGINEER
+Siraj Mullaji,A-,46,2,9695703642,Maharashtra,Hinduism,Male,DOCTOR
+Bilal Bashir Bebji,O-,31,3,9737596125,Goa,Buddhism,Male,NURSE
+Rohan Moktali,O+,38,2,9285426315,Rajasthan,Folk religions,Male,GOLDSMITH
+Ramesh K Gumaste,AB+,64,2,9240261837,Madhya Pradesh,Unaffiliated,Male,ACTOR
+Vijaya Dabas,AB+,51,2,9941852437,Kerela,Hinduism,Female,TAILOR
+Anupama Ghosh,AB+,37,2,9077721146,Tamil Nadu,Buddhism,Female,BAKER
+Pradeep Srivastav,B-,42,1,9900026901,Agartala,Folk religions,Male,BUTCHER
+D N Mishra,B+,64,1,9270439554,West Bengal,Islam,Male,CARPENTER
+Sunanda Kothmire,A+,56,3,9292679389,Assam,Unaffiliated,Female,COOK
+Avanti Salunkhe,A+,41,2,9927813283,Assam,Hinduism,Female,FARMER
+Santosh Prabhalkar,A-,40,3,9928627397,Rajasthan,Buddhism,Male,FIREMAN
+Sarita Pai,O-,39,2,9277581004,Gujrat,Hinduism,Female,FISHERMAN
+Gayatri Mishra,O+,55,2,9493357944,Maharashtra,Buddhism,Female,GARDENER
+Dimpal Bhatia,AB+,34,2,9656859796,Goa,Folk religions,Female,HAIRDRESSER
+Shaileja Patil,AB+,39,2,9201344756,Rajasthan,Unaffiliated,Female,JOURNALIST
+Manisha Pawar,AB+,56,2,9030765640,Madhya Pradesh,Hinduism,Female,JUDGE
+Shampa Mondal,B-,58,2,9834046957,Kerela,Buddhism,Female,LAWYER
+Tanveer Iqbal,B+,51,2,9088588543,Tamil Nadu,Folk religions,Female,MASON
+Sujata Tiwari,A+,57,2,9880270855,Agartala,Islam,Female,MECHANIC
+Priya Parwaney,A-,37,2,9591121855,West Bengal,Unaffiliated,Female,PAINTER
+Deepti Kumar,O-,35,2,9668096153,Assam,Hinduism,Female,PLUMBER
+Premnath Vishwakarma,O+,35,3,9536498674,Rajasthan,Buddhism,Male,POLICEMAN
+Manjit Singh,A+,60,2,9343215646,Gujrat,Hinduism,Male,POSTMAN
+Raj Naik,A-,58,2,9714350475,Maharashtra,Buddhism,Male,SECRETARY
+R K Gulati,O-,51,3,9513461606,Goa,Folk religions,Male,SINGER
+Ashok Haribhau Kanade,O+,58,2,9234289198,Rajasthan,Unaffiliated,Male,SOLDIER
+Tarkeshwar Dubey,AB+,47,1,9653065943,Madhya Pradesh,Hinduism,Male,TAXI DRIVER
+Lalita Ben,AB+,60,3,9159014682,Kerela,Buddhism,Female,TEACHER
+Sharifa Khan,AB+,35,3,9638312092,Tamil Nadu,Folk religions,Female,WAITER
+Sulochana Arya,B-,18,1,9610798340,Agartala,Islam,Female,PILOT
+Sanjivini Kadam,B+,53,3,9142969665,West Bengal,Unaffiliated,Female,ENGINEER
+Shyamsunder Rana,A+,70,2,9153197271,Assam,Hinduism,Male,DOCTOR
+Ajit  Navale,A+,49,3,9781561863,Assam,Buddhism,Male,NURSE
+Shobha Navale,A-,46,3,9050573497,Rajasthan,Hinduism,Female,GOLDSMITH
+Dalvir Kaur,O-,61,1,9197056028,Gujrat,Buddhism,Female,ACTOR
+Indu Yadav,O+,38,3,9518880520,Maharashtra,Folk religions,Female,TAILOR
+Sarita Sahu,AB+,45,2,9322073225,Goa,Unaffiliated,Female,BAKER
+Balchandra Deshpande,AB+,83,2,9261805254,Rajasthan,Hinduism,Male,BUTCHER
+Deepa Saraf,AB+,40,3,9390741224,Madhya Pradesh,Buddhism,Female,CARPENTER
+Vinay Agarwal,B-,51,1,9434339205,Kerela,Folk religions,Male,COOK
+Vijaylaxmi Iyer,B+,42,2,9394238834,Tamil Nadu,Islam,Female,FARMER
+Kartikey Kuthari,A+,20,1,9641010605,Agartala,Unaffiliated,Male,FIREMAN
+Smridhi Sharma,A-,35,2,9332777918,West Bengal,Hinduism,Female,FISHERMAN
+Kaushalya Devi Bansal,O-,60,2,9627454337,Assam,Buddhism,Female,GARDENER
+Debjoti Sengupta,O+,40,2,9699982040,Rajasthan,Hinduism,Male,HAIRDRESSER
+Shila Singh,A+,52,3,9649724466,Gujrat,Buddhism,Female,JOURNALIST
+Abhijit Som,A-,46,1,9246013069,Maharashtra,Folk religions,Male,JUDGE
+Avnish Verma,O-,42,3,9732058975,Goa,Unaffiliated,Male,LAWYER
+Sameer Phadtare,O+,41,3,9036085033,Rajasthan,Hinduism,Male,MASON
+Charu Ghodke,AB+,30,1,9291855570,Madhya Pradesh,Buddhism,Female,MECHANIC
+Kashinath Jaykar,AB+,71,2,9484148204,Kerela,Folk religions,Male,PAINTER
+Shubhangi Barve,AB+,30,1,9100150547,Tamil Nadu,Islam,Female,PLUMBER
+Tejpal Gangwar,B-,39,1,9896387959,Agartala,Unaffiliated,Male,POLICEMAN
+Indu Yadav,B+,38,1,9400244536,West Bengal,Hinduism,Female,POSTMAN
+Soumen  Bhattacharya,A+,50,3,9879658930,Assam,Buddhism,Male,SECRETARY
+Omprakash Pawar,A+,42,3,9554001418,Assam,Hinduism,Male,SINGER
+Asha Pandey,A-,34,2,9931296814,Rajasthan,Buddhism,Female,SOLDIER
+Renu Bhatia,O-,55,2,9154480399,Gujrat,Folk religions,Female,TAXI DRIVER
+Vikas Thorat,O+,50,2,9160648727,Maharashtra,Unaffiliated,Male,TEACHER
+Pushpa Saste,AB+,62,2,9657422170,Goa,Hinduism,Female,WAITER
+P B Saste,AB+,69,1,9636222387,Rajasthan,Buddhism,Male,PILOT
+Sudha Shitole,AB+,64,2,9140102953,Madhya Pradesh,Folk religions,Female,ENGINEER
+Meera S.,B-,60,2,9454552901,Kerela,Islam,Female,DOCTOR
+Kavita Patil,B+,32,1,9517889802,Tamil Nadu,Unaffiliated,Female,NURSE
+Shivaji Patil,A+,73,1,9383793003,Agartala,Hinduism,Male,GOLDSMITH
+Rani Chellapan,A-,55,2,9736822998,West Bengal,Buddhism,Female,ACTOR
+Sai Kumar,O-,43,2,9445901451,Assam,Hinduism,Male,TAILOR
+Sushil Raut,O+,28,2,9460130321,Rajasthan,Buddhism,Male,BAKER
+Jitendra Parihar,A+,42,2,9951111434,Gujrat,Folk religions,Male,BUTCHER
+K Rahiman,A-,46,2,9899345370,Maharashtra,Unaffiliated,Male,CARPENTER
+Mandar Borchate,O-,27,2,9979850908,Goa,Hinduism,Male,COOK
+Adarsh Parasar,O+,18,3,9041734387,Rajasthan,Buddhism,Male,FARMER
+Geeta J Arora,AB+,67,1,9801443595,Madhya Pradesh,Folk religions,Female,FIREMAN
+Anita Survase,AB+,43,2,9777530846,Kerela,Islam,Female,FISHERMAN
+Arpita Pawar,AB+,37,1,9701081405,Tamil Nadu,Unaffiliated,Female,GARDENER
+Sushil Kumar,B-,59,3,9813690712,Agartala,Hinduism,Male,HAIRDRESSER
+Mahendra Singh Charan,B+,39,3,9849492955,West Bengal,Buddhism,Male,JOURNALIST
+Juilee Shegoakar,A+,23,2,9305784059,Assam,Hinduism,Female,JUDGE
+Minakshi Mittal,A+,40,1,9284588378,Assam,Buddhism,Female,LAWYER
+Sunita Sontake,A-,56,3,9947322420,Rajasthan,Folk religions,Female,MASON
+Puja Sharma,O-,36,3,9690876103,Gujrat,Unaffiliated,Female,MECHANIC
+Navya Mohnot,O+,15,1,9416627179,Maharashtra,Hinduism,Female,PAINTER
+Charulata Nandankar,AB+,57,1,9807101513,Goa,Buddhism,Female,PLUMBER
+Jitendra Parihar,AB+,42,1,9760151807,Rajasthan,Folk religions,Male,POLICEMAN
+Nanda Kale,AB+,64,1,9712563759,Madhya Pradesh,Islam,Female,POSTMAN
+Deepak Patro,B-,46,3,9793390477,Kerela,Unaffiliated,Male,SECRETARY
+Amit Choudhary,B+,44,1,9931245565,Tamil Nadu,Hinduism,Male,SINGER
+Girish Shetye,A+,38,1,9876345538,Agartala,Buddhism,Male,SOLDIER
+S Ramaraj,A-,70,1,9208745027,West Bengal,Hinduism,Male,TAXI DRIVER
+Darshana Yadav,O-,42,3,9922497855,Assam,Buddhism,Female,TEACHER
+Kumar Shashi Bhushan,O+,67,1,9538944672,Rajasthan,Folk religions,Male,WAITER
+Jagruti Magare,A+,36,3,9819147862,Gujrat,Unaffiliated,Female,PILOT
+Nivas Rajage,A-,35,2,9101671043,Maharashtra,Hinduism,Male,ENGINEER
+Jatinder Kaur Kohli,O-,60,2,9055758937,Goa,Buddhism,Female,DOCTOR
+Shikha Ashok Bairwa,O+,33,1,9675652391,Rajasthan,Folk religions,Female,NURSE
+Chandramani Das,AB+,42,2,9154471592,Madhya Pradesh,Islam,Male,GOLDSMITH
+Shyam Madavi,AB+,63,1,9035323829,Kerela,Unaffiliated,Male,ACTOR
+Haripriya Koirala,AB+,40,1,9382501694,Tamil Nadu,Hinduism,Female,TAILOR
