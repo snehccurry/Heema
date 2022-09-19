@@ -25,6 +25,78 @@ label_fg="#018574"
     return root
     #root.mainloop()"""
 
+global screen_width,screen_height
+def create_window(text="Text for windows comes here"):
+    root=tk.Tk()
+    title_bar(root,text=text)
+    root.config(bg="#202020")
+    Zen_mode(root)
+    return root
+
+def scrollable_frame(window, bg="#202020",y=True,x=False):
+    root_frame_for_canvas = LabelFrame(window,bd=label_bd,bg=label_bg)
+    canvas = Canvas(root_frame_for_canvas,bg=label_bg,bd=label_bd,highlightthickness=0)
+    scrollbar = ttk.Scrollbar(root_frame_for_canvas, orient="vertical", command=canvas.yview)
+    scrollable_frame = LabelFrame(canvas,bd=0,highlightthickness=0,bg=label_bg)
+    
+    scrollable_frame.bind(
+        "<Configure>",
+        lambda e: canvas.configure(
+            scrollregion=canvas.bbox("all")
+        )
+    )
+
+    canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+    if(y==True):
+        canvas.configure(yscrollcommand=scrollbar.set)
+    if(x==True):
+        canvas.configure(xscrollcommand=scrollbar.set)
+
+    #for i in range(1000):
+    #    ttk.Label(scrollable_frame, text=i).pack()
+
+
+    def scroll_vertical(event):
+        """
+        Enable vertical scrolling by mouse scroll
+        """
+        if scrollbar.get() != (0.0, 1.0):
+            canvas.yview_scroll(-1 * int(event.delta / 60), "units")
+
+
+    def scroll_horizontal(event):
+        """
+        Enable horizontal scrolling by shift + mouse scroll
+        """
+        if scrollbar.get() != (0.0, 1.0):
+            canvas.xview_scroll(-1 * int(event.delta / 60), "units")
+
+
+    def bound_to_mousewheel(event):
+        """
+        Bound scrollbar to mouse wheel
+        """
+
+        canvas.bind_all('<MouseWheel>', scroll_vertical)
+        canvas.bind_all('<Shift-MouseWheel>', scroll_horizontal)
+
+
+    def unbound_to_mousewheel(event):
+        """
+        Unbound scrollbar to mouse wheel
+        """
+
+        canvas.unbind_all('<MouseWheel>')
+        canvas.unbind_all('<Shift-MouseWheel>')
+    
+    canvas.bind("<Enter>", bound_to_mousewheel)
+    canvas.bind("<Leave>", unbound_to_mousewheel)
+
+    root_frame_for_canvas.pack(fill="both",expand=True)
+    scrollbar.pack(side="right", fill="y")
+    canvas.pack(side="left", fill="both", expand=True)
+    return scrollable_frame #comment this line and uncomment the upper one if you want to change it. 
+    
 
 
 
@@ -46,7 +118,7 @@ def Zen_mode(root):
 
 
 def zen_mode(root):
-    root.wm_attributes("-topmost",1)
+    #root.wm_attributes("-topmost",1)
     screen_width = int(abs((root.winfo_screenwidth()) *0.7))
     #print(screen_width)
 
@@ -81,6 +153,21 @@ def page_geometry(root):
     root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
 
 
+def messagebox_geometry(root):
+    root.wm_attributes("-topmost",1)
+    screen_width = int(abs((root.winfo_screenwidth()) *0.2))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.4))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.25))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.4))
+
+
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
 
 
 classic='classic'
@@ -96,7 +183,8 @@ purple='#99004444' #for purple
 reddish='#99000044' #for reddish
 full_reddish='#99000099' #for full reddish
 
-
+def do_nothing():
+    pass
 
 
 def label(frame_name,text):
@@ -105,8 +193,8 @@ def label(frame_name,text):
 
 
 
-def label_button(frame_name,text):
-    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg,bd=0)
+def label_button(frame_name,text,command=do_nothing):
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg,bd=0,command=command)
     def enter(e):
         #print("hovered")
         l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
@@ -151,6 +239,29 @@ def button(frame_name, text,command):
     a.bind("<Enter>",enter)
     return a
 
+
+
+def button2(frame_name, text,command):
+
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    def enter(e):
+        #print("hovered")
+        a.config(bd=0,activebackground="#7e7e7e",bg="#3f3f3f",fg="#ffffff",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+    a.bind("<Leave>",leave)
+    a.bind("<Enter>",enter)
+    return a
+
+
+
+
+
+
 button_activebackground="#444444" 
 button_bg="#202020" 
 button_fg="#999999" 
@@ -167,6 +278,7 @@ def left_frame(frame_name):
     a.pack(side=LEFT,fill=Y,ipadx=75,ipady=2,pady=1)
     #print(a.config())
     return a
+
 
 
 def left_frame_button(frame_name, text,command):
@@ -319,10 +431,10 @@ def apply_theme(window,theme):
 def menu_bar(root):
     r=root
     menu_bar=LabelFrame(r,bg="#000000",fg="#000000",bd=0,highlightthickness=0)
-    menu_bar.pack(fill=X,side=TOP)
+    menu_bar.pack(fill=X,side=TOP )
     return menu_bar
 
-def menu_button(frame_name,text,command):
+def menu_button(frame_name,text,command=do_nothing):
     menu_bar=frame_name
     #print(menu_bar)
     l=Button(menu_bar,font=('calibri',"11"),text=text,border=label_bd,bg="#000000",fg="#999999",command=command)
@@ -755,3 +867,43 @@ def page(text):
     root.focus_force()
     #root.mainloop()
     return root
+
+
+def messagebox(title,message="Your Message Here...",text="ok"):
+    root=Tk()
+    root.overrideredirect(True)
+    root.attributes("-topmost",1)
+    page_title_frame=LabelFrame(root,highlightthickness=0,bg=label_bg,bd=0)
+    page_title_frame.pack(fill=X,)
+    title_label=label(page_title_frame,text=title)
+    title_label.config(font=('Calibri',16))
+    title_label.pack(side=LEFT,ipadx=5,ipady=3)
+    messagebox_geometry(root)
+    root.config(bg=label_bg)
+    apply_theme(root,dark_mode)
+    def close_window(e):
+        root.destroy()
+    root.bind('<Escape>',close_window)
+    root.bind('<FocusOut>',close_window)
+    root.focus_force()
+    message=Label(root,text=message,bg=label_bg,bd=label_bd,fg=label_fg,)
+    message.pack(fill=BOTH,pady=50)
+    b=button(root,text="    ok    ",command=lambda: root.destroy())
+    b.config(font=('Calibri',14))
+    b.pack(fill=X,side=BOTTOM,pady=10)
+    #root.mainloop()
+    return root
+
+
+
+
+
+def navigate_to(main_frame ,welcome_page):
+    main_frame.forget()
+    welcome_page.pack(fill=BOTH,expand=True)
+
+
+
+
+
+
