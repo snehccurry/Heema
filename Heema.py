@@ -4,7 +4,7 @@ from tkinter import ttk
 import ctypes
 from ctypes import windll
 from BlurWindow.blurWindow import blur,GlobalBlur
-
+from PIL import Image, ImageTk
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 #############################
@@ -25,7 +25,72 @@ label_fg="#018574"
     return root
     #root.mainloop()"""
 
+def do_nothing():
+    pass
+
 global screen_width,screen_height
+
+def create_notification(text="Text for windows comes here",button1="Button1",button2="Button2",command1=do_nothing,command2=do_nothing,title="Title comes here...",description="Description comes here..."):
+    root=tk.Tk()
+    root.overrideredirect(True)
+    root.config(bg="#202020")
+    title_frame=LabelFrame(root,bd=0,bg=label_bg)
+    title_label=Label(title_frame, text=text,bg=label_bg,fg="#ffffff")
+    title_label.pack(side=LEFT,fill=X)
+    title_frame.pack(fill=X)
+
+    screen_width = int(abs((root.winfo_screenwidth()) *0.20))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.79))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.20))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.75))
+
+    root.attributes("-topmost",1)
+
+    def close_notification():
+        root.destroy()
+
+    close_button=white_label_button(root,text="×",command=close_notification)
+    close_button.config(font=('Calibri',18))
+
+
+    #close_button.pack()
+    close_button.place(relx = 0.97, rely =0.05,anchor="center")
+    #.place(x=60,y=60)
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+    main_button_frame=LabelFrame(bg=label_bg,bd=0,highlightthickness=0)
+    main_button_frame.pack(side=BOTTOM,fill=X,)
+    import time
+
+    button_frame1=LabelFrame(main_button_frame,bg=label_bg,bd=0,highlightthickness=2)
+    button_frame2=LabelFrame(main_button_frame,bg=label_bg,bd=0,highlightthickness=2)
+
+    padding=6
+    button_frame2.pack(fill=X, side=RIGHT,padx=padding-2,pady=padding-1)
+    button_frame1.pack(fill=X, side=RIGHT,padx=padding-2,pady=padding-1)
+    
+    button1=button(button_frame1,text=button1,command=command1)
+    button1.config(font=('calibri',12),highlightthickness=2,bg="#202020")
+    button1.pack(fill=X,side=RIGHT,ipadx=0)
+
+    button2=button(button_frame2,text=button2,command=command2)
+    button2.config(font=('calibri',12),highlightthickness=2)
+    button2.pack(fill=X,side=RIGHT,ipadx=0)
+
+    Title_label=Label(root,text=title,)
+    for i in range(screen_width_place*2,screen_width_place,-3):
+        #print(screen_width_place)
+        root.geometry(f"{screen_width}x{screen_height}+{i}+{screen_height_place}")
+        root.update()
+    return root
+
+
 def create_window(text="Text for windows comes here"):
     root=tk.Tk()
     title_bar(root,text=text)
@@ -183,9 +248,6 @@ purple='#99004444' #for purple
 reddish='#99000044' #for reddish
 full_reddish='#99000099' #for full reddish
 
-def do_nothing():
-    pass
-
 
 def label(frame_name,text):
     a=Label(frame_name,bd=label_bd,text=text,bg="#202020",fg="#ffffff")
@@ -207,8 +269,8 @@ def label_button(frame_name,text,command=do_nothing):
     l.bind("<Leave>",leave)
     l.bind("<Enter>",enter)
     return l
-def white_label_button(frame_name,text):
-    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg="#999999")
+def white_label_button(frame_name,text,command=do_nothing):
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg="#999999",command=command)
     def enter(e):
         #print("hovered")
         l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
@@ -239,6 +301,21 @@ def button(frame_name, text,command):
     a.bind("<Enter>",enter)
     return a
 
+def button1(frame_name, text,command):
+
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
+    def enter(e):
+        #print("hovered")
+        a.config(bd=0,activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        a.config(bd=0,activebackground="#444444",bg="#202020",fg="#999999")
+    a.bind("<Leave>",leave)
+    a.bind("<Enter>",enter)
+    return a
 
 
 def button2(frame_name, text,command):
@@ -848,7 +925,7 @@ def search_box():
 
 
 
-def page(text):
+def menu_page(text):
     root=Tk()
     root.overrideredirect(True)
     root.attributes("-topmost",1)
@@ -893,6 +970,50 @@ def messagebox(title,message="Your Message Here...",text="ok"):
     b.pack(fill=X,side=BOTTOM,pady=10)
     #root.mainloop()
     return root
+
+
+######################for the image engine
+
+
+def image(frame_name,path):
+    image1 = Image.open(path)
+    test = ImageTk.PhotoImage(image1)
+
+    label1 = Label(frame_name,image=test)
+    label1.image = test
+
+    return label1
+
+def resized_image(path,size):
+    image1 = Image.open(path)
+    
+    resize_image = image1.resize((size,size))
+    test = ImageTk.PhotoImage(resize_image)
+    label1 = Label(image=test)
+
+    label1.image = test
+
+    return label1
+
+def zen_image(frame_name,path):
+    image1 = Image.open(path)
+    root=frame_name
+    screen_width = int(abs((root.winfo_screenwidth()) *0.93))
+    screen_height=int(abs((root.winfo_screenheight()))*0.96)
+    print(screen_height,screen_width)
+    resize_image = image1.resize((screen_width,screen_height))
+    test = ImageTk.PhotoImage(resize_image)
+    label1 = Label(image=test)
+
+    label1.image = test
+
+    return label1
+
+
+
+
+
+########################## image engine programs
 
 
 
