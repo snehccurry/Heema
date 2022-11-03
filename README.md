@@ -5,6 +5,7 @@ All you need is that heema.py and run any of the test files, either test.py or t
 
 Additional requirement: BlurWindow==1.2.1 do pip install blurwindow, and it will work.
 
+![heema](https://user-images.githubusercontent.com/59841219/199723121-65c7a45b-a0e0-4137-88b5-19bf3953cb15.png)
 
 
 NEW FEATURES: 
@@ -102,7 +103,7 @@ Scrollview Bar: 	#Looking for someone to create one, IDK how that works, lolz. P
 
 
 
-#roadmap addons:
+Upcoming new features that will make your apps stand out from the rest:
 
 
 1) notification maker
