@@ -117,7 +117,7 @@ l1.pack(side=TOP)
 
 labelframe1=LabelFrame(root,bg=bg ,text="Buttons for next",bd=label_bd)
 labelframe1.pack()
-
+"""
 
 
 from PIL import ImageTk, Image
@@ -135,7 +135,7 @@ if global_theme=='light_mode':
     image_label.forget()
 
 
-
+"""
 
 
 
