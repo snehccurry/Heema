@@ -98,6 +98,13 @@ def create_window(text="Text for windows comes here"):
     Zen_mode(root)
     return root
 
+def create_window_with_no_title_bar(text="Text for windows comes here"):
+    root=tk.Tk()
+    root.config(bg="#202020")
+    Zen_mode(root)
+    return root
+
+
 def scrollable_frame(window, bg="#202020",y=True,x=False):
     root_frame_for_canvas = LabelFrame(window,bd=label_bd,bg=label_bg)
     canvas = Canvas(root_frame_for_canvas,bg=label_bg,bd=label_bd,highlightthickness=0)
@@ -249,8 +256,8 @@ reddish='#99000044' #for reddish
 full_reddish='#99000099' #for full reddish
 
 
-def label(frame_name,text):
-    a=Label(frame_name,bd=label_bd,text=text,bg="#202020",fg="#ffffff")
+def label(frame_name,text,bg=label_bg):
+    a=Label(frame_name,bd=label_bd,text=text,bg=bg,fg="#ffffff")
     return a
 
 
@@ -423,6 +430,20 @@ global_theme="classic"
 ###############################################Function for themes
 
 def apply_theme(window,theme):
+    classic='classic'
+    super_dark_mode='#111111FF' #for super dark mode
+    dark_mode='#11111199' #for dark mode
+    light_mode='#30121244' #for light mode
+    light_blue_cyan_mode='#66999999' #for light blue-cyan theme
+    light_bluish_mode='#44999999' #for light bluish theme
+    purple_mode='#44009999' #for purple theme
+    reddish_purple='#30121244' #for reddish purple
+    more_reddish_purple='#30121277' #for more redish purple
+    purple='#99004444' #for purple
+    reddish='#99000044' #for reddish
+    full_reddish='#99000099' #for full reddish
+
+
 
     global global_theme
     style=ttk.Style()
@@ -925,18 +946,21 @@ def search_box():
 
 
 
-def menu_page(text):
-    root=Tk()
+def menu_page(text,bg=label_bg):
+
+    root=tk.Tk()
     root.overrideredirect(True)
     root.attributes("-topmost",1)
-    page_title_frame=LabelFrame(root,highlightthickness=0,bg=label_bg,bd=0)
+
+    page_title_frame=LabelFrame(root,highlightthickness=0,bg=bg,bd=0)
     page_title_frame.pack(fill=X,)
-    title=label(page_title_frame,text=text)
+    title=label(page_title_frame,text=text,bg=bg)
     title.config(font=('Calibri',11))
     title.pack(side=LEFT,ipadx=5,ipady=3)
     page_geometry(root)
-    root.config(bg=label_bg)
+
     apply_theme(root,dark_mode)
+    root.config(bg=bg)
     def close_window(e):
         root.destroy()
     root.bind('<Escape>',close_window)
@@ -977,7 +1001,7 @@ def messagebox(title,message="Your Message Here...",text="ok"):
 
 def image(frame_name,path):
     image1 = Image.open(path)
-    test = ImageTk.PhotoImage(image1)
+    test = ImageTk.PhotoImage(image1,master = frame_name)
 
     label1 = Label(frame_name,image=test)
     label1.image = test
