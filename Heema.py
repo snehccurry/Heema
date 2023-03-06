@@ -1003,7 +1003,7 @@ def image(frame_name,path):
     image1 = Image.open(path)
     test = ImageTk.PhotoImage(image1,master = frame_name)
 
-    label1 = Label(frame_name,image=test)
+    label1 = Label(frame_name,image=test,bg=label_bg,bd=label_bd)
     label1.image = test
 
     return label1
