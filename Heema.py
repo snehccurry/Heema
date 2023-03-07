@@ -98,9 +98,9 @@ def create_window(text="Text for windows comes here"):
     Zen_mode(root)
     return root
 
-def create_window_with_no_title_bar(text="Text for windows comes here"):
+def create_window_with_no_title_bar(text="Text for windows comes here",bg="#202020"):
     root=tk.Tk()
-    root.config(bg="#202020")
+    root.config(bg=bg)
     Zen_mode(root)
     return root
 
@@ -261,6 +261,39 @@ def label(frame_name,text,bg=label_bg):
     return a
 
 
+back_buttons=['','','','']
+back_buttons_all=""
+
+
+
+def back_button(frame_name,text="",command=do_nothing):
+    l=Button(frame_name,font=('SegoeUI',"26"),text=text,border=label_bd,bg=label_bg,fg="#ffffff",bd=0,command=command)
+    def enter(e):
+        #print("hovered")
+        l.config(text="",activebackground="#202020",bg="#202020")#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        l.config(text="",bg="#202020",fg="#ffffff")
+    l.bind("<Leave>",leave)
+    l.bind("<Enter>",enter)
+    return l
+def forward_button(frame_name,text="",command=do_nothing):
+    l=Button(frame_name,font=('SegoeUI',"26"),text=text,border=label_bd,bg=label_bg,fg="#ffffff",bd=0,command=command)
+    def enter(e):
+        #print("hovered")
+        l.config(text="",activebackground="#202020",bg="#202020")#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        l.config(text="",bg="#202020",fg="#ffffff")
+    l.bind("<Leave>",leave)
+    l.bind("<Enter>",enter)
+    return l
 
 def label_button(frame_name,text,command=do_nothing):
     l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg,bd=0,command=command)
@@ -287,6 +320,21 @@ def white_label_button(frame_name,text,command=do_nothing):
     def leave(e):
         #print("left")
         l.config(bg="#202020",fg="#999999")
+    l.bind("<Leave>",leave)
+    l.bind("<Enter>",enter)
+    return l
+
+def orange_label_button(frame_name,text,command=do_nothing):
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg="#CC4329",command=command)
+    def enter(e):
+        #print("hovered")
+        l.config(activebackground="#000000",bg="#000000",fg="#ffffff",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        l.config(bg="#000000",fg="#CC4329")
     l.bind("<Leave>",leave)
     l.bind("<Enter>",enter)
     return l
@@ -1008,12 +1056,12 @@ def image(frame_name,path):
 
     return label1
 
-def resized_image(path,size):
+def resized_image(frame_name,path,size,bg=label_bg):
     image1 = Image.open(path)
     
     resize_image = image1.resize((size,size))
-    test = ImageTk.PhotoImage(resize_image)
-    label1 = Label(image=test)
+    test = ImageTk.PhotoImage(resize_image,master = frame_name)
+    label1 = Label(frame_name,image=test,bd=0,bg=label_bg)
 
     label1.image = test
 
@@ -1026,8 +1074,8 @@ def zen_image(frame_name,path):
     screen_height=int(abs((root.winfo_screenheight()))*0.96)
     print(screen_height,screen_width)
     resize_image = image1.resize((screen_width,screen_height))
-    test = ImageTk.PhotoImage(resize_image)
-    label1 = Label(image=test)
+    test = ImageTk.PhotoImage(resize_image,master = frame_name)
+    label1 = Label(frame_name,image=test,bd=0)
 
     label1.image = test
 
@@ -1046,6 +1094,12 @@ def zen_image(frame_name,path):
 def navigate_to(main_frame ,welcome_page):
     main_frame.forget()
     welcome_page.pack(fill=BOTH,expand=True)
+
+
+
+
+
+
 
 
 
