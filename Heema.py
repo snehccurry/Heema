@@ -1100,9 +1100,3 @@ def navigate_to(main_frame ,welcome_page):
 
 
 
-
-
-
-
-
-
