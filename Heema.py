@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import *
+from tkinter.font import Font
 from tkinter import ttk
 import ctypes
 from ctypes import windll
@@ -51,6 +52,7 @@ def create_notification(text="Text for windows comes here",button1="Button1",but
 
     root.attributes("-topmost",1)
 
+
     def close_notification():
         root.destroy()
 
@@ -101,6 +103,7 @@ def create_window(text="Text for windows comes here"):
 def create_window_with_no_title_bar(text="Text for windows comes here",bg="#202020"):
     root=tk.Tk()
     root.config(bg=bg)
+    root.overrideredirect(True)
     Zen_mode(root)
     return root
 
@@ -171,6 +174,74 @@ def scrollable_frame(window, bg="#202020",y=True,x=False):
     
 
 
+
+
+
+class create_safe_keypad:
+  def __init__(self, frame_name):
+    self.frame_name = frame_name
+    self.result = tk.StringVar()
+    self.full_text=""
+    self.bigFont=Font(root=frame_name,family="Helvetica",size=20,weight="bold",underline=0,overstrike=0,)
+    l1=Entry(frame_name,bg="#ffffff",bd=0,font=("SegoeUI",18))
+    l1.pack(ipadx=50,pady=10,side=TOP)
+    main_frame=tk.LabelFrame(frame_name,bg=label_bg,bd=label_bd)
+    main_frame.pack()
+    buttons_frame=tk.LabelFrame(main_frame,bg=label_bg,bd=0)
+    buttons_frame.pack()
+    """
+    _1=button5(buttons_frame,text="1",command=lambda:update_text(self,text=1))
+    _1.pack(ipadx=15,pady=3,padx=3,side=LEFT)
+    _2=button5(buttons_frame,text="2",command=lambda:update_text(self,text=2))
+    _2.pack(ipadx=15,pady=3,padx=3,side=LEFT)
+    _3=button5(buttons_frame,text="3",command=lambda:update_text(self,text=3))
+    _3.pack(ipadx=15,pady=3,padx=3,side=LEFT)
+    """
+
+    _1=button5(buttons_frame,text="1",command=lambda:update_text(self,text=1))
+    _1.grid(row=0,column=0,ipadx=15,pady=3,padx=3)
+    _2=button5(buttons_frame,text="2",command=lambda:update_text(self,text=2))
+    _2.grid(row=0,column=1,ipadx=15,pady=3,padx=3)
+    _3=button5(buttons_frame,text="3",command=lambda:update_text(self,text=3))
+    _3.grid(row=0,column=2,ipadx=15,pady=3,padx=3)
+
+    _4=button5(buttons_frame,text="4",command=lambda:update_text(self,text=4))
+    _4.grid(row=1,column=0,ipadx=15,pady=3,padx=3)
+    _5=button5(buttons_frame,text="5",command=lambda:update_text(self,text=5))
+    _5.grid(row=1,column=1,ipadx=15,pady=3,padx=3)
+    _6=button5(buttons_frame,text="6",command=lambda:update_text(self,text=6))
+    _6.grid(row=1,column=2,ipadx=15,pady=3,padx=3)
+
+
+    _7=button5(buttons_frame,text="7",command=lambda:update_text(self,text=7))
+    _7.grid(row=2,column=0,ipadx=15,pady=3,padx=3)
+    _8=button5(buttons_frame,text="8",command=lambda:update_text(self,text=8))
+    _8.grid(row=2,column=1,ipadx=15,pady=3,padx=3)
+    _9=button5(buttons_frame,text="9",command=lambda:update_text(self,text=9))
+    _9.grid(row=2,column=2,ipadx=15,pady=3,padx=3)
+
+    _7=button5(buttons_frame,text="0",command=lambda:update_text(self,text=0))
+    _7.grid(row=3,column=0,ipadx=15,pady=3,padx=3,columnspan = 2, sticky = tk.W+tk.E)
+    _9=button5(buttons_frame,text=".",command=lambda: update_text(self,text=0))
+    _9.grid(row=3,column=2,ipadx=15,pady=3,padx=3,columnspan = 2, sticky = tk.W+tk.E)
+
+    _clear=button5(buttons_frame,text="⌫",command=lambda:update_text(self,text="clear"))
+    _clear.config(font=("SegoeUI",16))
+    _clear.grid(row=0,column=5,ipadx=15,pady=3,padx=3,rowspan = 4, sticky = tk.N+tk.S)
+
+
+    def update_text(self,text):
+      if(text!="clear"):
+        self.full_text=f"{self.full_text}"+f"{text}"
+        l1.insert(END,text)
+      elif(text=="clear"):
+        l1.delete(len(l1.get()) - 1, END)
+  def get_text(self):
+    return self.full_text
+  def get_text_and_clear(self):
+    x=self.full_text
+    self.full_text=""
+    return x
 
 
 def Zen_mode(root):
@@ -263,7 +334,7 @@ def label(frame_name,text,bg=label_bg):
 
 back_buttons=['','','','']
 back_buttons_all=""
-
+keyboard_buttons="⌨⌫"
 
 
 def back_button(frame_name,text="",command=do_nothing):
@@ -372,8 +443,43 @@ def button1(frame_name, text,command):
     a.bind("<Enter>",enter)
     return a
 
-
 def button2(frame_name, text,command):
+
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    def enter(e):
+        #print("hovered")
+        a.config(bd=0,activebackground="#7e7e7e",bg="#EBEBEB",fg="#000000",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+    a.bind("<Leave>",leave)
+    a.bind("<Enter>",enter)
+    return a
+
+
+
+
+def button3(frame_name, text,command):
+
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    def enter(e):
+        #print("hovered")
+        a.config(bd=0,activebackground="#CC4329",bg="#EBEBEB",fg="#000000",)#018574
+        #7BD5F5
+        #205565
+        
+    def leave(e):
+        #print("left")
+        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+    a.bind("<Leave>",leave)
+    a.bind("<Enter>",enter)
+    return a
+
+
+def button4(frame_name, text,command):
 
     a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
     def enter(e):
@@ -389,10 +495,21 @@ def button2(frame_name, text,command):
     a.bind("<Enter>",enter)
     return a
 
+def button5(frame_name, text,command):
 
-
-
-
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    def enter(e):
+        #print("hovered")
+        a.config(bd=0,activebackground="#EBEBEB",bg="#CC4329",fg="#ffffff",)#018574
+        #7BD5F5
+        #2055651
+        
+    def leave(e):
+        #print("left")
+        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+    a.bind("<Leave>",leave)
+    a.bind("<Enter>",enter)
+    return a
 
 button_activebackground="#444444" 
 button_bg="#202020" 
@@ -991,6 +1108,39 @@ def search_box():
     """
 
     root.mainloop()
+
+
+def dock_geometry(root,side):
+    root.wm_attributes("-topmost",1)
+    screen_width = int(abs((root.winfo_screenwidth()) *0.7))
+    #print(screen_width)
+
+    screen_width_place=int(abs((root.winfo_screenwidth()) *0.15))
+
+
+    screen_height = int(abs((root.winfo_screenheight()) *0.2))
+    #print(screen_height)
+    screen_height_place = int(abs((root.winfo_screenheight()) *0.02))
+
+
+
+    root.geometry(f"{screen_width}x{screen_height}+{screen_width_place}+{screen_height_place}")
+
+def create_dock(bg=label_bg,side="bottom"):
+    root=tk.Tk()
+    root.overrideredirect(True)
+    root.attributes("-topmost",1)
+
+    dock_geometry(root,side=side)
+    apply_theme(root,dark_mode)
+    root.config(bg=bg)
+    def close_window(e):
+        root.destroy()
+    root.bind('<Escape>',close_window)
+    root.focus_force()
+    #root.mainloop()
+    return root
+
 
 
 
