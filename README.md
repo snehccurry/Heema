@@ -106,24 +106,27 @@ Scrollview Bar: 	#Looking for someone to create one, IDK how that works, lolz. P
 Upcoming new features that will make your apps stand out from the rest:
 
 
-1) notification maker
+1) notification maker ✔
 2) animate floating windows (not all will animate, like the menu pages) change the name to menu pages.
 3) color modes, themes.
-4) navigation
-5) change the page to menu_page
+4) navigation ✔
+5) change the page to menu_page ✔
 6) complete the check box and select item
 7) complete the searchbox with logic and click effects. 
-8) support for videos
-9) support for images -_-
-10)proper format for making pages
+8) support for videos 
+9) support for images -_- ✔
+10)proper format for making pages ✔
 11) tiles and texts, if texts cross the width then use eclipes. 
 12) at least a proper api for making apps. 
-13) horizontal scrolling for tkinter apps.
-14) scrollbar with no scrollbar
+13) horizontal scrolling for tkinter apps. 
+14) scrollbar with no scrollbar 
 15) autohide scrollbar
 16) Themes and color combinations.
-17) bordered buttons
+17) bordered buttons 
 18) animations+text animations
+19) windows theme buttons, like back buttons, etc. ✔
+20) card button
+21) icon card label
 
 
 
