@@ -370,7 +370,7 @@ def forward_button(frame_name,text="",command=do_nothing):
     return l
 
 def label_button(frame_name,text,command=do_nothing,fg="#009999",fg_on_hover="#ffffff",font=("Segoe UI",20),bd=0,bd_on_hover=0):
-    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=frame_name["bg"],fg=label_fg,bd=0,command=command)
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=frame_name["bg"],fg=fg,bd=0,command=command)
     def enter(e):
         #print("hovered")
         l.config(fg=fg_on_hover,activebackground=frame_name["bg"])#018574
