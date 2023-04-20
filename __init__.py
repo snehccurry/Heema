@@ -1223,8 +1223,8 @@ def image(frame_name,path,bg=label_bg):
     return label1
 def create_image(frame_name,path,size,bg=label_bg):
     image1 = Image.open(path)
-    
-    resize_image = image1.resize((size,size))
+    x,y=size
+    resize_image = image1.resize((x,y))
     test = ImageTk.PhotoImage(resize_image,master = frame_name)
     label1 = Label(frame_name,image=test,bd=0,bg=label_bg)
 
