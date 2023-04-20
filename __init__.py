@@ -414,6 +414,18 @@ def orange_label_button(frame_name,text,command=do_nothing):
     return l
 
 
+def frame(frame_name,bd=0,bg=""):
+    if(bg==""):
+        bg=frame_name["bg"]
+    return Frame(frame_name,bg=bg,bd=bd)
+
+
+def label_frame(frame_name,bd=0,bg=""):
+    if(bg==""):
+        bg=frame_name["bg"]
+    return LabelFrame(frame_name,bg=bg,bd=bd)
+
+
 def button(frame_name, text,command,bg="",fg="#999999",activebackground="#444444",bg_on_hover="#444444",fg_on_hover="#ffffff",activebackground_on_hover="#7e7e7e",font=("Segoe UI",20),bd=0,bd_on_hover=0):
     if(bg==""):
         bg=frame_name["bg"]
@@ -956,7 +968,6 @@ def title_bar(root,text):
     root.bind("<FocusIn>",deminimize) # to view the window by clicking on the window icon on the taskbar
     root.bind("<FocusOut>",deminimize)
     root.after(1, lambda: set_appwindow(root)) # to see the icon on the task bar
-
 
     #YOUR CODE GOES between the lines :)
     # ===================================================================================================
