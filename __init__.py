@@ -16,6 +16,7 @@ label_bd=0
 label_bg="#202020"
 label_fg="#018574"
 symbols=""
+
 #############################           Theme Names (themenames)
 
 """def page():
@@ -327,8 +328,10 @@ reddish='#99000044' #for reddish
 full_reddish='#99000099' #for full reddish
 
 
-def label(frame_name,text,bg=label_bg):
-    a=Label(frame_name,bd=label_bd,text=text,bg=bg,fg="#ffffff")
+def label(frame_name,text,bg="",fg="white",font=("Segoe UI",20)):
+    if(bg==""):
+        bg=frame_name["bg"]
+    a=Label(frame_name,bd=label_bd,text=text,bg=bg,fg=fg,font=font)
     return a
 
 
@@ -366,17 +369,17 @@ def forward_button(frame_name,text="",command=do_nothing):
     l.bind("<Enter>",enter)
     return l
 
-def label_button(frame_name,text,command=do_nothing):
-    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=label_bg,fg=label_fg,bd=0,command=command)
+def label_button(frame_name,text,command=do_nothing,fg="#009999",fg_on_hover="#ffffff",font=("Segoe UI",20),bd=0,bd_on_hover=0):
+    l=Button(frame_name,font=('calibri',"11"),text=text,border=label_bd,bg=frame_name["bg"],fg=label_fg,bd=0,command=command)
     def enter(e):
         #print("hovered")
-        l.config(activebackground="#202020",bg="#202020",fg="#ffffff",)#018574
+        l.config(fg=fg_on_hover,activebackground=frame_name["bg"])#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        l.config(bg="#202020",fg="#009999")
+        l.config(fg=fg)
     l.bind("<Leave>",leave)
     l.bind("<Enter>",enter)
     return l
@@ -411,50 +414,52 @@ def orange_label_button(frame_name,text,command=do_nothing):
     return l
 
 
-def button(frame_name, text,command):
-
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
+def button(frame_name, text,command,bg="",fg="#999999",activebackground="#444444",bg_on_hover="#444444",fg_on_hover="#ffffff",activebackground_on_hover="#7e7e7e",font=("Segoe UI",20),bd=0,bd_on_hover=0):
+    if(bg==""):
+        bg=frame_name["bg"]
+    a=Button(frame_name,text=text, command=command,border=0,activebackground=activebackground,bg=bg,fg=fg, font=font,bd=0)
     def enter(e):
         #print("hovered")
-        a.config(bd=0,activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
+        a.config(bd=bd_on_hover,activebackground=activebackground_on_hover,fg=fg_on_hover)#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        a.config(bd=0,activebackground="#444444",bg="#202020",fg="#999999")
+        a.config(bd=bd,activebackground=activebackground,bg=bg,fg=fg)
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
 
-def button1(frame_name, text,command):
-
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#202020",fg="#999999", font=('calibri',"20"),bd=0)
+def button1(frame_name, text,command,bg="",fg="#999999",activebackground="#444444",bg_on_hover="#444444",fg_on_hover="#ffffff",activebackground_on_hover="#7e7e7e",font=("Segoe UI",20),bd=0,bd_on_hover=0):
+    if(bg==""):
+        bg=frame_name["bg"]
+    a=Button(frame_name,text=text, command=command,border=0,activebackground=activebackground,bg=bg,fg=fg, font=font,bd=bd)
     def enter(e):
         #print("hovered")
-        a.config(bd=0,activebackground="#7e7e7e",bg="#444444",fg="#ffffff",)#018574
+        a.config(bd=bd_on_hover,activebackground=activebackground_on_hover,bg=bg_on_hover,fg=fg_on_hover,)#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        a.config(bd=0,activebackground="#444444",bg="#202020",fg="#999999")
+        a.config(bd=bd,activebackground=activebackground,bg=bg,fg=fg)
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
 
-def button2(frame_name, text,command):
+def button2(frame_name, text,command,bg="#2f2f2f",fg="#ffffff",activebackground="#444444",bg_on_hover="#EBEBEB",fg_on_hover="#000000",activebackground_on_hover="#7e7e7e",font=("Segoe UI",20),bd=0,bd_on_hover=0):
 
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    a=Button(frame_name,text=text, command=command,border=0,activebackground=activebackground,bg=bg,fg=fg, font=font,bd=0)
     def enter(e):
         #print("hovered")
-        a.config(bd=0,activebackground="#7e7e7e",bg="#EBEBEB",fg="#000000",)#018574
+        a.config(bd=bd_on_hover,activebackground=activebackground_on_hover,bg=bg_on_hover,fg=fg_on_hover,)#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+        a.config(bd=bd,activebackground=activebackground,bg=bg,fg=fg)
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
@@ -462,9 +467,9 @@ def button2(frame_name, text,command):
 
 
 
-def button3(frame_name, text,command):
+def button3(frame_name, text,command,bg="",fg="",activebackground="",bg_on_hover="",fg_on_hover="",activebackground_on_hover="",font=("Segoe UI",20),bd=0,bd_on_hover=0):
 
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=font,bd=0)
     def enter(e):
         #print("hovered")
         a.config(bd=0,activebackground="#CC4329",bg="#EBEBEB",fg="#000000",)#018574
@@ -477,36 +482,36 @@ def button3(frame_name, text,command):
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
+#bg="",fg="",activebackground="",bg_on_hover="",fg_on_hover="",activebackground_on_hover="",font=("Segoe UI",20),bd=0,bd_on_hover=0
 
+def button4(frame_name, text,command,bg="#2f2f2f",fg="#ffffff",activebackground="#444444",bg_on_hover="#3f3f3f",fg_on_hover="#ffffff",activebackground_on_hover="#7e7e7e",font=("Segoe UI",20),bd=0,bd_on_hover=0):
 
-def button4(frame_name, text,command):
-
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    a=Button(frame_name,text=text, command=command,border=0,activebackground=activebackground,bg=bg,fg=fg, font=font,bd=bd)
     def enter(e):
         #print("hovered")
-        a.config(bd=0,activebackground="#7e7e7e",bg="#3f3f3f",fg="#ffffff",)#018574
+        a.config(bd=bd_on_hover,activebackground=activebackground_on_hover,bg=bg_on_hover,fg=fg_on_hover,)#018574
         #7BD5F5
         #205565
         
     def leave(e):
         #print("left")
-        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+        a.config(bd=bd,activebackground=activebackground,bg=bg,fg=fg)
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
 
-def button5(frame_name, text,command):
+def button5(frame_name, text,command,bg="#2f2f2f",fg="#ffffff",activebackground="#444444",bg_on_hover="#CC4329",fg_on_hover="#ffffff",activebackground_on_hover="#EBEBEB",font=("Segoe UI",20),bd=0,bd_on_hover=0):
 
-    a=Button(frame_name,text=text, command=command,border=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff", font=('calibri',"20"),bd=0)
+    a=Button(frame_name,text=text, command=command,border=0,activebackground=activebackground,bg=bg,fg=fg, font=font,bd=0)
     def enter(e):
         #print("hovered")
-        a.config(bd=0,activebackground="#EBEBEB",bg="#CC4329",fg="#ffffff",)#018574
+        a.config(bd=bd_on_hover,activebackground=activebackground_on_hover,bg=bg_on_hover,fg=fg_on_hover,)#018574
         #7BD5F5
         #2055651
         
     def leave(e):
         #print("left")
-        a.config(bd=0,activebackground="#444444",bg="#2f2f2f",fg="#ffffff")
+        a.config(bd=bd,activebackground=activebackground,bg=bg,fg=fg)
     a.bind("<Leave>",leave)
     a.bind("<Enter>",enter)
     return a
@@ -1254,10 +1259,4 @@ def zen_image(frame_name,path):
 
 def navigate_to(main_frame ,welcome_page):
     main_frame.forget()
-    welcome_page.pack(fill=BOTH,expand=True)
-
-
-
-
-
-
+    welcome_page.pack(fill=BOTH,expand=True)       
