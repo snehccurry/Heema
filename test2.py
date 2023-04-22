@@ -25,10 +25,27 @@ menu_button7=menu_button(menu_bar, text="Help",command=help_page)
 
 
 def Welcome_page():
-    Welcome_page=LabelFrame(bd=0,bg=label_bg)
+    Welcome_page=scrollable_frame(window1)
+    
 
-    b1=button(Welcome_page,text="Hi",command=do_nothing)
-    b1.pack()
+    b1=button(Welcome_page,text="Hello Work",command=do_nothing)
+    b1.pack(anchor="center")
+    b2=button1(Welcome_page,text="Hello Work",command=do_nothing)
+    b2.pack()
+    b3=button2(Welcome_page,text="Hello Work",command=do_nothing)
+    b3.pack()
+    b4=button3(Welcome_page,text="Hello Work",command=do_nothing)
+    b4.pack()
+    b5=button4(Welcome_page,text="Hello Work",command=do_nothing)
+    b5.pack()
+    b6=button5(Welcome_page,text="Hello Work",command=do_nothing)
+    b6.pack()
+
+    image1=image(Welcome_page,path="C:\\Users\\The AR Station\\Pictures\\Spidey_shocked.jpg")
+    image1.pack()
+    for i in range(100):
+        label(Welcome_page,text=f"Scrollable frame test: {i}").pack(pady=10)
+
 
     label1=label_button(Welcome_page,text="Open Settings",command=do_nothing)
     label1.pack()
@@ -49,10 +66,10 @@ search_button=search_button(menu_bar, text="Search \t \U0001F50D", command=open_
 
 
 def printer():
-	print(f"Button 1 printed succesfully")
+    print(f"Button 1 printed succesfully")
 
 def printer2():
-	print(f"Button 2 printed succesfully")
+    print(f"Button 2 printed succesfully")
 
 
 left_frame=left_frame(frame_name=main_frame)
@@ -115,12 +132,14 @@ m.configure(font=('calibri','12'))
 a=button2(frame_name=main_frame,text="Hello world",command=printer)
 a.pack(side=TOP, ipadx=50)
 
+def navigator():
+    main_frame.pack_forget()
+    Welcome_page()
 
 
 
 
-welcome_page=Welcome_page()
-a2=button(frame_name=main_frame,text="Hello world",command=lambda: navigate_to(main_frame ,welcome_page))
+a2=button(frame_name=main_frame,text="Hello world",command=navigator)
 a2.pack(side=TOP, ipadx=50)
 
 
@@ -162,7 +181,7 @@ if global_theme=='light_mode':
 
 
 
-##################			ROOT MAINLOOP()
+##################          ROOT MAINLOOP()
 main_frame.mainloop()
 
 
