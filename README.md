@@ -84,7 +84,7 @@ Upcoming new features that will make your apps stand out from the rest:
 17) bordered buttons 
 18) animations+text animations
 19) windows theme buttons, like back buttons, etc. ✔
-20) card button
+20) card buttons (NEEDED, there are many examples of card buttons) that gives user more view about what is does, and also more information)
 21) icon card label
 
 
