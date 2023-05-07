@@ -1,3 +1,6 @@
+
+
+
 import sys
 import ctypes
 import platform
@@ -17,13 +20,14 @@ if MAC:
 settings["external_message_pump"] = True
 '''
 cef.Initialize(settings=settings)
-global app_url
+
 app_url="https://www.google.com"
 
 class BrowserFrame(tk.Frame):
     global app_url
-    def __init__(self,master=None, **kw):
+    def __init__(self,url="https://www.google.com",master=None, **kw):
         super().__init__(master,**kw)
+        self.app_url = url
         self.browser = None
         self.bind('<Configure>', self.on_configure)
 
@@ -49,7 +53,7 @@ class BrowserFrame(tk.Frame):
             win_id = self.get_window_handle()
             cef_winfo.SetAsChild(win_id, rect)
             #print("win info is: "+ str(cef_winfo))
-            self.browser = cef.CreateBrowserSync(cef_winfo, url=app_url)
+            self.browser = cef.CreateBrowserSync(cef_winfo, url=self.app_url)
 
             # start the browser handling loop
             self.cef_loop()
@@ -67,7 +71,6 @@ class BrowserFrame(tk.Frame):
     def cef_loop(self):
         cef.MessageLoopWork()
         self.after(10, self.cef_loop)
-
 
 
 
