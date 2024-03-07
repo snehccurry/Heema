@@ -96,3 +96,54 @@ Upcoming new features that will make your apps stand out from the rest:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024. add ons and continuation.
+
+
+lastClickX = 0
+lastClickY = 0
+
+
+def SaveLastClickPos(event):
+    global lastClickX, lastClickY
+    lastClickX = event.x
+    lastClickY = event.y
+
+
+def Dragging(event):
+
+	
+	x, y = event.x - lastClickX + window.winfo_x(), event.y - lastClickY + window.winfo_y()
+	window.geometry("+%s+%s" % (x , y))
+
+
+
+
+add this for windows movement through mouse tracking. u bind the events of the mouse with the position and done
+
+
+
+
+
