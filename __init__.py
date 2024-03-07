@@ -32,6 +32,32 @@ def do_nothing():
 
 global screen_width,screen_height
 
+
+
+def make_rounded(frame_name):
+
+    root=frame_name
+    # Get the handle of the tkinter window
+    # Constants from Windows API
+    DWMWA_WINDOW_CORNER_PREFERENCE = 33
+
+    # Function prototypes
+    DwmSetWindowAttribute = ctypes.windll.dwmapi.DwmSetWindowAttribute
+
+    hwnd = ctypes.windll.user32.GetForegroundWindow()
+
+    print(hwnd)
+    root.update()
+    # Set the corner preference
+    # 33 corresponds to DWMWA_WINDOW_CORNER_PREFERENCE
+    preference = 2  # 0 - Default, 1 - BottomRight, 2 - BottomLeft, 3 - TopRight, 4 - TopLeft
+    get_parent = ctypes.windll.user32.GetParent
+    hwnd = get_parent(root.winfo_id())
+    DwmSetWindowAttribute(hwnd, DWMWA_WINDOW_CORNER_PREFERENCE, ctypes.byref(ctypes.c_uint(preference)), ctypes.sizeof(ctypes.c_uint))
+
+
+
+
 def create_notification(text="Text for windows comes here",button1="Button1",button2="Button2",command1=do_nothing,command2=do_nothing,title="Title comes here...",description="Description comes here..."):
     root=tk.Tk()
     root.overrideredirect(True)
