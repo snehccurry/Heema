@@ -34,6 +34,25 @@ global screen_width,screen_height
 
 
 
+def allow_mouse_drag(frame_name):
+    window=frame_name
+    lastClickX = 0
+    lastClickY = 0
+
+    def SaveLastClickPos(event):
+        nonlocal lastClickX, lastClickY
+        lastClickX = event.x
+        lastClickY = event.y
+
+    def Dragging(event):
+        nonlocal lastClickX, lastClickY
+        x = event.x_root - lastClickX
+        y = event.y_root - lastClickY
+        window.geometry(f"+{x}+{y}")
+
+    window.bind('<Button-1>', SaveLastClickPos)
+    window.bind('<B1-Motion>', Dragging)
+
 def make_rounded(frame_name):
 
     root=frame_name
