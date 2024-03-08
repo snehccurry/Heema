@@ -67,7 +67,7 @@ Upcoming new features that will make your apps stand out from the rest:
 
 1) notification maker ✔
 2) animate floating windows (not all will animate, like the menu pages) change the name to menu pages.
-3) color modes, themes.
+3) color modes, themes. ✔ (need more themes though windows api and ideas)
 4) navigation ✔
 5) change the page to menu_page ✔
 6) complete the check box and select item
@@ -86,6 +86,11 @@ Upcoming new features that will make your apps stand out from the rest:
 19) windows theme buttons, like back buttons, etc. ✔
 20) card buttons (NEEDED, there are many examples of card buttons) that gives user more view about what is does, and also more information)
 21) icon card label
+22) rounded buttons
+23) rounded window ✔
+24) fix the auto pack features, add parameters to them, like left_frame, add kwargs.
+25) use ctypes to access winapi's windowmanager to access the themes locally.
+26) add support for dlls to support rounded corners on previous machines
 
 
 
