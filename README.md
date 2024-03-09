@@ -149,6 +149,9 @@ def Dragging(event):
 add this for windows movement through mouse tracking. u bind the events of the mouse with the position and done
 
 
+#based on what version of window it is, make tkinter use it's original window with titlebar and use windows api to change its color. also add custom theme to it. 
+
+
 
 
 
