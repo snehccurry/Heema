@@ -229,7 +229,7 @@ class create_safe_keypad:
     self.result = tk.StringVar()
     self.full_text=""
     self.bigFont=Font(root=frame_name,family="Helvetica",size=20,weight="bold",underline=0,overstrike=0,)
-    l1=Entry(frame_name,bg="#ffffff",bd=0,font=("SegoeUI",18))
+    l1=Entry(frame_name,bg="#ffffff",bd=0,font=("SegoeUI",18),show="*")
     l1.pack(ipadx=50,pady=10,side=TOP)
     main_frame=tk.LabelFrame(frame_name,bg=label_bg,bd=label_bd)
     main_frame.pack()
