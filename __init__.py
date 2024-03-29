@@ -282,6 +282,7 @@ class create_safe_keypad:
         l1.insert(END,text)
       elif(text=="clear"):
         l1.delete(len(l1.get()) - 1, END)
+        self.full_text = self.full_text[:-1] # this is supposed to update the text value for entry widget too.
   def get_text(self):
     return self.full_text
   def get_text_and_clear(self):
