@@ -118,7 +118,7 @@ Upcoming new features that will make your apps stand out from the rest:
 
 
 
-
+TODO: add credit for iconmoon for free font conversion for material icons. 
 
 
 
