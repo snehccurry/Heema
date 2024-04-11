@@ -118,7 +118,10 @@ Upcoming new features that will make your apps stand out from the rest:
 
 
 
-TODO: add credit for iconmoon for free font conversion for material icons. 
+TODO: 
+
+1) add credit for iconmoon for free font conversion for material icons.
+2) from tkextrafont import Font (import this for new symbols/ use pyglet) 
 
 
 
