@@ -6,6 +6,7 @@ import ctypes
 from ctypes import windll
 from BlurWindow.blurWindow import blur,GlobalBlur
 from PIL import Image, ImageTk
+import tkextrafont #this is for loading the material icons as fonts. 
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 #############################
