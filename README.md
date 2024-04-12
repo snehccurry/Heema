@@ -3,7 +3,13 @@ A windows 10 themed skin for tkinter. Easy to use, Get rid of the old looking tk
 
 All you need is that heema.py and run any of the test files, either test.py or test2.py, based on what kind of theme you like. 
 
-Additional requirement: BlurWindow==1.2.1 do pip install blurwindow, and it will work.
+Additional requirements: 
+
+BlurWindow==1.2.1 (do pip install blurwindow)
+tkextrafont
+pillow
+
+and it will work.
 
 ![heema](https://user-images.githubusercontent.com/59841219/199723121-65c7a45b-a0e0-4137-88b5-19bf3953cb15.png)
 
