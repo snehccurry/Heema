@@ -217,10 +217,10 @@ def scrollable_frame(window, bg="#202020", y=True, x=False):
 
 
 class SwitchButton(Button):
-    def __init__(self, *args, on_click=None, **kwargs):
+    def __init__(self, *args, on_click=None,toggle_state="off", **kwargs):
         super().__init__(*args, **kwargs)
         self.heema_icons = tkextrafont.Font(file="./heema-icons.ttf", family="heema-icons")
-        self._state = "on"
+        self._state = toggle_state
         self.configure(bd=label_bd, activebackground=self.master.cget("background"),
                        activeforeground=self.master.cget("background"),
                        background=self.master.cget("background"))  # Set button background to root's background
@@ -251,7 +251,6 @@ class SwitchButton(Button):
     def execute_functions(self, on_click):
         self.toggle()  # Toggle button state
         on_click()  # Execute the function passed as argument
-
 
 class create_safe_keypad:
     def __init__(self, frame_name):
