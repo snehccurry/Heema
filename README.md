@@ -1,5 +1,5 @@
-# Potato
-A windows 10 themed skin for tkinter. Easy to use, Get rid of the old looking tkinter windows. Currently it supports only the windows platform, will add features for mac and linux soon.
+# Heema
+A windows 10-11 themed skin for tkinter. Easy to use, Get rid of the old looking tkinter windows. Currently it supports only the windows 11 , will add features for mac and linux soon.
 
 All you need is that heema.py and run any of the test files, either test.py or test2.py, based on what kind of theme you like. 
 
